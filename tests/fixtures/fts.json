@@ -1,0 +1,47 @@
+{
+ "mode": "flat",
+ "items": [
+  {
+   "type": "plp",
+   "title": "رامسر",
+   "subtitle": "استان مازندران",
+   "image": "https://cdn.jabama.com/original/jabama-images/0/8ea097b2-29cd-4281-82bb-32e6cacb9960.svg",
+   "url": "city-ramsar",
+   "liquidity": 2822
+  },
+  {
+   "type": "plp",
+   "title": "بام رامسر 2",
+   "image": "https://cdn.jabama.com/original/jabama-images/0/90b18d8e-5600-4618-99d6-d273af6633fc.png",
+   "url": "list-99530",
+   "liquidity": 6
+  },
+  {
+   "type": "plp",
+   "title": "ساحل رامسر",
+   "subtitle": "استان مازندران، رامسر",
+   "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+   "url": "all?poi=C8oTQrqPSkLTDAAA2LPYp9it2YQg2LHYp9mF2LPYsQ"
+  },
+  {
+   "type": "plp",
+   "title": "شمال تهران",
+   "image": "https://cdn.jabama.com/original/jabama-images/0/3ef63d10-8be5-45d8-95b9-8fb2d75cb0a9.svg",
+   "url": "all?areas=north-tehran",
+   "liquidity": 435
+  },
+  {
+   "type": "pdp",
+   "title": "وستا  - ویلا دوبلکس چهارخوابه",
+   "image": "https://cdn.jabama.com/image/jabama-images/0/37807dad-456d-45d8-9dbd-31018ac997c0.webp",
+   "url": "stay/complex-813270",
+   "keyword": "6a312f3a91a55de407f02591"
+  },
+  {
+   "type": "plp",
+   "title": "همه نتایج",
+   "image": "https://cdn.jabama.com/original/jabama-images/0/bb47eada-efd9-4b36-bc20-8c3edb625750.svg",
+   "url": "all?fts=رامسر"
+  }
+ ]
+}

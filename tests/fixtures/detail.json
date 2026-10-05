@@ -1,0 +1,1382 @@
+{
+ "result": {
+  "meta": {
+   "isFavorite": false,
+   "isBnplOrder": false,
+   "disableCancelOrder": true,
+   "affiliateLink": "https://www.jabama.com/stay/ecotourism-328353?albb=1",
+   "link": "https://www.jabama.com/stay/ecotourism-328353",
+   "affiliateLinkDescription": "مهمان عزیز\nشما با استفاده از لینک زیر می توانید اقامتگاه بوم گردی نسا - افرا را از طریق جاباما رزرو کنید و با استفاده از کد تخفیف JBMAFF از 50.000 تومان تخفیف اولین سفارش از جاباما بهره مند شوید.\nلینک رزرو:\n https://www.jabama.com/stay/ecotourism-328353",
+   "hostInfo": {
+    "phone": null,
+    "uun": 1288856,
+    "fistName": "فهیمه",
+    "lastName": "شفیعی",
+    "registerDate": "2021-04-20T12:53:31.6393506",
+    "avatar": "https://cdn.jabama.com/image/jabama-images/image_a67bf4df-f117-4b6c-bb78-cd5bcb2938d4.jpeg",
+    "placeName": null
+   },
+   "reviews": {
+    "id": null,
+    "hostId": null,
+    "overalRating": 3.6,
+    "rating": 3.4,
+    "reviewsCount": 7,
+    "items": [
+     {
+      "reviewsCount": 6,
+      "rating": 4.5,
+      "ratingItemId": 42,
+      "ratingItem": {
+       "id": 42,
+       "title": "نحوه پذیرش",
+       "icon": "https://cdn.jabama.com/image/jabama-images/0/c15defa1-1e7f-4933-911e-ce5f0c2524e2.png",
+       "body": "شرایط تحویل اقامتگاه در روز اول اقامت چطور بود؟",
+       "subject": "نحوه تحویل و پذیرش اقامتگاه",
+       "order": 0,
+       "inVisible": false,
+       "reasons": null
+      }
+     },
+     {
+      "reviewsCount": 7,
+      "rating": 4.4,
+      "ratingItemId": 40,
+      "ratingItem": {
+       "id": 40,
+       "title": "نظافت",
+       "icon": "https://cdn.jabama.com/image/jabama-images/0/a9c48e3c-6266-43dd-a45b-23123808aba3.png",
+       "body": "وضعیت نظافت و تمیزی اقامتگاه چطور بود؟",
+       "subject": "نظافت",
+       "order": 1,
+       "inVisible": false,
+       "reasons": null
+      }
+     },
+     {
+      "reviewsCount": 7,
+      "rating": 3.7,
+      "ratingItemId": 36,
+      "ratingItem": {
+       "id": 36,
+       "title": "تطابق با اطلاعات",
+       "icon": "https://cdn.jabama.com/image/jabama-images/0/ee21fd1a-37f1-45a5-86ee-e61ef21bc86b.png",
+       "body": "چه میزان اطلاعات اقامتگاه با آگهی تطابق داشت؟",
+       "subject": "تطابق اقامتگاه با اطلاعات داخل جاباما",
+       "order": 2,
+       "inVisible": false,
+       "reasons": null
+      }
+     }
+    ],
+    "reviews": [
+     {
+      "id": 774189,
+      "placeId": "6087a42d15391d001b93b512",
+      "orderId": 3006163,
+      "comment": "مسیر رسیدن به اقامتگاه بسیار دور وناهموار بودجاده ها خاکی وگاهاشیب های بدی به همراه گودال وجودداشت که به سختی میشدعبورکردمخصوصااگرباران یامه باشد.پارکینگ اصلانداشت ومجبورشدیم داخل روستاپارک کنیم وتارسیدن به خونه فاصله داشت وبردن وسایل به داخل خونه سخت بود.میزبان به موقع کلیدراتحویل دادند.میزبان به راحتی وبدون اجازه واردحریم خصوصی میشد.خونه بسیارسردبودفقط یک هیتربرقی داشت ک جوابگونبودوفتی ازشون درخواست هیزم کردیم بارفتارتندمیگفتن همون دوتایی ک به شمادادم کافیه.آبگرم داشت اماوقتی دونفرازمارفتن حموم نفربعدی ک رفت آبگرم رابستن وباآب سردحموم کردوقتی به میزبان اطلاع دادیم بارفتارتندگفتن بایدآب کم مصرف میکردین واین مشکلیه ک من بااکثر ایرانیا دارم ومسافرهای خارجی من انقدرآب مصرف نمیکننددرصورتیکه ابگرمکن دیواری وبرقی بودوربطی به تعدادنفرات نداشت.داخل روستاهیچ امکاناتی نداشت حتی سوپرمارکت هم نداشت.ازهمه مهمتر آشپزخونه وحموم ودستشویی مشترک بااتاق کناری بود ک ماخانواده بودیم واتاق کناری ما ۴تاپسرمجردبودن ک این موضوع کمی مارو اذیت کرد.البته آقایون خوبی بودن اما اگه جوردیگه ای بودممکن بودمشکل سازشه",
+      "reviewDate": "",
+      "images": [],
+      "userId": 3970817,
+      "user": {
+       "id": 0,
+       "name": "طاهره",
+       "avatar": "https://cdn.jabama.com/image/jabama-images/0/f2471045-def0-47d0-8bdd-2f1a8c02f95a.png"
+      },
+      "hostId": 1288856,
+      "host": {
+       "id": 0,
+       "name": "فهیمه شفیعی",
+       "avatar": "https://cdn.jabama.com/image/jabama-images/image_a67bf4df-f117-4b6c-bb78-cd5bcb2938d4.jpeg"
+      },
+      "rating": 3,
+      "overalRating": 2,
+      "subTitles": [
+       "فروردین 1403"
+      ],
+      "response": null,
+      "reviewInfo": [
+       {
+        "icon": "",
+        "text": "1 شب اقامت در اقامتگاه"
+       }
+      ]
+     }
+    ],
+    "starsChart": [
+     {
+      "starsCount": 1,
+      "reviewsCount": 1
+     },
+     {
+      "starsCount": 2,
+      "reviewsCount": 1
+     },
+     {
+      "starsCount": 3,
+      "reviewsCount": 1
+     },
+     {
+      "starsCount": 4,
+      "reviewsCount": 1
+     },
+     {
+      "starsCount": 5,
+      "reviewsCount": 3
+     }
+    ]
+   },
+   "paymentInsurance": false,
+   "bnpl": null
+  },
+  "item": {
+   "id": "6087a42d15391d001b93b512",
+   "code": 328353,
+   "title": "بوم گردی نسا - افرا",
+   "alibabaTitle": "نسا واحد افرا",
+   "placeType": "personalRoom",
+   "description": "این خانه روستایی دو خوابه در روستای توریستی یوج از ارتفاعات سه هزار واقع شده است که با شهر تنکابن حدود ۴۷ کیلومتر فاصله دارد.\nخانه با دسترسی حدود ۶ پله در طبقه دوم یک ساختمان دو طبقه و دو واحدی واقع شده است.\nطراحی آن به گونه ایست که دارای پذیرایی، آشپزخانه و دو اتاق خواب می باشد و در ایوان ورودی یک سرویس ایرانی و سرویس فرنگی با حمام تعبیه شده است.\nمحوطه حیاط به سبک خانه های روستایی فاقد دیوار یا حصار می باشد و میزبان نیز در طبقه پایین ساختمان سکونت دارد.",
+   "checkIn": "14:00",
+   "checkOut": "12:00",
+   "minNight": 1,
+   "status": "confirmed",
+   "reservationType": "preApprove",
+   "type": "ecotourism",
+   "typeDetails": {
+    "_id": "5e5e52b1663f2c1e5b712729",
+    "title": "ecotourism",
+    "image": "https://cdn.jabama.com/image/jabama-images/0/59d57446-001f-43a4-ad4b-c03cee2886d7.jpg",
+    "title_fa": "بوم گردی"
+   },
+   "pricingType": "perPerson",
+   "visible": true,
+   "host": "1288856",
+   "creator": "",
+   "createdAt": "2021-04-27T05:42:05.098Z",
+   "capacity": {
+    "beds": {
+     "twin": 0,
+     "single": 0,
+     "double": 0,
+     "mattress": 4
+    },
+    "guests": {
+     "base": 2,
+     "extra": 2
+    }
+   },
+   "price": {
+    "custom": [],
+    "base": 6000000,
+    "weekend": 5200000,
+    "holiday": 6000000,
+    "extraPeople": {
+     "base": 1500000,
+     "weekend": 1500000,
+     "holiday": 1500000
+    },
+    "longStaysDiscount": {
+     "short": 0,
+     "long": 0,
+     "threeDay": 0,
+     "fourteenDay": 0
+    }
+   },
+   "step": null,
+   "restrictedRules": [
+    {
+     "id": "5e3d5d7675cd24f6e3803360",
+     "name": "single_persons",
+     "negative": "پذیرش گروه‌های مجردی (فقط آقایان یا خانم‌ها) فراهم نیست.",
+     "positive": "پذیرش گروه‌های مجردی (فقط آقایان یا خانم‌ها) فراهم است."
+    },
+    {
+     "id": "1",
+     "name": "melli_card",
+     "negative": "همراه داشتن کارت ملی الزامی نمی باشد",
+     "positive": "همراه داشتن کارت ملی الزامی می باشد"
+    }
+   ],
+   "negativeRestrictedRules": [
+    {
+     "id": "5e3d5d7675cd24f6e3803356",
+     "name": "smoke",
+     "negative": "استعمال دخانیات مجاز نیست.",
+     "positive": "استعمال دخانیات مجاز است."
+    },
+    {
+     "id": "5e3d5d7675cd24f6e3803358",
+     "name": "pets",
+     "negative": "ورود حیوانات خانگی مجاز نیست.",
+     "positive": "ورود حیوانات خانگی مجاز است."
+    },
+    {
+     "id": "5e3d5d7675cd24f6e380335a",
+     "name": "ceremony",
+     "negative": "برگزاری مراسم مجاز نیست.",
+     "positive": "برگزاری مراسم مجاز است."
+    },
+    {
+     "id": "5e3d5d7675cd24f6e380335c",
+     "name": "24h_reception",
+     "negative": "عدم پذیرش ۲۴ ساعته مهمان.",
+     "positive": "پذیرش ۲۴ ساعته مهمان."
+    }
+   ],
+   "rules": [
+    {
+     "icon": "https://cdn.jabama.com/original/jabama-images/0/aa512268-589e-41ab-982c-7e313a0eab36.svg",
+     "texts": [
+      {
+       "text": "ارائه کارت ملی ",
+       "type": "neutral"
+      },
+      {
+       "text": "کافی است",
+       "type": "permitted"
+      },
+      {
+       "text": ".",
+       "type": "neutral"
+      }
+     ]
+    },
+    {
+     "icon": "https://cdn.jabama.com/original/jabama-images/0/f6732fb1-75c6-4561-ba28-d981eea510d8.svg",
+     "texts": [
+      {
+       "text": "پذیرش گروه‌های مجردی (فقط آقایان یا خانم‌ها) ",
+       "type": "neutral"
+      },
+      {
+       "text": "فراهم است",
+       "type": "permitted"
+      },
+      {
+       "text": ".",
+       "type": "neutral"
+      }
+     ]
+    },
+    {
+     "icon": "https://cdn.jabama.com/original/jabama-images/0/7322833d-6e1c-4bba-9cc8-2eaa90f1f565.svg",
+     "texts": [
+      {
+       "text": "استعمال دخانیات ",
+       "type": "neutral"
+      },
+      {
+       "text": "مجاز نیست",
+       "type": "prohibited"
+      },
+      {
+       "text": ".",
+       "type": "neutral"
+      }
+     ]
+    },
+    {
+     "icon": "https://cdn.jabama.com/original/jabama-images/0/3fe0043c-d43e-4dd1-b28e-a2454742151f.svg",
+     "texts": [
+      {
+       "text": "ورود حیوانات خانگی ",
+       "type": "neutral"
+      },
+      {
+       "text": "مجاز نیست",
+       "type": "prohibited"
+      },
+      {
+       "text": ".",
+       "type": "neutral"
+      }
+     ]
+    },
+    {
+     "icon": "https://cdn.jabama.com/original/jabama-images/0/2a990524-eabc-41a7-a3c7-a398a1b80af4.svg",
+     "texts": [
+      {
+       "text": "برگزاری مراسم ",
+       "type": "neutral"
+      },
+      {
+       "text": "مجاز نیست",
+       "type": "prohibited"
+      },
+      {
+       "text": ".",
+       "type": "neutral"
+      }
+     ]
+    },
+    {
+     "icon": "https://cdn.jabama.com/original/jabama-images/0/31163298-523a-4446-8114-32a50e3842d7.svg",
+     "texts": [
+      {
+       "text": "امکان پذیرش ۲۴ ساعته ",
+       "type": "neutral"
+      },
+      {
+       "text": "فراهم نیست",
+       "type": "prohibited"
+      },
+      {
+       "text": ".",
+       "type": "neutral"
+      }
+     ]
+    }
+   ],
+   "placeOfResidence": {
+    "area": {
+     "areaType": "rustic",
+     "areaTypeDetails": {
+      "title": "rustic",
+      "title_fa": "روستایی",
+      "image": "https://cdn.jabama.com/image/jabama-images/0/ef8c7664-9e5e-40f3-af16-6309093b1d63.jpg"
+     },
+     "city": {
+      "name": {
+       "fa": "تنکابن",
+       "en": "tonekabon"
+      },
+      "type": "city",
+      "location": {
+       "lng": 50.874363,
+       "lat": 36.81514,
+       "radius": 0
+      },
+      "id": "5fa948b0abcd0544d968726f",
+      "province": {
+       "name": {
+        "fa": "مازندران",
+        "en": "mazandaran"
+       },
+       "type": "province",
+       "location": {
+        "lng": 52.193233,
+        "lat": 36.49211,
+        "radius": 0
+       },
+       "id": "5fa948afabcd0544d9687255"
+      }
+     },
+     "neighborhood": {
+      "name": {
+       "fa": "",
+       "en": ""
+      },
+      "id": ""
+     }
+    },
+    "location": {
+     "lng": 50.852962,
+     "lat": 36.47726,
+     "radius": 400
+    }
+   },
+   "placeImages": [
+    {
+     "type": "images",
+     "url": "https://cdn.jabama.com/image/jabama-images/543053/e0274865-8255-4232-82f9-3e37ded16d93.jpeg",
+     "caption": "نمای کلبه و تراس",
+     "uploadId": "6097a24c01e893001b40a2c9"
+    },
+    {
+     "type": "images",
+     "url": "https://cdn.jabama.com/image/jabama-images/543053/666dc4f5-e407-41c3-982d-68fa1c3c95e9.jpeg",
+     "caption": "نمای داخلی ",
+     "uploadId": "6097a2d230ee74001b3ad623"
+    },
+    {
+     "type": "images",
+     "url": "https://cdn.jabama.com/image/jabama-images/543053/23734a10-10c7-4979-a068-4e96dcff8244.jpeg",
+     "caption": "نمای داخلی ",
+     "uploadId": "6097a2d230ee74001b3ad624"
+    },
+    {
+     "type": "images",
+     "url": "https://cdn.jabama.com/image/jabama-images/543053/1e2c6480-64c8-4abe-8d82-5be4acb5acb6.jpeg",
+     "caption": "نمای داخلی ",
+     "uploadId": "6097a2b7b865f3001ba6d761"
+    },
+    {
+     "type": "images",
+     "url": "https://cdn.jabama.com/image/jabama-images/543053/8e37d29a-a864-44e6-835a-04da074370a6.jpeg",
+     "caption": "فضای سبز ",
+     "uploadId": "6097a24c01e893001b40a2ce"
+    },
+    {
+     "type": "images",
+     "url": "https://cdn.jabama.com/image/jabama-images/543053/f191bc9d-e65b-4147-88e9-a013017654ee.jpeg",
+     "caption": ":)",
+     "uploadId": "6097a26830ee74001b3ad615"
+    }
+   ],
+   "telephone": "",
+   "postalCode": "",
+   "accommodationMetrics": {
+    "areaSize": 500,
+    "buildingSize": 20,
+    "bathroomsCount": 1,
+    "iranianToiletsCount": 1,
+    "toiletsCount": 1,
+    "bedroomsCount": 0,
+    "floor": 0,
+    "stairsCount": 0,
+    "fullOccupancy": false
+   },
+   "commissionRate": 0,
+   "tags": null,
+   "payout": {
+    "type": "",
+    "xHoursAfter": 0
+   },
+   "cancellationPolicy": {
+    "afterCheckIn": {
+     "jabamaShare": 15,
+     "passedNightsPercent": 100,
+     "remainingNightsPercent": 50
+    },
+    "beforeCheckIn": {
+     "days": 4,
+     "firstNightPercent": 10,
+     "jabamaShare": 15,
+     "remainingNightsPercent": 10
+    },
+    "id": "637a0ce14ac791001be59bac",
+    "jabamaCommission": 15,
+    "title": "متعادل ",
+    "untilCheckIn": {
+     "days": 3,
+     "firstNightPercent": 50,
+     "hostShare": 85,
+     "jabamaShare": 15,
+     "remainingNightsPercent": 20
+    }
+   },
+   "rejectTimes": {
+    "ahd": 0,
+    "lqa": 0
+   },
+   "deleted": false,
+   "updatedAt": "",
+   "partialPaymentRate": 0,
+   "paymentType": "full",
+   "extraServices": [],
+   "extraServicesCommissionRate": [],
+   "vatStatus": true,
+   "wowCheckIn": false,
+   "lqaConfirmed": {
+    "info": true,
+    "description": false,
+    "images": false,
+    "photography": false,
+    "amenities": false
+   },
+   "photography": {
+    "done": false,
+    "score": 0
+   },
+   "disinfected": false,
+   "rateAndReview": {
+    "count": 7,
+    "score": 3.6
+   },
+   "isOwner": true,
+   "justForPassengers": false,
+   "ownerName": "",
+   "commonalities": {
+    "bathroomsCount": 0,
+    "iranianToiletsCount": 0,
+    "toiletsCount": 0
+   },
+   "dataService": {
+    "status": "deactive"
+   },
+   "oldJabamaId": 0,
+   "meal": {
+    "breakfast": true,
+    "lunch": true,
+    "dinner": true
+   },
+   "isExclusive": true,
+   "mainPrice": 5200000,
+   "minDiscountedPrice": 5200000,
+   "maxDiscountPercent": 0,
+   "affiliateCode": "aff-3ail7h73wyjq2ak",
+   "guaranteeDays": null,
+   "imagesSort": [
+    "6097a24c01e893001b40a2c9",
+    "6097a2d230ee74001b3ad623",
+    "6097a2d230ee74001b3ad624",
+    "6097a2b7b865f3001ba6d761",
+    "6097a24c01e893001b40a2ce",
+    "6097a26830ee74001b3ad615",
+    "6097a24c01e893001b40a2cd",
+    "6097a24c01e893001b40a2cf",
+    "6097a26830ee74001b3ad613",
+    "6097a24c01e893001b40a2cb",
+    "6097a26830ee74001b3ad614",
+    "6097a24c01e893001b40a2ca",
+    "6097a24c01e893001b40a2cc",
+    "6097a24c88a28b001ba69622",
+    "6097a24c88a28b001ba69623",
+    "6097a250b865f3001ba6d75e",
+    "6097a2e588a28b001ba6962f",
+    "6097a2e5b865f3001ba6d762",
+    "6097a2e588a28b001ba69630"
+   ],
+   "hostAcquisitionStatus": 0,
+   "maxAvailableCalendarDays": 62,
+   "hasEditorialTag": false,
+   "autoDiscount": {
+    "active": false,
+    "items": []
+   },
+   "unitCount": 0,
+   "hasOtherRoom": true,
+   "specialAmenities": [],
+   "cancellationRevenuePercentage": 100,
+   "alibabaReseller": true,
+   "peakCancellationPolicy": "peakDates",
+   "canSetPriceOnGuarantDays": false,
+   "extraDescription": [
+    {
+     "title": "توضیحات اقامتگاه",
+     "subTitle": "(کد اقامتگاه: 328353)",
+     "text": "این خانه روستایی دو خوابه در روستای توریستی یوج از ارتفاعات سه هزار واقع شده است که با شهر تنکابن حدود ۴۷ کیلومتر فاصله دارد.\nخانه با دسترسی حدود ۶ پله در طبقه دوم یک ساختمان دو طبقه و دو واحدی واقع شده است.\nطراحی آن به گونه ایست که دارای پذیرایی، آشپزخانه و دو اتاق خواب می باشد و در ایوان ورودی یک سرویس ایرانی و سرویس فرنگی با حمام تعبیه شده است.\nمحوطه حیاط به سبک خانه های روستایی فاقد دیوار یا حصار می باشد و میزبان نیز در طبقه پایین ساختمان سکونت دارد."
+    },
+    {
+     "title": "توصیف فضای اقامتگاه و واحد",
+     "subTitle": "",
+     "text": "امهمانان گرامی برای تهیه مایحتاج روزانه خود می توانند از سوپرمارکت و نانوایی در فاصله حدود ۳ کیلومتری از خانه در بست روستایی استفاده نمایند.\nسرو غذاهای خانگی مانند: فسنجان، مرغ ترش، جوجه کباب، کباب ترش، میرزا قاسمی ،ترش تره ،کوکو سبزی، کوکو سیب زمینی و کتلت با هماهنگی قبلی با میزبان و پرداخت هزینه جداگانه برای وعده ناهار و شام امکانپذیر است.\nکیفیت پوشش شبکه تلفن همراه برای دو اپراتور ایرانسل و همراه اول در مکالمه خوب و دسترسی به اینترنت به صورت ۴g است.\n**با تصمیم جمعی اهالی، ورود خودرو به روستا ممنوع می باشد و به همین جهت برای دسترسی به اقامتگاه باید حدود یک ۵۰۰متر مسیر را بصورت پیاه طی نمایید.**\nامکان استفاده از تورهای گردشگری برای بازدید اماکنی همچون آبگرم سه هزار، آب معدنی شلف، روستای تاریخی مران، جاده سه هزار و قلعه حسن صباح الموت با هماهنگی قبلی با میزبان امکانپذیر است."
+    }
+   ],
+   "isInstantPerNight": false,
+   "amenitiesV2": [
+    {
+     "icon": {
+      "url": "https://cdn.jabama.com/original/jabama-images/0/5c45f09e-c5d8-49de-a17f-af987186e8d4.svg"
+     },
+     "state": true,
+     "title": {
+      "en": "heating-system",
+      "fa": "سیستم گرمایشی"
+     }
+    },
+    {
+     "icon": {
+      "url": "https://cdn.jabama.com/original/jabama-images/0/e9851a1b-a2e2-4751-a5c1-025918074d16.svg"
+     },
+     "state": true,
+     "title": {
+      "en": "refrigerator",
+      "fa": "یخچال"
+     }
+    },
+    {
+     "icon": {
+      "url": "https://cdn.jabama.com/original/jabama-images/0/b6487f6b-286c-4757-a4b7-8953721e1553.svg"
+     },
+     "state": true,
+     "title": {
+      "en": "balcony",
+      "fa": "بالکن"
+     }
+    }
+   ],
+   "suitableForElderlyAndDisabled": false,
+   "chatCapability": false,
+   "isVendor": false,
+   "missedAmenities": [
+    {
+     "id": "5e67550154d92418408b30b5",
+     "icon": {
+      "url": "https://cdn.jabama.com/original/jabama-images/0/0aa05f5c-f8c8-4a7b-bee0-b44cbacbd35f.svg"
+     },
+     "title": {
+      "en": "restaurant",
+      "fa": "رستوران"
+     }
+    },
+    {
+     "id": "5e67550154d92418408b30b7",
+     "icon": {
+      "url": "https://cdn.jabama.com/original/jabama-images/0/6f64e358-fdd8-4f7f-aaa5-ff6d2a87ef50.svg"
+     },
+     "title": {
+      "en": "lobby",
+      "fa": "لابی"
+     }
+    },
+    {
+     "id": "5e67550154d92418408b30b8",
+     "icon": {
+      "url": "https://cdn.jabama.com/original/jabama-images/0/f3614b5d-9799-4079-a760-b66badae06e0.svg"
+     },
+     "title": {
+      "en": "elevator",
+      "fa": "آسانسور"
+     }
+    }
+   ],
+   "badges": {
+    "main": [
+     {
+      "data": [
+       "۲۰ متر زیربنا"
+      ],
+      "icon": "https://cdn.jabama.com/original/jabama-images/0/8aef0277-4b50-4c21-b779-7d4c14525809.svg",
+      "name": "about",
+      "title": "درباره بوم گردی",
+      "helper": null
+     },
+     {
+      "data": [
+       "ظرفیت تا ۴ نفر (۲ نفر پایه + تا ۲ نفر اضافه)"
+      ],
+      "icon": "https://cdn.jabama.com/original/jabama-images/0/f4993116-7adf-473f-a2ed-0d8f29627fa8.svg",
+      "name": "capacity",
+      "title": "ظرفیت",
+      "helper": null
+     },
+     {
+      "data": [
+       "تخت دو نفره ندارد",
+       "تخت یک نفره ندارد",
+       "۴ رخت‌خواب سنتی"
+      ],
+      "icon": "https://cdn.jabama.com/original/jabama-images/0/5eea692c-d911-48c7-a984-61a849712121.svg",
+      "name": "bedSets",
+      "title": "سرویس‌های خواب",
+      "helper": null
+     },
+     {
+      "data": [
+       "۱ سرویس ایرانی",
+       "۱ سرویس فرنگی",
+       "۱ حمام"
+      ],
+      "icon": "https://cdn.jabama.com/original/jabama-images/0/6a648368-8dba-4531-b3e3-52ade9bc4a82.svg",
+      "name": "toilets",
+      "title": "سرویس‌های بهداشتی",
+      "helper": null
+     }
+    ],
+    "data": [],
+    "secondary": []
+   },
+   "calendar": [
+    {
+     "jalaliDateString": "1405-7-12",
+     "date": "2026-10-04",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-13",
+     "date": "2026-10-05",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-14",
+     "date": "2026-10-06",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-15",
+     "date": "2026-10-07",
+     "status": "available",
+     "type": "weekend",
+     "price": 5200000,
+     "basePrice": 5200000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-16",
+     "date": "2026-10-08",
+     "status": "available",
+     "type": "weekend",
+     "price": 5200000,
+     "basePrice": 5200000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-17",
+     "date": "2026-10-09",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-18",
+     "date": "2026-10-10",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-19",
+     "date": "2026-10-11",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-20",
+     "date": "2026-10-12",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-21",
+     "date": "2026-10-13",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-22",
+     "date": "2026-10-14",
+     "status": "available",
+     "type": "weekend",
+     "price": 5200000,
+     "basePrice": 5200000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-23",
+     "date": "2026-10-15",
+     "status": "available",
+     "type": "weekend",
+     "price": 5200000,
+     "basePrice": 5200000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-24",
+     "date": "2026-10-16",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-25",
+     "date": "2026-10-17",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-26",
+     "date": "2026-10-18",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-27",
+     "date": "2026-10-19",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-28",
+     "date": "2026-10-20",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-29",
+     "date": "2026-10-21",
+     "status": "available",
+     "type": "weekend",
+     "price": 5200000,
+     "basePrice": 5200000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-7-30",
+     "date": "2026-10-22",
+     "status": "available",
+     "type": "weekend",
+     "price": 5200000,
+     "basePrice": 5200000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-8-1",
+     "date": "2026-10-23",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-8-2",
+     "date": "2026-10-24",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-8-3",
+     "date": "2026-10-25",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-8-4",
+     "date": "2026-10-26",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-8-5",
+     "date": "2026-10-27",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-8-6",
+     "date": "2026-10-28",
+     "status": "available",
+     "type": "weekend",
+     "price": 5200000,
+     "basePrice": 5200000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    },
+    {
+     "jalaliDateString": "1405-9-27",
+     "date": "2026-12-18",
+     "status": "available",
+     "type": "base",
+     "price": 6000000,
+     "basePrice": 6000000,
+     "discount": 0,
+     "jabamaDiscount": 0,
+     "extraPeople": 1500000,
+     "capacity": 0,
+     "totalPrice": 0,
+     "guestShare": 0,
+     "guarantee": false,
+     "instant": false,
+     "isHoliday": false,
+     "isCustomHoliday": false,
+     "periods": [],
+     "cost": 0,
+     "maxAvailableUnits": 0,
+     "availableUnits": 0,
+     "minNight": 1,
+     "isPackaged": false,
+     "isExtraDay": false
+    }
+   ],
+   "bnplCapability": null,
+   "cancellationPolicyText": "از لحظه رزرو تا 4 روز قبل از تاریخ ورود 10٪ مبلغ شب اول و 10٪ مبلغ شب‌های باقیمانده کسر می‌گردد. ",
+   "cancellationPolicyDetails": {
+    "id": "637a0ce14ac791001be59bac",
+    "title": "متعادل ",
+    "isDefault": false,
+    "jabamaCommission": 15,
+    "afterCheckIn": {
+     "color": "#ea5045",
+     "icon": "https://www.jabama.com/_assets/70f5462979bab1c8be051d368eb6e7e8.svg#i-jabama-persian-logo",
+     "text": " ⁦100٪⁩ مبلغ شب‌های سپری شده + ⁦50٪⁩ مبلغ شب‌های باقیمانده",
+     "title": "از روز ورود تا خروج مهمان"
+    },
+    "beforeCheckIn": {
+     "color": "#42c3ab",
+     "icon": "https://www.jabama.com/_assets/70f5462979bab1c8be051d368eb6e7e8.svg#i-jabama-persian-logo",
+     "text": " ⁦10٪⁩ مبلغ شب اول + ⁦10٪⁩ مبلغ شب‌های باقیمانده",
+     "title": "4 روز قبل از ورود مهمان"
+    },
+    "untilCheckIn": {
+     "color": "#ffa500",
+     "icon": "",
+     "text": " ⁦50٪⁩ مبلغ شب اول + ⁦20٪⁩ مبلغ شب‌های باقیمانده",
+     "title": "تا روز ورود مهمان"
+    },
+    "description": ""
+   },
+   "periods": [
+    {
+     "id": "0",
+     "title": "در این روزها «آنی و قطعی» رزرو کنید",
+     "color": "#FFA500",
+     "dates": [],
+     "isDefault": true
+    }
+   ],
+   "cacheHit": false,
+   "selectedAmenitiesCount": 10,
+   "hostProfile": {
+    "items": [
+     {
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/bb48cda7-0e21-4901-a7ff-84a79750a56b.png",
+      "subText": "از ۵ امتیاز",
+      "text": "میانگین ۳.۹"
+     },
+     {
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/1a5ff582-6c8b-4817-bb2b-94af08cdc712.png",
+      "subText": "از ۲۲ رزرو موفق",
+      "text": "۱۸ نظر"
+     }
+    ],
+    "video": {
+     "thumbNail": "",
+     "url": ""
+    }
+   },
+   "accommodationPricingStatus": null
+  }
+ },
+ "success": true
+}

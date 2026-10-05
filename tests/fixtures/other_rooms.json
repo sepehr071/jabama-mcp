@@ -1,0 +1,37 @@
+{
+ "result": {
+  "title": "سایر واحدهای این بومگردی",
+  "description": "تمامی واحدهای نسا",
+  "plpLink": "/list-33183",
+  "rooms": [
+   {
+    "id": "6087a42dd857d6001b84f61b",
+    "title": "نسا - بارانک",
+    "image": "https://cdn.jabama.com/image/jabama-images/543053/d41692a8-5cb5-43d3-8af1-c09f588ca753.jpeg",
+    "capacity": {
+     "base": 4,
+     "extra": 0
+    },
+    "totalCapacity": 8,
+    "price": {
+     "minDiscounted": 30000000,
+     "main": 30000000,
+     "maxDiscountPercent": 30000000
+    },
+    "placeType": "personalRoom",
+    "code": 328354,
+    "type": "ecotourism",
+    "status": "available",
+    "rate": 4.1,
+    "rateCount": 11,
+    "bedroomsCount": 0
+   }
+  ]
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true,
+ "__traceId": null
+}

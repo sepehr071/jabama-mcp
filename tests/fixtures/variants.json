@@ -1,0 +1,33 @@
+{
+ "result": {
+  "items": [
+   {
+    "unitCount": 1,
+    "title": "۲ نفر پایه + ۲ نفر اضافه",
+    "subtitle": "در ۱ واحد مستقل مشابه",
+    "price": "۸۳,۳۸۵,۰۰۰ تومان",
+    "badge": "ارزان‌تر",
+    "description": "در این حالت، از حداکثر ظرفیت واحد استفاده می‌شود."
+   },
+   {
+    "unitCount": 2,
+    "title": "۴ نفر پایه",
+    "subtitle": "در ۲ واحد مستقل مشابه",
+    "price": "۹۴,۷۷۰,۰۰۰ تومان",
+    "badge": "راحت‌تر",
+    "description": "در این حالت، از ظرفیت پایه نفرات استفاده می‌شود."
+   }
+  ],
+  "isInstant": true,
+  "bnpl": {
+   "showBNPLBanner": false,
+   "bnplBanner": null
+  }
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true,
+ "__traceId": null
+}

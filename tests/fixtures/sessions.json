@@ -1,0 +1,19 @@
+[
+ {
+  "id": "90611730",
+  "eventId": "67058754",
+  "startIso": "2026-10-09T11:30:00.000Z",
+  "durationHours": 2.5,
+  "capacityLimit": 413,
+  "bookedCount": 6,
+  "remainingSeats": 398,
+  "enabled": true,
+  "inventoryMode": "assigned_seat",
+  "layoutId": "18853399",
+  "timeslots": [],
+  "pricePerPerson": null,
+  "unitPrice": null,
+  "hostDiscountPct": null,
+  "platformDiscountPct": null
+ }
+]

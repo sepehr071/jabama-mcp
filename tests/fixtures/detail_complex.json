@@ -1,0 +1,32 @@
+{
+ "result": {
+  "meta": {
+   "link": "https://www.jabama.com/stay/complex-813269"
+  },
+  "item": {
+   "id": "6a312e9191a55de407f0256f",
+   "code": 813269,
+   "title": "مجتمع اقامتگاهی وستا  - ویلا دوبلکس سه خوابه",
+   "placeType": "unitRoom",
+   "type": "complex",
+   "unitCount": 3,
+   "hasOtherRoom": true,
+   "checkIn": "14:00",
+   "checkOut": "12:00",
+   "capacity": {
+    "beds": {
+     "twin": 0,
+     "single": 0,
+     "double": 3,
+     "mattress": 0
+    },
+    "guests": {
+     "base": 2,
+     "extra": 4
+    }
+   },
+   "status": "confirmed"
+  }
+ },
+ "success": true
+}

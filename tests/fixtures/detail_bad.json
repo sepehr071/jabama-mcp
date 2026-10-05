@@ -1,0 +1,6 @@
+{
+ "result": null,
+ "error": {
+  "message": "price.V1GetAccommodationCalendarByCode: rpc error: code = Unknown desc = mongo: no documents in result"
+ }
+}

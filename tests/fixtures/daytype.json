@@ -1,0 +1,167 @@
+{
+ "result": {
+  "calendar": [
+   {
+    "date": "2026-10-04",
+    "jalali_date": "1405-07-12",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-05",
+    "jalali_date": "1405-07-13",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-06",
+    "jalali_date": "1405-07-14",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-07",
+    "jalali_date": "1405-07-15",
+    "day_type": "weekend"
+   },
+   {
+    "date": "2026-10-08",
+    "jalali_date": "1405-07-16",
+    "day_type": "weekend"
+   },
+   {
+    "date": "2026-10-09",
+    "jalali_date": "1405-07-17",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-10",
+    "jalali_date": "1405-07-18",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-11",
+    "jalali_date": "1405-07-19",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-12",
+    "jalali_date": "1405-07-20",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-13",
+    "jalali_date": "1405-07-21",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-14",
+    "jalali_date": "1405-07-22",
+    "day_type": "weekend"
+   },
+   {
+    "date": "2026-10-15",
+    "jalali_date": "1405-07-23",
+    "day_type": "weekend"
+   },
+   {
+    "date": "2026-10-16",
+    "jalali_date": "1405-07-24",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-17",
+    "jalali_date": "1405-07-25",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-18",
+    "jalali_date": "1405-07-26",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-19",
+    "jalali_date": "1405-07-27",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-20",
+    "jalali_date": "1405-07-28",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-21",
+    "jalali_date": "1405-07-29",
+    "day_type": "weekend"
+   },
+   {
+    "date": "2026-10-22",
+    "jalali_date": "1405-07-30",
+    "day_type": "weekend"
+   },
+   {
+    "date": "2026-10-23",
+    "jalali_date": "1405-08-01",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-24",
+    "jalali_date": "1405-08-02",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-25",
+    "jalali_date": "1405-08-03",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-26",
+    "jalali_date": "1405-08-04",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-27",
+    "jalali_date": "1405-08-05",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-28",
+    "jalali_date": "1405-08-06",
+    "day_type": "weekend"
+   },
+   {
+    "date": "2026-10-29",
+    "jalali_date": "1405-08-07",
+    "day_type": "weekend"
+   },
+   {
+    "date": "2026-10-30",
+    "jalali_date": "1405-08-08",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-10-31",
+    "jalali_date": "1405-08-09",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-11-01",
+    "jalali_date": "1405-08-10",
+    "day_type": "weekday"
+   },
+   {
+    "date": "2026-11-02",
+    "jalali_date": "1405-08-11",
+    "day_type": "weekday"
+   }
+  ],
+  "hint": {
+   "title": "تخفیف ویژه اقامت بلند مدت",
+   "description": "برای اقامت‌های بیشتر از ۳، ۷، ۱۴ و ۲۸ شب به صورت پلکانی تخفیف بگیرید!",
+   "type": "Info",
+   "icon": null
+  }
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true
+}

@@ -1,0 +1,154 @@
+{
+ "success": true,
+ "result": {
+  "items": [
+   {
+    "title": "دسته بندی اقامتگاه",
+    "renderType": "small",
+    "items": [
+     {
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/e48c53a8-f3ee-413f-99ac-10128914c638.png",
+      "title": "استخر خاص",
+      "resultType": "plp",
+      "url": "https://www.jabama.com/landing/categories?tags=AmazingPoolCategory",
+      "keyword": "landing/categories",
+      "filters": [
+       {
+        "key": "tags",
+        "value": [
+         "AmazingPoolCategory"
+        ]
+       }
+      ],
+      "badge": null
+     },
+     {
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/0a8b3e4d-390d-47eb-93c3-ae64c6bb4b7e.png",
+      "title": "مثلثی",
+      "resultType": "plp",
+      "url": "https://www.jabama.com/landing/categories?tags=TriangularCategory",
+      "keyword": "landing/categories",
+      "filters": [
+       {
+        "key": "tags",
+        "value": [
+         "TriangularCategory"
+        ]
+       }
+      ],
+      "badge": null
+     }
+    ]
+   },
+   {
+    "title": "نوع اقامتگاه",
+    "renderType": "small",
+    "items": [
+     {
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/2bc92a3c-1c03-4aa6-8cfd-f9173f6324d4.png",
+      "title": "ویلا",
+      "resultType": "plp",
+      "url": "https://www.jabama.com/all?types=villa",
+      "keyword": "all",
+      "filters": [
+       {
+        "key": "types",
+        "value": [
+         "villa"
+        ]
+       }
+      ],
+      "badge": null
+     },
+     {
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/28ab97cf-22f0-4d54-b537-98f52a763a0e.png",
+      "title": "آپارتمان",
+      "resultType": "plp",
+      "url": "https://www.jabama.com/all?types=apartment",
+      "keyword": "all",
+      "filters": [
+       {
+        "key": "types",
+        "value": [
+         "apartment"
+        ]
+       }
+      ],
+      "badge": null
+     }
+    ]
+   },
+   {
+    "title": "ویژگی اقامتگاه",
+    "renderType": "large",
+    "items": [
+     {
+      "icon": "https://cdn.jabama.com/icons/Categories/scale-category.png",
+      "title": "قیمت منصفانه",
+      "resultType": "plp",
+      "url": "https://www.jabama.com/all-competitive-pricing",
+      "keyword": "all-competitive-pricing",
+      "filters": null,
+      "badge": {
+       "title": "تضمین قیمت",
+       "color": "#ffffff",
+       "background": "#5626d9"
+      }
+     },
+     {
+      "icon": "https://cdn.jabama.com/icons/long-stay-category.png",
+      "title": "تخفیف بلندمدت",
+      "resultType": "plp",
+      "url": "https://www.jabama.com/all?tags=LongStaysDiscount",
+      "keyword": "all",
+      "filters": [
+       {
+        "key": "tags",
+        "value": [
+         "LongStaysDiscount"
+        ]
+       }
+      ],
+      "badge": {
+       "title": "بالای ۳ روز",
+       "color": "#ffffff",
+       "background": "#d93226"
+      }
+     }
+    ]
+   },
+   {
+    "title": "انواع تفریحات",
+    "renderType": "small",
+    "items": [
+     {
+      "icon": "https://cdn.jabama.com/icons/Categories-Production/Jabama-Events.png",
+      "title": "ایونت",
+      "resultType": "web",
+      "url": "https://jabama.events/?utm_source=jabama&utm_medium=homepage&utm_campaign=categoryButton",
+      "keyword": "https://jabama.events/?utm_source=jabama&utm_medium=homepage&utm_campaign=categoryButton",
+      "filters": null,
+      "badge": {
+       "title": "سرگرمی",
+       "color": "#ffffff",
+       "background": "#5626d9"
+      }
+     },
+     {
+      "icon": "https://cdn.jabama.com/icons/Experiences_Production%2FTour.png?versionId=",
+      "title": "تور",
+      "resultType": "web",
+      "url": "https://jabama.tours/tours?utm_source=jabama.com&utm_medium=homepage_button&utm_campaign=tours_launch&utm_content=home_tour_button",
+      "keyword": "https://jabama.tours/tours?utm_source=jabama.com&utm_medium=homepage_button&utm_campaign=tours_launch&utm_content=home_tour_button",
+      "filters": null,
+      "badge": {
+       "title": "ایران گردی",
+       "color": "#ffffff",
+       "background": "#5626d9"
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

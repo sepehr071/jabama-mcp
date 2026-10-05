@@ -1,0 +1,623 @@
+{
+ "items": [
+  {
+   "id": "64327",
+   "title": "منو یادت میاد؟",
+   "active": true,
+   "hidden": false,
+   "rating": 4.12,
+   "address": "خیابان طالقانی، بین خیابان نادری و وصال شیرازی، پلاک ۴۱۷",
+   "cityKey": "tehran",
+   "imageUrl": "https://zbcdn.cloud/files/cache/36946_m-1300-1000.4ac18b.jpg",
+   "location": {
+    "lat": 35.705562,
+    "lng": 51.399475
+   },
+   "maxCount": 30,
+   "syncedAt": "2026-10-04 13:49:55.553+00",
+   "fromPrice": {
+    "amount": 400000,
+    "currency": "IRT"
+   },
+   "sourceKey": "yaad",
+   "venueText": "مجموعه تئاتر لبخند - سالن دو",
+   "saleMethod": "assigned",
+   "categoryKey": "drama",
+   "description": "بعضی وقت‌ها تو زندگی با آدم‌هایی مواجه میشی که حتی اگه بخوای هم نمی‌تونی فراموششون کنی…",
+   "ratingCount": 199,
+   "contributors": [
+    {
+     "key": "tiwall-63204d4a75a3972e",
+     "label": "نویسنده و کارگردان",
+     "people": [
+      {
+       "id": "tiwall:b78fa18e41047439",
+       "name": "احمد‌مرادی‌پور",
+       "imageUrl": "https://zbcdn.cloud/files/cache/ch-individual-profile-v4.17eba9.jpg",
+       "profileUrl": "https://www.tiwall.com/channel7291",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "producer",
+     "label": "تهیه‌کننده",
+     "people": [
+      {
+       "id": "5149",
+       "name": "سجاد افشاریان",
+       "imageUrl": "https://zbcdn.cloud/files/cache/46019_436362774-parsnaz-com.17eba9.jpg",
+       "profileUrl": "https://www.tiwall.com/sajadafsharian",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "actor",
+     "label": "بازیگران",
+     "people": [
+      {
+       "id": "27294",
+       "name": "مرتضی درویش زاده",
+       "imageUrl": "https://zbcdn.cloud/files/cache/28715_morteza.darvishzade.65_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/morteza.darvishzade.65",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "a-work-by",
+     "label": "محصول",
+     "people": [
+      {
+       "id": "37356",
+       "name": "کمپانی تئاتر جوانان ایران",
+       "imageUrl": "https://zbcdn.cloud/files/cache/35399_iraniantheatercompany_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/iraniantheatercompany",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "chrt14",
+     "label": "طراح صحنه",
+     "people": [
+      {
+       "id": "5149",
+       "name": "سجاد افشاریان",
+       "imageUrl": "https://zbcdn.cloud/files/cache/46019_436362774-parsnaz-com.17eba9.jpg",
+       "profileUrl": "https://www.tiwall.com/sajadafsharian",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "graphist",
+     "label": "طراح گرافیک",
+     "people": [
+      {
+       "id": "12916",
+       "name": "امیر صداقتی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/20761_amirsedaghati90_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/amirsedaghati90",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-1ded71c1e7a95c10",
+     "label": "طراح صدا و آهنگساز",
+     "people": [
+      {
+       "id": "tiwall:644c237687ce2b40",
+       "name": "متین‌صادقی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/54408_matinsadeghee_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/matinsadeghee",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "chrt22",
+     "label": "طراح نور",
+     "people": [
+      {
+       "id": "29414",
+       "name": "میلاد الهی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/17721_milad.elahi_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/milad.elahi",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "chrt16",
+     "label": "طراح لباس",
+     "people": [
+      {
+       "id": "7291",
+       "name": "احمد مرادی پور",
+       "imageUrl": "https://zbcdn.cloud/files/cache/ch-individual-profile-v4.17eba9.jpg",
+       "profileUrl": "https://www.tiwall.com/channel7291",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "anounce-designer",
+     "label": "طراح آنونس",
+     "people": [
+      {
+       "id": "12675",
+       "name": "امیرحسین میرزائی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/56607_amirhosseinmirzaei_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/amirhosseinmirzaei",
+       "relationDescription": null
+      },
+      {
+       "id": "21870",
+       "name": "سهیل فلاح",
+       "imageUrl": "https://zbcdn.cloud/files/cache/94721_soheil_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/soheil",
+       "relationDescription": null
+      },
+      {
+       "id": "25442",
+       "name": "راوی مدیا",
+       "imageUrl": "https://zbcdn.cloud/files/cache/17496_ravimedia_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/ravimedia",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "photographer",
+     "label": "عکاس",
+     "people": [
+      {
+       "id": "12505",
+       "name": "حانیه همتی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/ch-individual-profile-v4.17eba9.jpg",
+       "profileUrl": "https://www.tiwall.com/haniehemmati",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "public-relations",
+     "label": "روابط عمومی",
+     "people": [
+      {
+       "id": "7872",
+       "name": "امیر قالیچی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/24302_photo_%DB%B2%DB%B0%DB%B1%DB%B7-%DB%B1%DB%B0-%DB%B2%DB%B7_%DB%B0%DB%B0-%DB%B5%DB%B0-%DB%B3%DB%B7.17eba9.jpg",
+       "profileUrl": "https://www.tiwall.com/ghalichiha",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "director-assistant",
+     "label": "دستیار کارگردان",
+     "people": [
+      {
+       "id": "27443",
+       "name": "امیر ارسلان ایزدی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/97852_amirarsalanizadi_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/amirarsalanizadi",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "chrt105",
+     "label": "دستیار طراح صحنه",
+     "people": [
+      {
+       "id": "27157",
+       "name": "علی رضا احمدی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/66655_alihajie_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/alihajie",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "assistant-producer",
+     "label": "دستیار تهیه کننده",
+     "people": [
+      {
+       "id": "7848",
+       "name": "محمد رحمانیان",
+       "imageUrl": "https://zbcdn.cloud/files/cache/31696_mohammadrahmaniaan_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/mohammadrahmaniaan",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "chrt44",
+     "label": "دستیار صحنه",
+     "people": [
+      {
+       "id": "36121",
+       "name": "عرفان مختاری",
+       "imageUrl": "https://zbcdn.cloud/files/cache/52963_erfanmokhtari_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/erfanmokhtari",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "thanks-to",
+     "label": "با تشکر از",
+     "people": [
+      {
+       "id": "14130",
+       "name": "علی یوسفی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/17855_%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1.17eba9.jpg",
+       "profileUrl": "https://www.tiwall.com/aliyousefi2",
+       "relationDescription": null
+      },
+      {
+       "id": "14201",
+       "name": "محمدحسین غفاری",
+       "imageUrl": "https://zbcdn.cloud/files/cache/35019_mhghaffari_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/mhghaffari",
+       "relationDescription": null
+      },
+      {
+       "id": "tiwall:4e504dcc1f163f15",
+       "name": "شهرزاد نیک مرام",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      },
+      {
+       "id": "tiwall:37e4ac4694a086e5",
+       "name": "احد محمدکرمی",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      },
+      {
+       "id": "tiwall:4466b90a0e2a87a3",
+       "name": "و",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    }
+   ],
+   "promoDescription": null,
+   "reviews": [
+    {
+     "id": "tiwall:511686",
+     "text": "9 مهر یکی از بهترین اجرای تک نفره ایی بود که دیدم. حافظه ایی بی نظیر ، قدرت بازیگری ، دیلوگهای به یاد ماندنی .... خیلی لذت بردم جناب درویش زاده بی نظیرید",
+     "authorName": "mozhdeh moktafi (mozhdeh.moktafi)"
+    }
+   ]
+  },
+  {
+   "id": "64924",
+   "title": "سریع‌تر شخم بزن",
+   "active": true,
+   "hidden": false,
+   "rating": 3.5,
+   "address": "خیابان طالقانی، بین خیابان نادری و وصال شیرازی، پلاک ۴۱۷",
+   "cityKey": "tehran",
+   "imageUrl": "https://zbcdn.cloud/files/cache/16836_plow.faster_image.4ac18b.jpeg",
+   "location": {
+    "lat": 35.705562,
+    "lng": 51.399475
+   },
+   "maxCount": 30,
+   "syncedAt": "2026-10-04 13:49:43.483+00",
+   "fromPrice": {
+    "amount": 500000,
+    "currency": "IRT"
+   },
+   "sourceKey": "plow.faster",
+   "venueText": "مجموعه تئاتر لبخند - سالن دو",
+   "saleMethod": "assigned",
+   "categoryKey": "drama",
+   "description": "«سریع‌تر شخم بزن» روایتی تند و پرتنش از پشت پرده‌ی صنعت سینماست؛ جایی که آدم‌ها برای رسیدن به رویاهایشان معامله می‌کنند و گاهی آنچه روی میز معامله می‌گذارند، خودِ رویاست.",
+   "ratingCount": 12,
+   "contributors": [
+    {
+     "key": "writer",
+     "label": "نویسنده",
+     "people": [
+      {
+       "id": "6338",
+       "name": "دیوید ممت",
+       "imageUrl": "https://zbcdn.cloud/files/cache/68223_davidmamet_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/davidmamet",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-5533f0269e14df3c",
+     "label": "مترجم",
+     "people": [
+      {
+       "id": "tiwall:13170ea26dcf4d07",
+       "name": "پویان مکری",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-c7ecd67413bdf4ba",
+     "label": "طراح، کارگردان و تهیه‌کننده",
+     "people": [
+      {
+       "id": "tiwall:8635850b97f8086c",
+       "name": "طاها‌خانجانی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/20387_tahakhanjani_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/tahakhanjani",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "actor",
+     "label": "بازیگران",
+     "people": [
+      {
+       "id": "14907",
+       "name": "علی مهرنیا",
+       "imageUrl": "https://zbcdn.cloud/files/cache/61080_alimehrnia_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/alimehrnia",
+       "relationDescription": null
+      },
+      {
+       "id": "15948",
+       "name": "سحر خطیبی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/44784_saharkhatibi_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/saharkhatibi",
+       "relationDescription": null
+      },
+      {
+       "id": "11821",
+       "name": "طاها خانجانی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/20387_tahakhanjani_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/tahakhanjani",
+       "relationDescription": null
+      },
+      {
+       "id": "tiwall:f7eee3098f29ca58",
+       "name": "و",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "mojritarh",
+     "label": "مجری طرح",
+     "people": [
+      {
+       "id": "14130",
+       "name": "علی یوسفی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/17855_%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1.17eba9.jpg",
+       "profileUrl": "https://www.tiwall.com/aliyousefi2",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-93a5285c92379809",
+     "label": "مدیر پروژه، برنامه ریز",
+     "people": [
+      {
+       "id": "tiwall:fa9c2e3efacd6eaa",
+       "name": "نشاط شعبانی",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "chrt157",
+     "label": "مشاور پروژه",
+     "people": [
+      {
+       "id": "30740",
+       "name": "بابک سعیدی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/87565_babaksaeidi_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/babaksaeidi",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-3282dbc6af78a5d5",
+     "label": "دستیار کارگردان",
+     "people": [
+      {
+       "id": "tiwall:7e3143358294d01b",
+       "name": "سالار‌خیری",
+       "imageUrl": "https://zbcdn.cloud/files/cache/61093_salareshoon.kh_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/salareshoon.kh",
+       "relationDescription": null
+      },
+      {
+       "id": "tiwall:d56daf075782984a",
+       "name": "آریانا‌خندق‌آبادی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/87712_arianakhandagh_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/arianakhandagh",
+       "relationDescription": null
+      },
+      {
+       "id": "tiwall:d1ece3b3d0b216b2",
+       "name": "آراد نیازی",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      },
+      {
+       "id": "tiwall:f9a58f005a7caa72",
+       "name": "نازنین میر",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "chrt22",
+     "label": "طراح نور",
+     "people": [
+      {
+       "id": "14130",
+       "name": "علی یوسفی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/17855_%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1%DB%B1.17eba9.jpg",
+       "profileUrl": "https://www.tiwall.com/aliyousefi2",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-31b229ca3a457a9c",
+     "label": "طراح صحنه، طراح لباس",
+     "people": [
+      {
+       "id": "tiwall:fdde770abd023c1b",
+       "name": "طاها‌خانجانی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/20387_tahakhanjani_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/tahakhanjani",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-32fc143cdacf945a",
+     "label": "مدیر روابط عمومی، مشاور رسانه‌ای و تبلیغات",
+     "people": [
+      {
+       "id": "tiwall:fcbdf3d5ef584450",
+       "name": "سارا‌حدادی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/63776_hadisara_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/hadisara",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-42b6de9bcfffa7b2",
+     "label": "متریال تبلیغاتی",
+     "people": [
+      {
+       "id": "tiwall:bf2f134cc2ed46a3",
+       "name": "استودیو تزار",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-e4feb4db23173160",
+     "label": "طراح پوستر، طراح بروشور",
+     "people": [
+      {
+       "id": "tiwall:8fba80e63a41025c",
+       "name": "علی مطلق",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-d7e05d1999f34953",
+     "label": "موشن گرافیک و تیزر",
+     "people": [
+      {
+       "id": "tiwall:a9efcc3da28f0749",
+       "name": "بهروز‌داوری",
+       "imageUrl": "https://zbcdn.cloud/files/cache/40686_behroozdavari_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/behroozdavari",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "photographer",
+     "label": "عکاس",
+     "people": [
+      {
+       "id": "11749",
+       "name": "پریسا توکلی",
+       "imageUrl": "https://zbcdn.cloud/files/cache/57974_parisa.tavakoli_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/parisa.tavakoli",
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-3fdadb210ff15342",
+     "label": "کاری از",
+     "people": [
+      {
+       "id": "tiwall:1d236f04619f29d8",
+       "name": "گروه تئاتر جالب",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "tiwall-bc0eb71af759a313",
+     "label": "مدیر پروژه و برنامه ریز",
+     "people": [
+      {
+       "id": "tiwall:f74a5850c53ca6bd",
+       "name": "نشاط شعبانی",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    },
+    {
+     "key": "director-assistant",
+     "label": "دستیاران کارگردان",
+     "people": [
+      {
+       "id": "24646",
+       "name": "سالار خیری",
+       "imageUrl": "https://zbcdn.cloud/files/cache/61093_salareshoon.kh_image.17eba9.jpeg",
+       "profileUrl": "https://www.tiwall.com/salareshoon.kh",
+       "relationDescription": null
+      },
+      {
+       "id": "tiwall:2c66b48ef12679f3",
+       "name": "آراد نیازی",
+       "imageUrl": null,
+       "profileUrl": null,
+       "relationDescription": null
+      }
+     ]
+    }
+   ],
+   "promoDescription": "برای موفقیت، تا کجا میری؟",
+   "reviews": [
+    {
+     "id": "tiwall:509559",
+     "text": "یک نمایش بی نظیر که منو دوباره به تئاتر امیدوار کرد و منو خیلی یاد کار های حسن معجونی میندازه نوع کمدی و طنز این کار خیلی شبیه به نمایش های مرد بالشی و ستوان اینیشموره در کل خسته نباشید ویژه میگم به گروه اجرایی این کار❤️",
+     "authorName": "فرشاد رضایی (u.nbsmev)"
+    }
+   ]
+  }
+ ],
+ "nextCursor": "65165"
+}

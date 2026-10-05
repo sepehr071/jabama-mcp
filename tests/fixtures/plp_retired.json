@@ -1,0 +1,15 @@
+{
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true,
+ "result": {
+  "items": [],
+  "total": 0,
+  "metadata": {
+   "redirectCode": 301,
+   "redirectPath": "/"
+  }
+ }
+}

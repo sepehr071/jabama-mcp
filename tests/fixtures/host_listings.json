@@ -1,0 +1,70 @@
+{
+ "result": {
+  "count": 2,
+  "items": [
+   {
+    "code": 328353,
+    "kind": "accommodation",
+    "placeId": "6087a42d15391d001b93b512",
+    "type": "ecotourism",
+    "placeType": "personalRoom",
+    "name": "نسا - افرا",
+    "image": "https://cdn.jabama.com/image/jabama-images/543053/e0274865-8255-4232-82f9-3e37ded16d93.jpeg",
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/543053/e0274865-8255-4232-82f9-3e37ded16d93.jpeg"
+    ],
+    "rateReview": {
+     "count": 7,
+     "score": 3.6
+    },
+    "info": [
+     "۲ + ۲ نفر ظرفیت ",
+     "استان مازندران، تنکابن"
+    ],
+    "price": {
+     "perNight": 5200000,
+     "discountPercent": 0,
+     "discountedPrice": 5200000
+    },
+    "tags": [],
+    "cityId": "5fa948b0abcd0544d968726f",
+    "baseGuests": 2,
+    "extraGuests": 2
+   },
+   {
+    "code": 328354,
+    "kind": "accommodation",
+    "placeId": "6087a42dd857d6001b84f61b",
+    "type": "ecotourism",
+    "placeType": "personalRoom",
+    "name": "نسا - بارانک",
+    "image": "https://cdn.jabama.com/image/jabama-images/543053/d41692a8-5cb5-43d3-8af1-c09f588ca753.jpeg",
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/543053/d41692a8-5cb5-43d3-8af1-c09f588ca753.jpeg"
+    ],
+    "rateReview": {
+     "count": 11,
+     "score": 4.1
+    },
+    "info": [
+     "۴ + ۴ نفر ظرفیت ",
+     "استان مازندران، تنکابن"
+    ],
+    "price": {
+     "perNight": 30000000,
+     "discountPercent": 0,
+     "discountedPrice": 30000000
+    },
+    "tags": [],
+    "cityId": "5fa948b0abcd0544d968726f",
+    "baseGuests": 4,
+    "extraGuests": 4
+   }
+  ]
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true
+}

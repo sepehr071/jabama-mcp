@@ -1,0 +1,409 @@
+{
+ "result": {
+  "total": 1055,
+  "items": [
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "638c7fcc36822e001caec29f",
+    "image": "https://cdn.jabama.com/image/jabama-images/2056881/fc50067d-4754-433d-a596-e6978e6adb75.jpg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/2056881/fc50067d-4754-433d-a596-e6978e6adb75.jpg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 32500000,
+    "disinfected": null,
+    "name": "سوئیت فلت بهشتی 22",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "638c7fcc36822e001caec29f",
+    "region": "city",
+    "reservation_type": "instant",
+    "code": 403515,
+    "room_id": "403515_1",
+    "location": {
+     "city": "رامسر",
+     "geo": {
+      "lat": 36.884950599999996,
+      "long": 50.70876617490355
+     },
+     "province": "مازندران",
+     "cityEn": "ramsar",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 4.7,
+     "count": 140,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "noneguarant",
+     "earlybirdkhordad",
+     "instant-guarantee",
+     "instant",
+     "exclusiveacc",
+     "pricing-affordable",
+     "couples",
+     "hospitalityacc",
+     "competitive-pricing",
+     "longstaysdiscount",
+     "nowruz1404",
+     "black-friday",
+     "eyd1405",
+     "early-bird",
+     "perfectstay",
+     "rare-find"
+    ],
+    "type": "suite",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": true,
+    "other_rooms": [],
+    "capacity": {
+     "base": 5,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 2,
+     "extra": 3
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 32500000,
+     "perNight": 10100000,
+     "discountPercent": 0,
+     "discountedPrice": 32500000,
+     "capacity": {
+      "base": 5,
+      "extra": 3
+     },
+     "isGuarantee": false,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان",
+     "nights_count": 3,
+     "vatPrice": null,
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [
+     {
+      "name": "قیمت منصفانه",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/99a2b9ce-b546-4212-922e-afe6d93cd627.png",
+      "description": "قيمت اين اقامتكاه، بر اساس ميزان بازديد وتقاضا، روز هفته و نظرات مهمانان، به صورت خودكار و هوشمند تعيين شده است."
+     },
+     {
+      "name": "کمیاب و پرتقاضا",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/3a4da310-a9d2-4540-9ef5-8b78b6f09087.png",
+      "description": null
+     }
+    ],
+    "unitCount": 1,
+    "unitCapacity": 5,
+    "rankTag": "lead_time_controller_15",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 8125000
+    }
+   },
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "631a17c348181c001dc57bd8",
+    "image": "https://cdn.jabama.com/image/jabama-images/1711975/3cf4a6d0-c18d-4963-a4e2-c86c62e18ab4.jpg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/1711975/3cf4a6d0-c18d-4963-a4e2-c86c62e18ab4.jpg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 46500000,
+    "disinfected": null,
+    "name": "سوئیت فلت شمشاد",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "631a17c348181c001dc57bd8",
+    "region": "rustic",
+    "reservation_type": "instant",
+    "code": 391233,
+    "room_id": "391233_1",
+    "location": {
+     "city": "رامسر",
+     "geo": {
+      "lat": 36.948060700000006,
+      "long": 50.62804635062222
+     },
+     "province": "مازندران",
+     "cityEn": "ramsar",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 4.8,
+     "count": 238,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "noneguarant",
+     "webengage_hosts",
+     "earlybirdkhordad",
+     "instant-guarantee",
+     "instant",
+     "exclusiveacc",
+     "pricing-affordable",
+     "couples",
+     "hospitalityacc",
+     "competitive-pricing",
+     "economic",
+     "super_host",
+     "ertehalearlybird",
+     "black-friday",
+     "early-shahrivar1404",
+     "eyd1405",
+     "quick-responder",
+     "jabamaoffer",
+     "rare-find",
+     "most-rate"
+    ],
+    "type": "suite",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": true,
+    "other_rooms": [],
+    "capacity": {
+     "base": 3,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 2,
+     "extra": 1
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 50000000,
+     "perNight": 16000000,
+     "discountPercent": 7,
+     "discountedPrice": 46500000,
+     "capacity": {
+      "base": 3,
+      "extra": 1
+     },
+     "isGuarantee": false,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان",
+     "nights_count": 3,
+     "vatPrice": null,
+     "discount_tooltips": [
+      {
+       "discount_percentage": 7,
+       "discount_title": "این رزرو شامل 7٪ تخفیف اقامت بلند‌مدت است!"
+      }
+     ],
+     "discount_description": "اقامت بلند‌مدت",
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [
+     {
+      "name": "قیمت منصفانه",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/99a2b9ce-b546-4212-922e-afe6d93cd627.png",
+      "description": "قيمت اين اقامتكاه، بر اساس ميزان بازديد وتقاضا، روز هفته و نظرات مهمانان، به صورت خودكار و هوشمند تعيين شده است."
+     },
+     {
+      "name": "کمیاب و پرتقاضا",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/3a4da310-a9d2-4540-9ef5-8b78b6f09087.png",
+      "description": null
+     }
+    ],
+    "unitCount": 1,
+    "unitCapacity": 3,
+    "rankTag": "lead_time_controller_15",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 11625000
+    }
+   },
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "66348dbbd1a1a1001bc3578a",
+    "image": "https://cdn.jabama.com/image/jabama-images/5422583/3c4a4d17-265f-4459-b044-157924ea2802.jpg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/5422583/3c4a4d17-265f-4459-b044-157924ea2802.jpg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 69460000,
+    "disinfected": null,
+    "name": "سوئیت فلت آشیانه عشق",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "66348dbbd1a1a1001bc3578a",
+    "region": "jungle",
+    "reservation_type": "instant",
+    "code": 596453,
+    "room_id": "596453_1",
+    "location": {
+     "city": "رامسر",
+     "geo": {
+      "lat": 36.8252207,
+      "long": 50.72715476079391
+     },
+     "province": "مازندران",
+     "cityEn": "ramsar",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 4.6,
+     "count": 83,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "nowruz1403-2",
+     "early2",
+     "earlyp4",
+     "instant-guarantee",
+     "instant",
+     "notintimate",
+     "couples",
+     "competitive-pricing",
+     "longstaysdiscount",
+     "guaranteed",
+     "smartpricing",
+     "nowruz1404",
+     "rare-find"
+    ],
+    "type": "suite",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": true,
+    "other_rooms": [],
+    "capacity": {
+     "base": 3,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 2,
+     "extra": 1
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 75500000,
+     "perNight": 23500000,
+     "discountPercent": 8,
+     "discountedPrice": 69460000,
+     "capacity": {
+      "base": 3,
+      "extra": 1
+     },
+     "isGuarantee": true,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان",
+     "nights_count": 3,
+     "vatPrice": null,
+     "discount_tooltips": [
+      {
+       "discount_percentage": 8,
+       "discount_title": "این رزرو شامل 8٪ تخفیف اقامت بلند‌مدت است!"
+      }
+     ],
+     "discount_description": "اقامت بلند‌مدت",
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [
+     {
+      "name": "قیمت منصفانه",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/99a2b9ce-b546-4212-922e-afe6d93cd627.png",
+      "description": "قيمت اين اقامتكاه، بر اساس ميزان بازديد وتقاضا، روز هفته و نظرات مهمانان، به صورت خودكار و هوشمند تعيين شده است."
+     },
+     {
+      "name": "کمیاب و پرتقاضا",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/3a4da310-a9d2-4540-9ef5-8b78b6f09087.png",
+      "description": null
+     }
+    ],
+    "unitCount": 1,
+    "unitCapacity": 3,
+    "rankTag": "lead_time_controller_15",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 17365000
+    }
+   }
+  ],
+  "filters": []
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true
+}

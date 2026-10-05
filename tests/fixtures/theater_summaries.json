@@ -1,0 +1,42 @@
+{
+ "items": [
+  {
+   "instanceId": "65745:642277",
+   "fromPrice": {
+    "amount": 500000,
+    "currency": "IRT"
+   },
+   "capacity": 52,
+   "remaining": 40,
+   "checkedAt": "2026-10-04T14:08:40.907Z",
+   "staleAt": "2026-10-04T14:09:00.907Z",
+   "outsideCapacity": null
+  },
+  {
+   "instanceId": "65745:642278",
+   "fromPrice": {
+    "amount": 500000,
+    "currency": "IRT"
+   },
+   "capacity": 52,
+   "remaining": 41,
+   "checkedAt": "2026-10-04T14:08:40.892Z",
+   "staleAt": "2026-10-04T14:09:00.892Z",
+   "outsideCapacity": null
+  },
+  {
+   "instanceId": "65745:642279",
+   "fromPrice": {
+    "amount": 500000,
+    "currency": "IRT"
+   },
+   "capacity": 52,
+   "remaining": 48,
+   "checkedAt": "2026-10-04T14:08:40.901Z",
+   "staleAt": "2026-10-04T14:09:00.901Z",
+   "outsideCapacity": null
+  }
+ ],
+ "unavailableIds": [],
+ "missingIds": []
+}

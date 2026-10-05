@@ -1,0 +1,443 @@
+{
+ "result": {
+  "items": [
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "6087a42d15391d001b93b512",
+    "image": "https://cdn.jabama.com/image/jabama-images/543053/e0274865-8255-4232-82f9-3e37ded16d93.jpeg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/543053/e0274865-8255-4232-82f9-3e37ded16d93.jpeg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 16400000,
+    "disinfected": null,
+    "name": "بومگردی نسا - افرا",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "6087a42d15391d001b93b512",
+    "region": "rustic",
+    "reservation_type": "preApprove",
+    "code": 328353,
+    "room_id": "328353_1",
+    "location": {
+     "city": "تنکابن",
+     "geo": {
+      "lat": 36.477262,
+      "long": 50.852964892576985
+     },
+     "province": "مازندران",
+     "cityEn": "tonekabon",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 3.6,
+     "count": 7,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "noneguarant",
+     "nowruz1403-2",
+     "webengage_hosts",
+     "earlybirdkhordad",
+     "exclusiveacc",
+     "notintimate",
+     "pricing-affordable",
+     "competitive-pricing",
+     "largegarden",
+     "nc-ne"
+    ],
+    "type": "ecotourism",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": false,
+    "other_rooms": [],
+    "capacity": {
+     "base": 4,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 2,
+     "extra": 2
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 16400000,
+     "perNight": 5200000,
+     "discountPercent": 0,
+     "discountedPrice": 16400000,
+     "capacity": {
+      "base": 4,
+      "extra": 2
+     },
+     "isGuarantee": false,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان، ۲ نفر",
+     "nights_count": 3,
+     "vatPrice": null,
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [
+     {
+      "name": "قیمت منصفانه",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/99a2b9ce-b546-4212-922e-afe6d93cd627.png",
+      "description": "قيمت اين اقامتكاه، بر اساس ميزان بازديد وتقاضا، روز هفته و نظرات مهمانان، به صورت خودكار و هوشمند تعيين شده است."
+     }
+    ],
+    "unitCount": 1,
+    "unitCapacity": 4,
+    "rankTag": "total_price",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 4100000
+    }
+   },
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "62318eb4910571001c73c086",
+    "image": "https://cdn.jabama.com/image/jabama-images/1456713/0cc7cc3e-0c71-4f07-b2d6-b4ed2baf5775.jpeg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/1456713/0cc7cc3e-0c71-4f07-b2d6-b4ed2baf5775.jpeg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 19600000,
+    "disinfected": null,
+    "name": "بومگردی عمارت فرشتگان - واحد گلابی",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "62318eb4910571001c73c086",
+    "region": "jungle",
+    "reservation_type": "preApprove",
+    "code": 364106,
+    "room_id": "364106_1",
+    "location": {
+     "city": "تنکابن",
+     "geo": {
+      "lat": 36.7979486,
+      "long": 50.77239874497096
+     },
+     "province": "مازندران",
+     "cityEn": "tonekabon",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 4.2,
+     "count": 25,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "noneguarant",
+     "webengage_hosts",
+     "earlybirdkhordad",
+     "exclusiveacc",
+     "pricing-affordable",
+     "competitive-pricing",
+     "longstaysdiscount",
+     "jungleacc"
+    ],
+    "type": "ecotourism",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": false,
+    "other_rooms": [],
+    "capacity": {
+     "base": 4,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 2,
+     "extra": 2
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 19600000,
+     "perNight": 6300000,
+     "discountPercent": 0,
+     "discountedPrice": 19600000,
+     "capacity": {
+      "base": 4,
+      "extra": 2
+     },
+     "isGuarantee": false,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان، ۲ نفر",
+     "nights_count": 3,
+     "vatPrice": null,
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [
+     {
+      "name": "قیمت منصفانه",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/99a2b9ce-b546-4212-922e-afe6d93cd627.png",
+      "description": "قيمت اين اقامتكاه، بر اساس ميزان بازديد وتقاضا، روز هفته و نظرات مهمانان، به صورت خودكار و هوشمند تعيين شده است."
+     }
+    ],
+    "unitCount": 1,
+    "unitCapacity": 4,
+    "rankTag": "total_price",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 4900000
+    }
+   },
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "64c568892980f0001b51cd7e",
+    "image": "https://cdn.jabama.com/image/jabama-images/2709746/66f12467-10c2-465f-af6d-273f0fff1bdd.jpeg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/2709746/66f12467-10c2-465f-af6d-273f0fff1bdd.jpeg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 22230000,
+    "disinfected": null,
+    "name": "اقامتگاه سنتی فلت آرتان",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "64c568892980f0001b51cd7e",
+    "region": "jungle",
+    "reservation_type": "preApprove",
+    "code": 481016,
+    "room_id": "481016_1",
+    "location": {
+     "city": "رامسر",
+     "geo": {
+      "lat": 36.830192600000004,
+      "long": 50.68263349416768
+     },
+     "province": "مازندران",
+     "cityEn": "ramsar",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 4.2,
+     "count": 72,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "noneguarant",
+     "earlybirdkhordad",
+     "exclusiveacc",
+     "notintimate",
+     "pricing-affordable",
+     "competitive-pricing",
+     "longstaysdiscount",
+     "largegarden",
+     "smartpricing",
+     "jungleacc",
+     "jungleview",
+     "good_supply",
+     "black-friday"
+    ],
+    "type": "traditional",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": false,
+    "other_rooms": [],
+    "capacity": {
+     "base": 6,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 4,
+     "extra": 2
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 24700000,
+     "perNight": 8000000,
+     "discountPercent": 10,
+     "discountedPrice": 22230000,
+     "capacity": {
+      "base": 6,
+      "extra": 2
+     },
+     "isGuarantee": false,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان، ۲ نفر",
+     "nights_count": 3,
+     "vatPrice": null,
+     "discount_tooltips": [
+      {
+       "discount_percentage": 10,
+       "discount_title": "این رزرو شامل 10٪ تخفیف اقامت بلند‌مدت است!"
+      }
+     ],
+     "discount_description": "اقامت بلند‌مدت",
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [
+     {
+      "name": "قیمت منصفانه",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/99a2b9ce-b546-4212-922e-afe6d93cd627.png",
+      "description": "قيمت اين اقامتكاه، بر اساس ميزان بازديد وتقاضا، روز هفته و نظرات مهمانان، به صورت خودكار و هوشمند تعيين شده است."
+     }
+    ],
+    "unitCount": 1,
+    "unitCapacity": 6,
+    "rankTag": "total_price",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 5557500
+    }
+   }
+  ],
+  "filters": [
+   {
+    "name": "امکانات",
+    "sub-name": "",
+    "field": "amenities",
+    "filters": [
+     {
+      "is-selected": false,
+      "key": "barbeque",
+      "persian-name": "باربیکیو",
+      "value": 0,
+      "sub-key": null
+     },
+     {
+      "is-selected": false,
+      "key": "internet-wifi",
+      "persian-name": "اینترنت (Wifi)",
+      "value": 0,
+      "sub-key": null
+     },
+     {
+      "is-selected": false,
+      "key": "swimming-pool",
+      "persian-name": "استخر",
+      "value": 0,
+      "sub-key": null
+     },
+     {
+      "is-selected": false,
+      "key": "billiard",
+      "persian-name": "میز بیلیارد",
+      "value": 0,
+      "sub-key": null
+     }
+    ],
+    "filter-range": null,
+    "visible-item-count": 8,
+    "filter-type": "CheckList",
+    "is-selected": false,
+    "icon": "https://cdn.jabama.com/image/jabama-images/0/6da55737-736c-4bb8-b252-d08bd69ffaba.png"
+   }
+  ],
+  "sorts": [
+   {
+    "field": "booking_probability",
+    "name": "پیشنهاد جاباما",
+    "direction": true,
+    "is-selected": false
+   },
+   {
+    "field": "personalization",
+    "name": "بر اساس سلیقه شما",
+    "direction": true,
+    "is-selected": false
+   },
+   {
+    "field": "price",
+    "name": "کمترین قیمت",
+    "direction": false,
+    "is-selected": true
+   },
+   {
+    "field": "price",
+    "name": "بیشترین قیمت",
+    "direction": true,
+    "is-selected": false
+   },
+   {
+    "field": "rate",
+    "name": "بیشترین امتیاز",
+    "direction": true,
+    "is-selected": false
+   }
+  ],
+  "total": 2497,
+  "countDefault": 2497
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true
+}

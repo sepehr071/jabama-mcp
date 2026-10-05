@@ -1,0 +1,15 @@
+{
+ "result": null,
+ "targetUrl": null,
+ "success": false,
+ "error": {
+  "details": null,
+  "errorCode": 400,
+  "message": "امکان ثبت سفارش برای این تاریخ وجود ندارد.",
+  "serviceMessage": null,
+  "source": "Accommodation,1.0.0",
+  "validationErrors": {}
+ },
+ "unauthorizedRequest": false,
+ "__wrapped": true
+}

@@ -1,0 +1,63 @@
+{
+ "id": "or-0918848",
+ "username": "tehrandubshow",
+ "name": "تهران دابشو",
+ "title": "",
+ "bio": "لذت تماشای انیمیشن های روز دنیا با دوبله فارسی حرفه ای در نیایش مال در اجرای تهران دابشو انیمیشن به صورت کامل با دوبله فارسی تیم گویندگان حرفه ای پخش می گردد. پس از آن بخش هایی از انیمیشن توسط صداپیشه ها به صورت همزمان دوبله خواهد شد. در این برنامه موسیقی های انیمیشنی نیز اجرا میگردد.\n\n",
+ "avatar": "https://cdn.jabama.events/experience/images/2026-09/aVsFMFK5dTBwsotW.png",
+ "banner": "",
+ "verified": false,
+ "rating": "۴.۸",
+ "reviewCount": 6,
+ "socials": [
+  {
+   "platform": "instagram",
+   "handle": "tehrandubshow",
+   "url": "https://www.instagram.com/tehrandubshow/"
+  },
+  {
+   "platform": "website",
+   "handle": "tehrandubshow",
+   "url": "https://tehrandubshow.com/"
+  },
+  {
+   "platform": "website",
+   "handle": "TehranDubShow",
+   "url": "https://www.youtube.com/@TehranDubShow"
+  }
+ ],
+ "experiences": [
+  {
+   "id": "67058754",
+   "title": "دوبله زنده انیمیشن داستان اسباب‌بازی ۵ ",
+   "category": {
+    "slug": "event-and-workshop",
+    "label": "ایونت و ورکشاپ"
+   },
+   "coverImage": "https://cdn.jabama.events/experience/images/2026-09/WGFi4MLpbDW7KCDb.jpg",
+   "location": "پردیس سینمایی بام نیایش، تهران",
+   "date": {
+    "month": "مهر",
+    "day": "۱۷"
+   },
+   "pricePerPerson": 400000,
+   "minPriceAfterDiscount": 400000,
+   "maxDiscountPct": 0,
+   "status": "open"
+  }
+ ],
+ "reviews": [
+  {
+   "id": "67323174",
+   "userId": "5WSURXNKbj5JCgok",
+   "userName": "کیانا صمدیان",
+   "rating": 5,
+   "text": "برای چند ساعت میتونم زندگی کنمو خوشحالی بچگیامو دوباره تجربش کنم🥺😍  واقعا این اجرارو شبیهشو جایی ندیدین😍 عاشق تک به تک اعضای تهران دابشو میشید💙",
+   "createdAt": "2026-10-03T10:49:20.425Z",
+   "eventId": "67058754",
+   "eventTitle": "دوبله زنده انیمیشن داستان اسباب‌بازی ۵ ",
+   "eventStatus": "open"
+  }
+ ],
+ "reels": []
+}

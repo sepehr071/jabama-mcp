@@ -1,0 +1,159 @@
+{
+ "id": "67058754",
+ "title": "دوبله زنده انیمیشن داستان اسباب‌بازی ۵ ",
+ "category": {
+  "slug": "event-and-workshop",
+  "label": "ایونت و ورکشاپ"
+ },
+ "duration": "جمعه 17 مهر ساعت ۱۵",
+ "durationHours": 1,
+ "pricePerPerson": 400000,
+ "rating": "۴.۸",
+ "reviewCount": 6,
+ "description": "<div data-rich-text=\"true\">اولین اکران و اجرا داستان اسباب بازی ۵ همراه با دوبله همزمان و موسیقی زنده.<div>یک تجربه متفاوت، پر از خنده و هیجان و خاطره سازی برای تمام عاشقان دنیای اسباب بازی ها.</div><div><br /></div><div>هومن خیاط: کارگردان </div><div>مینا کشاورزی :صدا پیشه و مدیر اجرایی</div><div><br /></div><div>شادی هاشملو: صداپیشه</div><div>محمد مجد: صداپیشه</div><div>آراد اسکندری: صداپیشه</div><div>زهرا فلاح: صداپیشه</div><div>محسن پرتوی: صداپیشه</div><div>نگین گیوه‌چی: صداپیشه</div><div><br /></div><div>عرفان فرگال : خواننده</div></div>",
+ "itinerary": "<div data-rich-text=\"true\">با تهران دابشو سفر کنید به دنیای انیمیشن‌ها \n‌\nدر این اجرا ابتدا انیمیشن با دوبله فارسی با کیفیت و با گویندگی صداپیشه‌های با سابقه پخش می‌شود و بعد از آن چند موسیقی انیمیشنی اجرا می‌شود و در ادامه دوبلورهای مطرح انیمیشن روی صحنه و در حضور تماشاگران به اجرای دوبله همزمان می‌پردازند.\n\nدر واقع تهران دابشو گروه سنی مشخصی ندارد و یک اجرای خانوادگی برای تمامی سنین محسوب می‌گردد و گواه این ادعا حضور ۱۳ ساله روی صحنه می‌باشد.\n\nتهران دابشو فعالیت خود را از سینما قلهک و به سرپرستی و کارگردانی هومن خیاط، مدیر دوبلاژ با سابقه شروع کرد و در ادامه در سالن‌های الماس، دزاشیب، هدیش و",
+ "termsAndConditions": "<div data-rich-text=\"true\">لطفا ۲۰ دقیقه قبل از اجرا داخل سالن حضور پیدا کنید.</div>",
+ "location": {
+  "label": "پردیس سینمایی بام نیایش",
+  "address": "جنت آباد مرکزی – بلوار آبشناسان – مجتمع تجاری نیایش- طبقه ششم",
+  "approximate": {
+   "centerLat": 35.763285343303096,
+   "centerLng": 51.30696842227041,
+   "radiusMeters": 500
+  },
+  "exact": {
+   "lat": 35.76472331653963,
+   "lng": 51.305777558613784
+  },
+  "city": {
+   "slug": "tehran",
+   "label": "تهران"
+  },
+  "province": {
+   "slug": "tehran",
+   "label": "تهران"
+  }
+ },
+ "whatToBring": [],
+ "includedItems": [],
+ "organizer": {
+  "id": "or-0918848",
+  "username": "tehrandubshow",
+  "name": "تهران دابشو",
+  "avatar": "https://cdn.jabama.events/experience/images/2026-09/aVsFMFK5dTBwsotW.png",
+  "title": "",
+  "bio": "لذت تماشای انیمیشن های روز دنیا با دوبله فارسی حرفه ای در نیایش مال در اجرای تهران دابشو انیمیشن به صورت کامل با دوبله فارسی تیم گویندگان حرفه ای پخش می گردد. پس از آن بخش هایی از انیمیشن توسط صداپیشه ها به صورت همزمان دوبله خواهد شد. در این برنامه موسیقی های انیمیشنی نیز اجرا میگردد.\n\n"
+ },
+ "artists": [
+  {
+   "id": "88470262",
+   "username": "hoomankhaiyat",
+   "name": "هومن خیاط",
+   "title": "",
+   "bio": "",
+   "picture": "https://cdn.jabama.events/experience/images/2026-09/Hd4XpR2idxzGWXra.png"
+  },
+  {
+   "id": "24344224",
+   "username": "shadihashemloo",
+   "name": "شادی هاشملو",
+   "title": "",
+   "bio": "",
+   "picture": "https://cdn.jabama.events/experience/images/2026-09/wUrhoijk3jkVdNCy.webp"
+  },
+  {
+   "id": "21654765",
+   "username": "a.skandri",
+   "name": "آراد اسکندری",
+   "title": "",
+   "bio": "",
+   "picture": "https://cdn.jabama.events/experience/images/2026-09/QtoH7qurgM9RWpaS.webp"
+  },
+  {
+   "id": "54582283",
+   "username": "m.majd",
+   "name": "محمد مجد",
+   "title": "",
+   "bio": "",
+   "picture": "https://cdn.jabama.events/experience/images/2026-09/Cj9quRrYc5kRZ9SK.webp"
+  },
+  {
+   "id": "71459451",
+   "username": "zahrafallah__",
+   "name": "زهرا فلاحی",
+   "title": "",
+   "bio": "",
+   "picture": "https://cdn.jabama.events/experience/images/2026-09/qB6GrQhoztWZjF4i.webp"
+  }
+ ],
+ "media": {
+  "official": [
+   {
+    "id": "36518671",
+    "type": "image",
+    "url": "https://cdn.jabama.events/experience/images/2026-09/WGFi4MLpbDW7KCDb.jpg"
+   }
+  ],
+  "user": []
+ },
+ "reviews": [
+  {
+   "id": "67323174",
+   "userId": "5WSURXNKbj5JCgok",
+   "userName": "کیانا صمدیان",
+   "rating": 5,
+   "text": "برای چند ساعت میتونم زندگی کنمو خوشحالی بچگیامو دوباره تجربش کنم🥺😍  واقعا این اجرارو شبیهشو جایی ندیدین😍 عاشق تک به تک اعضای تهران دابشو میشید💙",
+   "organizerReply": null,
+   "createdAt": "2026-10-03T10:49:20.425Z"
+  },
+  {
+   "id": "13392694",
+   "userId": "ToHPoWNXhPshgmi8",
+   "userName": "کیومرث پویان",
+   "rating": 4,
+   "text": "جالب و شاد بود",
+   "organizerReply": null,
+   "createdAt": "2026-10-03T09:43:24.104Z"
+  },
+  {
+   "id": "39156652",
+   "userId": "PFyQvoznHdA5UnvB",
+   "userName": "mandana Bidel",
+   "rating": 5,
+   "text": "بعد ده سال مجدد ب دیدن دابشو رفتیم.همچنان پرانرژی و شاد و خلاق.ممنون از عموهومن و گروه حرفه ایشون.",
+   "organizerReply": null,
+   "createdAt": "2026-10-03T07:56:00.275Z"
+  }
+ ],
+ "capacityType": "global",
+ "scheduleType": "multi",
+ "inventoryMode": "assigned_seat",
+ "recurrenceRule": null,
+ "sessionDurationMinutes": null,
+ "redeemValidUntil": null,
+ "globalCapacityLimit": null,
+ "openTimeStartMin": null,
+ "openTimeEndMin": null,
+ "openInstantEnabled": true,
+ "customDate": false,
+ "pricingMode": "per_person",
+ "unitPrice": null,
+ "minPartySize": null,
+ "maxPartySize": null,
+ "ticketTiers": [],
+ "hostDiscountPct": null,
+ "platformDiscountPct": null,
+ "minPriceAfterDiscount": 400000,
+ "maxDiscountPct": 0,
+ "refundable": false,
+ "exclusiveSlot": false,
+ "active": true,
+ "linkOnly": false,
+ "placements": [
+  "events"
+ ],
+ "salesCallSectionEnabled": true,
+ "deactivatedAt": null,
+ "ticketVatEnabled": true,
+ "ticketVatRateBps": 1000
+}

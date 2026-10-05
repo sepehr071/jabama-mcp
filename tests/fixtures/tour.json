@@ -1,0 +1,868 @@
+{
+ "data": {
+  "id": 475,
+  "title": "تور سفر به یزد | شهر خشت، بادگیر و تاریخ",
+  "status": "published",
+  "has_active_contract": null,
+  "slug": "20635501",
+  "public_id": "20635501",
+  "is_owned_by_current_user": false,
+  "short_description": "اگر از آن دسته آدم‌ هایی هستید که سفر را فقط برای دیدن یک شهر جدید نمی‌خواهید و دوست دارید چند روز در دل تاریخ ، معماری و فرهنگ قدیمی ایران زندگی کنید، یزد همان جایی است که باید ببینید . شهری با کوچه‌های خشتی و خانه‌ های",
+  "full_description": "اگر از آن دسته آدم‌ هایی هستید که سفر را فقط برای دیدن یک شهر جدید نمی‌خواهید و دوست دارید چند روز در دل تاریخ ، معماری و فرهنگ قدیمی ایران زندگی کنید، یزد همان جایی است که باید ببینید . شهری با کوچه‌های خشتی و خانه‌ های قدیمی، بادگیرهای بلند، بناهای تاریخی و معماری کویری که در هر گوشه‌ اش بخشی از ت",
+  "duration": {
+   "days": 4,
+   "nights": 3,
+   "formatted": "4 روز و 3 شب"
+  },
+  "price": {
+   "amount": 13300000,
+   "currency": "تومان",
+   "formatted": "13,300,000 تومان",
+   "discounted_price": null,
+   "discount_percent": null
+  },
+  "difficulty": {
+   "level": "easy",
+   "label": "راحت"
+  },
+  "age_group": "همه",
+  "age_range": "همه",
+  "transportation": "اتوبوس VIP",
+  "accommodation_type": "هتل",
+  "accommodation_profile": {
+   "enabled": true,
+   "title": "هتل تاریخی و سنتی",
+   "description": "هتل تاریخی و سنتی در دل بافت تاریخی شهر جهانی یزد"
+  },
+  "accommodations": [
+   {
+    "key": "main",
+    "source": "custom",
+    "title": "هتل تاریخی و سنتی",
+    "description": "هتل تاریخی و سنتی در دل بافت تاریخی شهر جهانی یزد",
+    "start_slot": 0,
+    "end_slot": 6,
+    "range_label": "روز 1 تا روز 4",
+    "jabama_url": null,
+    "jabama_image_url": null,
+    "media": [
+     {
+      "id": 3323,
+      "path": "tours/drafts/accommodation/KcZzCKMoxTxmJhsJWYDjJT6MoNhOXBhCDtLnp414.webp",
+      "url": "https://cdn.jabama.tours/tours/tours/drafts/accommodation/KcZzCKMoxTxmJhsJWYDjJT6MoNhOXBhCDtLnp414.webp",
+      "poster_url": null,
+      "thumbnail_url": null,
+      "file_name": "KcZzCKMoxTxmJhsJWYDjJT6MoNhOXBhCDtLnp414.webp",
+      "mime_type": "image/webp",
+      "size": 226786,
+      "size_formatted": "221.47 KB",
+      "collection": "accommodation",
+      "is_primary": false,
+      "display_order": 0,
+      "meta": {
+       "media_type": "image",
+       "uploaded_from_panel": true,
+       "draft_collection": "draft_accommodation",
+       "responsive_pending": true,
+       "responsive_source_path": "tours/drafts/accommodation/KcZzCKMoxTxmJhsJWYDjJT6MoNhOXBhCDtLnp414.webp",
+       "responsive_source_disk": "media",
+       "original_file_name": "672f5ef65019ca0a6708c28e_هتل شهر جهان - لابی عکس 2.webp",
+       "accommodation_key": "main",
+       "moved_from_draft": true
+      },
+      "variants": []
+     }
+    ]
+   }
+  ],
+  "meals_included": null,
+  "activities": [],
+  "location": {
+   "origin": {
+    "id": 4,
+    "name": "تهران",
+    "slug": "tehran-3",
+    "type": "city"
+   },
+   "destination": {
+    "id": 50,
+    "name": "یزد",
+    "slug": "yazd-2",
+    "type": "city"
+   },
+   "destinations": [
+    {
+     "id": 50,
+     "name": "یزد",
+     "slug": "yazd-2",
+     "type": "city"
+    },
+    {
+     "id": 51,
+     "name": "میبد",
+     "slug": "meybod",
+     "type": "city"
+    }
+   ]
+  },
+  "category": {
+   "id": 11,
+   "name": "تاریخی و فرهنگی",
+   "slug": "historical-cultural",
+   "description": "بازدید از میراث تاریخی و تجربه فرهنگ محلی",
+   "icon": "historical",
+   "homepage_title": "تاریخی و فرهنگی",
+   "homepage_image_url": "https://cdn.jabama.tours/tours/categories/icons/variants/square/CtJXEHogJHRUeZvt3g1h5ETJ3pgwbVhNf12lXoHu.webp",
+   "show_on_homepage": true,
+   "is_active": false,
+   "display_order": 4
+  },
+  "categories": [
+   {
+    "id": 1,
+    "name": "طبیعت گردی",
+    "slug": "nature",
+    "description": "سفر به دل طبیعت و مناظر بکر ایران",
+    "icon": "mountain",
+    "homepage_title": "طبیعت گردی",
+    "homepage_image_url": "https://cdn.jabama.tours/tours/categories/icons/variants/square/F9CTls4p3zNndxjgagMk6T8Or1IlWei8mvOvj68w.webp",
+    "show_on_homepage": true,
+    "is_active": false,
+    "display_order": 1
+   },
+   {
+    "id": 2,
+    "name": "ماجراجویی",
+    "slug": "adventure",
+    "description": "تورهای هیجان‌انگیز و تجربه‌محور",
+    "icon": "adventure",
+    "homepage_title": "ماجراجویی",
+    "homepage_image_url": "https://cdn.jabama.tours/tours/categories/icons/variants/square/mZo3zoJQ6rSzDGur6hgtsUS3zTZCQRkuKOrJaTn2.webp",
+    "show_on_homepage": true,
+    "is_active": false,
+    "display_order": 2
+   },
+   {
+    "id": 5,
+    "name": "آشپزی و غذا",
+    "slug": "culinary",
+    "description": "تجربه طعم‌ها و فرهنگ غذایی محلی",
+    "icon": "culinary",
+    "homepage_title": "آشپزی و غذا",
+    "homepage_image_url": "https://cdn.jabama.tours/tours/categories/icons/variants/square/6XLU3j1eEX4MHOiDrAIev0c0o6rfDpiefbK7108r.webp",
+    "show_on_homepage": true,
+    "is_active": false,
+    "display_order": 3
+   },
+   {
+    "id": 11,
+    "name": "تاریخی و فرهنگی",
+    "slug": "historical-cultural",
+    "description": "بازدید از میراث تاریخی و تجربه فرهنگ محلی",
+    "icon": "historical",
+    "homepage_title": "تاریخی و فرهنگی",
+    "homepage_image_url": "https://cdn.jabama.tours/tours/categories/icons/variants/square/CtJXEHogJHRUeZvt3g1h5ETJ3pgwbVhNf12lXoHu.webp",
+    "show_on_homepage": true,
+    "is_active": false,
+    "display_order": 4
+   }
+  ],
+  "tags": [
+   {
+    "id": 55,
+    "name": "تاریخی",
+    "slug": "historical",
+    "icon": null,
+    "category_id": 11,
+    "is_active": false
+   },
+   {
+    "id": 59,
+    "name": "مذهبی و آئینی",
+    "slug": "ritual",
+    "icon": null,
+    "category_id": 11,
+    "is_active": false
+   },
+   {
+    "id": 56,
+    "name": "شهرگردی",
+    "slug": "city-tour",
+    "icon": null,
+    "category_id": 11,
+    "is_active": false
+   },
+   {
+    "id": 57,
+    "name": "روستاگردی",
+    "slug": "village-tour",
+    "icon": null,
+    "category_id": 11,
+    "is_active": false
+   },
+   {
+    "id": 30,
+    "name": "شکم‌گردی",
+    "slug": "food-tour",
+    "icon": null,
+    "category_id": 5,
+    "is_active": false
+   },
+   {
+    "id": 58,
+    "name": "عشایر و بومگردی",
+    "slug": "nomad-eco",
+    "icon": null,
+    "category_id": 11,
+    "is_active": false
+   },
+   {
+    "id": 17,
+    "name": "کویر",
+    "slug": "desert",
+    "icon": null,
+    "category_id": 1,
+    "is_active": false
+   },
+   {
+    "id": 32,
+    "name": "شیرینی محلی",
+    "slug": "local-sweets",
+    "icon": null,
+    "category_id": 5,
+    "is_active": false
+   }
+  ],
+  "variants": [
+   {
+    "id": 1014,
+    "name": "اتاق دبل",
+    "slug": "atak-dbl",
+    "description": null,
+    "price": {
+     "amount": "14750000",
+     "currency": "تومان",
+     "formatted": "14,750,000 تومان"
+    },
+    "available_seats": null,
+    "is_default": true,
+    "is_active": true,
+    "is_available": true,
+    "display_order": 1,
+    "meta": null
+   },
+   {
+    "id": 1015,
+    "name": "اتاق سینگل",
+    "slug": "atak-syngl",
+    "description": null,
+    "price": {
+     "amount": "15250000",
+     "currency": "تومان",
+     "formatted": "15,250,000 تومان"
+    },
+    "available_seats": null,
+    "is_default": false,
+    "is_active": true,
+    "is_available": true,
+    "display_order": 2,
+    "meta": null
+   }
+  ],
+  "optional_services": [],
+  "itineraries": [
+   {
+    "id": 5635,
+    "title": "روز اول | آغاز سفر",
+    "description": "سه شنبه شب ساعت 22 از تهران به سمت شهر جهانی یزد حرکت میکنیم",
+    "day_number": 1,
+    "display_order": 1
+   },
+   {
+    "id": 5636,
+    "title": "روز دوم | قدم‌زدن در قلب تاریخ یزد",
+    "description": "صبح روز بعد (چهارشنبه) به شهر جهانی یزد میرسیم، بعد از صرف صبحانه  در بزرگترین هتل یزد هتل 5 ستاره ارگ، سفرمان را با قدم‌زدن در بافت تاریخی یزد همراه با لیدر مجرب آغاز می‌کنیم ؛ جایی که دیوارهای خشتی ، کوچه‌های باریک و معماری اصیل کویری ، حال‌ و هوای یزد قدیم را زنده نگه داشته‌اند.\r\nدر این مسیر از م",
+    "day_number": 2,
+    "display_order": 2
+   },
+   {
+    "id": 5637,
+    "title": "روز سوم | از چک‌ چک زرتشتیان تا میبد؛ در مسیر تاریخ و هنر",
+    "description": "پس از صرف صبحانه در هتل، ساعت ۷ صبح راهی یکی از مقدس ترین مکان های زرتشتیان جهان یعنی زیارتگاه چک‌ چک اردکان می‌شویم؛ زیارتگاهی که در دل کوه و میان صخره‌های خشک و آرام منطقه قرار گرفته و فضایی متفاوت و معنوی را پیش روی مسافران می‌گذارد.\r\nساعت ۱۱ به سمت میبد حرکت می‌کنیم ؛ شهری کهن با نشانه‌هایی از ت",
+    "day_number": 3,
+    "display_order": 3
+   },
+   {
+    "id": 5638,
+    "title": "روز چهارم | آخرین روایت ؛ از آتشکده و دخمه زرتشتیان تا بازگشت",
+    "description": "پس از صرف صبحانه ، آخرین روز سفر را با بازدید از آتشکده یزد آغاز می‌کنیم ؛ مکانی که آتش مقدس زرتشتیان در آن نگهداری می‌شود و یکی از شناخته‌ شده‌ترین نمادهای میراث زرتشتی یزد به شمار می‌رود.\r\nدر ادامه به دخمه زرتشتیان می‌رویم ؛ بنایی تاریخی در ارتفاعات یزد که ما را با بخشی از آیین‌ها و شیوه‌های تدفین",
+    "day_number": 4,
+    "display_order": 4
+   }
+  ],
+  "day_plans": [
+   {
+    "id": 2304,
+    "day_number": 1,
+    "breakfast": {
+     "status": "none",
+     "description": null
+    },
+    "lunch": {
+     "status": "none",
+     "description": null
+    },
+    "dinner": {
+     "status": "none",
+     "description": null
+    },
+    "accommodation": "در حرکت"
+   },
+   {
+    "id": 2305,
+    "day_number": 2,
+    "breakfast": {
+     "status": "included",
+     "description": "سلف سرویس در هتل 5 ستاره ارگ"
+    },
+    "lunch": {
+     "status": "none",
+     "description": null
+    },
+    "dinner": {
+     "status": "none",
+     "description": null
+    },
+    "accommodation": "هتل"
+   },
+   {
+    "id": 2306,
+    "day_number": 3,
+    "breakfast": {
+     "status": "included",
+     "description": null
+    },
+    "lunch": {
+     "status": "none",
+     "description": null
+    },
+    "dinner": {
+     "status": "none",
+     "description": null
+    },
+    "accommodation": "هتل"
+   },
+   {
+    "id": 2307,
+    "day_number": 4,
+    "breakfast": {
+     "status": "included",
+     "description": null
+    },
+    "lunch": {
+     "status": "none",
+     "description": null
+    },
+    "dinner": {
+     "status": "none",
+     "description": null
+    },
+    "accommodation": "در حرکت"
+   }
+  ],
+  "inclusions": {
+   "included": [
+    {
+     "id": 17164,
+     "type": "included",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل",
+     "title": "3 وعده صبحانه",
+     "service_name": "صبحانه",
+     "description": "3 وعده صبحانه",
+     "display_order": 1
+    },
+    {
+     "id": 17165,
+     "type": "included",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل",
+     "title": "اقامت در هتل تاریخی و سنتی",
+     "service_name": "اقامتگاه",
+     "description": "اقامت در هتل تاریخی و سنتی",
+     "display_order": 2
+    },
+    {
+     "id": 17166,
+     "type": "included",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل",
+     "title": "ترنسفر رفت و برگشت از مبدا تا مقصد",
+     "service_name": "ترنسفر",
+     "description": "ترنسفر رفت و برگشت از مبدا تا مقصد",
+     "display_order": 3
+    },
+    {
+     "id": 17167,
+     "type": "included",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل",
+     "title": "ترنسفر محلی در اختیار به مدت 3 روز",
+     "service_name": "ترنسفر محلی",
+     "description": "ترنسفر محلی در اختیار به مدت 3 روز",
+     "display_order": 4
+    },
+    {
+     "id": 17168,
+     "type": "included",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل",
+     "title": "لیدر مجرب محلی",
+     "service_name": "لیدر",
+     "description": "لیدر مجرب محلی",
+     "display_order": 5
+    },
+    {
+     "id": 17169,
+     "type": "included",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل",
+     "title": "تمام ورودیه ها",
+     "service_name": "ورودیه ها",
+     "description": "تمام ورودیه ها",
+     "display_order": 6
+    },
+    {
+     "id": 17170,
+     "type": "included",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل",
+     "title": "بیمه",
+     "service_name": "بیمه",
+     "description": "بیمه",
+     "display_order": 7
+    },
+    {
+     "id": 17171,
+     "type": "included",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل",
+     "title": "تمامی گشتها در یزد میبد اردکان",
+     "service_name": "گشت شهری",
+     "description": "تمامی گشتها در یزد میبد اردکان",
+     "display_order": 8
+    }
+   ],
+   "excluded": [
+    {
+     "id": 17172,
+     "type": "excluded",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل نمی‌شود",
+     "title": "2 وعده ناهار",
+     "service_name": "ناهار",
+     "description": "2 وعده ناهار",
+     "display_order": 9
+    },
+    {
+     "id": 17173,
+     "type": "excluded",
+     "service_type_id": null,
+     "service": null,
+     "type_label": "شامل نمی‌شود",
+     "title": "3 وعده شام",
+     "service_name": "شام",
+     "description": "3 وعده شام",
+     "display_order": 10
+    }
+   ],
+   "essential_items": [],
+   "safety_tips": []
+  },
+  "reviews": {
+   "data": [],
+   "rating_avg": "0.0",
+   "count": 0,
+   "metrics": [
+    {
+     "key": "program",
+     "label": "برنامه سفر",
+     "score": 0
+    },
+    {
+     "key": "transportation",
+     "label": "رفت و آمد",
+     "score": 0
+    },
+    {
+     "key": "guide",
+     "label": "تورلیدر",
+     "score": 0
+    },
+    {
+     "key": "accommodation",
+     "label": "اقامت",
+     "score": 0
+    },
+    {
+     "key": "food",
+     "label": "غذا",
+     "score": 0
+    },
+    {
+     "key": "operator",
+     "label": "برگزار کننده",
+     "score": 0
+    }
+   ]
+  },
+  "guide": {
+   "id": 199,
+   "public_id": "52465122",
+   "name": "فرزانه پورچیت ساز",
+   "first_name": "فرزانه پورچیت",
+   "last_name": "ساز",
+   "bio": "فارغ التحصیل رشته ایران شناسی و راهنمای رسمی \r\nاز سال ۹۶ فعال  در حوزه تاریخی فرهنگی \r\nاز سال ۹۷ فعا",
+   "experience": 10,
+   "avatar": "https://cdn.jabama.tours/tours/guides/variants/avatar/OC5TkHXvFYh7dI4ojZ4E7bO7wSthdGRSwcpckeLD.webp",
+   "instagram_username": null,
+   "instagram_url": null,
+   "instagram": null,
+   "telegram": null,
+   "social_links": [],
+   "total_tours": 0,
+   "completed_departures_count": 0,
+   "passengers_count": 0,
+   "rating": 0,
+   "review_count": 0,
+   "rating_sources": {
+    "direct": {
+     "weight": 0.7,
+     "rating": null,
+     "count": 0
+    },
+    "tour_reviews": {
+     "weight": 0.3,
+     "rating": null,
+     "count": 0
+    }
+   },
+   "is_verified": false,
+   "source": "manual",
+   "is_self": false,
+   "is_homepage_featured": false,
+   "homepage_display_order": null
+  },
+  "operator": {
+   "id": 59,
+   "public_id": "11061743",
+   "name": "آژانس فرین تراول",
+   "bio": "فرین تراول یک تیم تخصصی در طراحی و اجرای سفرهای متفاوت است؛ با تکیه بر تجربه و شناخت عمیق از مقاصد، ",
+   "experience": 6,
+   "total_tours": 0,
+   "completed_departures_count": 0,
+   "passengers_count": 0,
+   "rating": null,
+   "review_count": 0,
+   "rating_sources": {
+    "direct": {
+     "weight": 0.7,
+     "rating": null,
+     "count": 0
+    },
+    "tour_reviews": {
+     "weight": 0.3,
+     "rating": null,
+     "count": 0
+    }
+   },
+   "avatar": "https://cdn.jabama.tours/tours/operators/variants/avatar/srKnxywmUJ0TE5mJN8U1AsalFembjLdTWgp1ChbG.webp",
+   "instagram_username": null,
+   "instagram_url": null,
+   "instagram": null,
+   "telegram": null,
+   "social_links": [],
+   "is_homepage_featured": false,
+   "homepage_display_order": null
+  },
+  "faqs": [
+   {
+    "question": "چی بپوشیم؟",
+    "answer": "لباس مناسب فصل. کفش کاملاً راحت برای پیاده‌روی"
+   },
+   {
+    "question": "چی بیاریم؟",
+    "answer": "کرم ضدآفتاب، کلاه و عینک آفتابی\r\n بطری آب شخصی، داروهای شخصی\r\nکارت شناسایی."
+   },
+   {
+    "question": "نکات کلی سفر:",
+    "answer": "بخش قابل‌توجهی از گشت‌ها در بافت تاریخی و به‌صورت پیاده انجام می‌شود.\r\nبرنامه شامل بازدید از چند شهر و جاذبه تاریخی است و همراهی با برنامه زمانی تور ضروری است.\r\nآب‌وهوای یزد می‌تواند گرم و خشک باشد؛ آمادگی برای  کمی گرما و آفتاب در زمان سفر اهمیت دارد.\r\nاقامت در هتل انجام می‌شود، اما بخش اصلی جذابیت سفر، گشت در بافت تاریخی و تجربه فضای سنتی یزد است."
+   },
+   {
+    "question": "مناسب چه کسانی است؟",
+    "answer": "مناسب علاقه‌مندان به تاریخ، معماری، فرهنگ و شهرگردی\r\nمناسب افرادی که از پیاده‌روی در بافت‌های تاریخی و کوچه‌های قدیمی لذت می‌برند\r\nمناسب خانواده‌ها و افراد بالای ۸ سال"
+   }
+  ],
+  "cancellation_policy": {
+   "key": "medium",
+   "title": "متوسط",
+   "description": "بیشتر از ۱۴ روز مانده به اجرا، با ۱۰ درصد جریمه. ۱۴ الی ۷ روز مانده به اجرا، ۳۰ درصد جریمه و کمتر از ۷ روز با ۵۰ درصد جریمه و کمتر از یک روز مانده به اجرا امکان کنسلی وجود ندارد",
+   "rules": [
+    {
+     "title": "بیشتر از ۱۴ روز مانده به اجرا",
+     "penalty_percent": 10,
+     "refundable": true
+    },
+    {
+     "title": "۱۴ تا ۷ روز مانده به اجرا",
+     "penalty_percent": 30,
+     "refundable": true
+    },
+    {
+     "title": "کمتر از ۷ روز مانده به اجرا",
+     "penalty_percent": 50,
+     "refundable": true
+    },
+    {
+     "title": "کمتر از یک روز مانده به اجرا",
+     "penalty_percent": 100,
+     "refundable": false
+    }
+   ]
+  },
+  "is_featured": false,
+  "homepage_display_order": null,
+  "is_last_minute": false,
+  "is_private": false,
+  "is_favorited": false,
+  "is_liked": false,
+  "is_available": true,
+  "can_create_support_booking": false,
+  "available_seats": 20,
+  "allow_multi_variant_purchase": false,
+  "shared_capacity": true,
+  "minimum_participants_limit": null,
+  "completed_departures_count": 0,
+  "passengers_count": 0,
+  "start_date": "2026-10-06",
+  "end_date": "2026-10-30",
+  "departure_dates": [
+   {
+    "id": 893,
+    "date": "2026-10-06",
+    "time": "22:00",
+    "departure_type": "normal",
+    "minimum_participants": 1,
+    "sales_close_hours": 24,
+    "lifecycle_controls_enabled": true,
+    "has_sales": null,
+    "pricing_locked": null,
+    "price": 13300000,
+    "variant_prices": [
+     {
+      "variant_index": 0,
+      "variant_id": 1014,
+      "price": 13300000
+     },
+     {
+      "variant_index": 1,
+      "variant_id": 1015,
+      "price": 13700000
+     }
+    ],
+    "optional_services": [],
+    "has_contract": null,
+    "minimum_participants_limit": null,
+    "minimum_reached": false,
+    "available_seats": 20,
+    "defined_capacity": 20,
+    "booked_seats": 0,
+    "variant_capacities": [
+     {
+      "variant_index": 0,
+      "variant_id": 1014,
+      "name": "اتاق دبل",
+      "defined_capacity": 20,
+      "available_seats": 20,
+      "booked_seats": 0,
+      "is_active": true
+     },
+     {
+      "variant_index": 1,
+      "variant_id": 1015,
+      "name": "اتاق سینگل",
+      "defined_capacity": 20,
+      "available_seats": 20,
+      "booked_seats": 0,
+      "is_active": true
+     }
+    ]
+   },
+   {
+    "id": 894,
+    "date": "2026-10-13",
+    "time": "22:00",
+    "departure_type": "normal",
+    "minimum_participants": 1,
+    "sales_close_hours": 24,
+    "lifecycle_controls_enabled": true,
+    "has_sales": null,
+    "pricing_locked": null,
+    "price": 13300000,
+    "variant_prices": [
+     {
+      "variant_index": 0,
+      "variant_id": 1014,
+      "price": 13300000
+     },
+     {
+      "variant_index": 1,
+      "variant_id": 1015,
+      "price": 13700000
+     }
+    ],
+    "optional_services": [],
+    "has_contract": null,
+    "minimum_participants_limit": null,
+    "minimum_reached": false,
+    "available_seats": 20,
+    "defined_capacity": 20,
+    "booked_seats": 0,
+    "variant_capacities": [
+     {
+      "variant_index": 0,
+      "variant_id": 1014,
+      "name": "اتاق دبل",
+      "defined_capacity": 20,
+      "available_seats": 20,
+      "booked_seats": 0,
+      "is_active": true
+     },
+     {
+      "variant_index": 1,
+      "variant_id": 1015,
+      "name": "اتاق سینگل",
+      "defined_capacity": 20,
+      "available_seats": 20,
+      "booked_seats": 0,
+      "is_active": true
+     }
+    ]
+   },
+   {
+    "id": 895,
+    "date": "2026-10-20",
+    "time": "22:00",
+    "departure_type": "normal",
+    "minimum_participants": 1,
+    "sales_close_hours": 24,
+    "lifecycle_controls_enabled": true,
+    "has_sales": null,
+    "pricing_locked": null,
+    "price": 13300000,
+    "variant_prices": [
+     {
+      "variant_index": 0,
+      "variant_id": 1014,
+      "price": 13300000
+     },
+     {
+      "variant_index": 1,
+      "variant_id": 1015,
+      "price": 13700000
+     }
+    ],
+    "optional_services": [],
+    "has_contract": null,
+    "minimum_participants_limit": null,
+    "minimum_reached": false,
+    "available_seats": 20,
+    "defined_capacity": 20,
+    "booked_seats": 0,
+    "variant_capacities": [
+     {
+      "variant_index": 0,
+      "variant_id": 1014,
+      "name": "اتاق دبل",
+      "defined_capacity": 20,
+      "available_seats": 20,
+      "booked_seats": 0,
+      "is_active": true
+     },
+     {
+      "variant_index": 1,
+      "variant_id": 1015,
+      "name": "اتاق سینگل",
+      "defined_capacity": 20,
+      "available_seats": 20,
+      "booked_seats": 0,
+      "is_active": true
+     }
+    ]
+   },
+   {
+    "id": 896,
+    "date": "2026-10-27",
+    "time": "22:00",
+    "departure_type": "normal",
+    "minimum_participants": 1,
+    "sales_close_hours": 24,
+    "lifecycle_controls_enabled": true,
+    "has_sales": null,
+    "pricing_locked": null,
+    "price": 13300000,
+    "variant_prices": [
+     {
+      "variant_index": 0,
+      "variant_id": 1014,
+      "price": 13300000
+     },
+     {
+      "variant_index": 1,
+      "variant_id": 1015,
+      "price": 13700000
+     }
+    ],
+    "optional_services": [],
+    "has_contract": null,
+    "minimum_participants_limit": null,
+    "minimum_reached": false,
+    "available_seats": 20,
+    "defined_capacity": 20,
+    "booked_seats": 0,
+    "variant_capacities": [
+     {
+      "variant_index": 0,
+      "variant_id": 1014,
+      "name": "اتاق دبل",
+      "defined_capacity": 20,
+      "available_seats": 20,
+      "booked_seats": 0,
+      "is_active": true
+     },
+     {
+      "variant_index": 1,
+      "variant_id": 1015,
+      "name": "اتاق سینگل",
+      "defined_capacity": 20,
+      "available_seats": 20,
+      "booked_seats": 0,
+      "is_active": true
+     }
+    ]
+   }
+  ],
+  "view_count": 1342,
+  "created_at": "2026-09-28 14:11:00",
+  "updated_at": "2026-10-01 15:22:10"
+ }
+}

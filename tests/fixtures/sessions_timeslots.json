@@ -1,0 +1,66 @@
+[
+ {
+  "id": "23112009",
+  "eventId": "legacy-622",
+  "startIso": "2026-10-04T04:30:00.000Z",
+  "durationHours": 11,
+  "capacityLimit": null,
+  "bookedCount": 0,
+  "remainingSeats": null,
+  "enabled": true,
+  "inventoryMode": "general_admission",
+  "layoutId": null,
+  "timeslots": [
+   {
+    "id": "12857664",
+    "sessionId": "23112009",
+    "startAt": "2026-10-04T04:30:00.000Z",
+    "endAt": "2026-10-04T15:30:00.000Z",
+    "capacityLimit": 50,
+    "bookedCount": 0,
+    "remainingSeats": 50,
+    "enabled": true,
+    "pricePerPerson": null,
+    "unitPrice": null,
+    "hostDiscountPct": null,
+    "platformDiscountPct": null
+   }
+  ],
+  "pricePerPerson": null,
+  "unitPrice": null,
+  "hostDiscountPct": null,
+  "platformDiscountPct": null
+ },
+ {
+  "id": "15094488",
+  "eventId": "legacy-622",
+  "startIso": "2026-10-05T04:30:00.000Z",
+  "durationHours": 11,
+  "capacityLimit": null,
+  "bookedCount": 0,
+  "remainingSeats": null,
+  "enabled": true,
+  "inventoryMode": "general_admission",
+  "layoutId": null,
+  "timeslots": [
+   {
+    "id": "93475774",
+    "sessionId": "15094488",
+    "startAt": "2026-10-05T04:30:00.000Z",
+    "endAt": "2026-10-05T15:30:00.000Z",
+    "capacityLimit": 50,
+    "bookedCount": 0,
+    "remainingSeats": 50,
+    "enabled": true,
+    "pricePerPerson": null,
+    "unitPrice": null,
+    "hostDiscountPct": null,
+    "platformDiscountPct": null
+   }
+  ],
+  "pricePerPerson": null,
+  "unitPrice": null,
+  "hostDiscountPct": null,
+  "platformDiscountPct": null
+ }
+]

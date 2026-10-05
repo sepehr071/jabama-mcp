@@ -1,0 +1,35 @@
+[
+ {
+  "slug": "tehran",
+  "label": "تهران",
+  "provinceSlug": "tehran",
+  "provinceLabel": "تهران",
+  "featured": true,
+  "eventCount": 104,
+  "eventsCount": 83,
+  "experiencesCount": 24,
+  "todayAvailable": true
+ },
+ {
+  "slug": "bandar_anzali",
+  "label": "بندر انزلی",
+  "provinceSlug": "gilan",
+  "provinceLabel": "گیلان",
+  "featured": true,
+  "eventCount": 12,
+  "eventsCount": 0,
+  "experiencesCount": 12,
+  "todayAvailable": false
+ },
+ {
+  "slug": "ramsar",
+  "label": "رامسر",
+  "provinceSlug": "mazandaran",
+  "provinceLabel": "مازندران",
+  "featured": true,
+  "eventCount": 11,
+  "eventsCount": 0,
+  "experiencesCount": 11,
+  "todayAvailable": false
+ }
+]

@@ -1,0 +1,141 @@
+{
+ "items": [
+  {
+   "id": "02607532",
+   "title": "وضعیت سفید",
+   "duration": "ساعات بازدید: ۱0 - ۲2",
+   "partySizeLabel": null,
+   "capacityLabel": "۱ تا ۱۰۰۰۰ نفر",
+   "category": {
+    "slug": "event-and-workshop",
+    "label": "ایونت و ورکشاپ"
+   },
+   "coverImage": "https://cdn.jabama.events/experience/images/2026-09/nE7Wk3mudHuWjTjL.jpg",
+   "city": {
+    "slug": "tehran",
+    "label": "تهران"
+   },
+   "approximate": {
+    "centerLat": 35.75102790876986,
+    "centerLng": 51.45033242672869,
+    "radiusMeters": 500
+   },
+   "locationLabel": "برج گذر سامان",
+   "organizerId": "or-8954025",
+   "organizerName": "جاباما ایونت",
+   "organizerUsername": "tajrobe",
+   "placeId": null,
+   "pricePerPerson": 0,
+   "rating": "۰.۰",
+   "reviewCount": 0,
+   "scheduleType": "multi",
+   "firstAvailableSessionStartIso": "2026-10-04T07:30:00.000Z",
+   "customDate": false,
+   "capacityType": "global",
+   "inventoryMode": "general_admission",
+   "pricingMode": "per_person",
+   "unitPrice": null,
+   "minPriceAfterDiscount": 0,
+   "priceVaries": false,
+   "maxDiscountPct": 0,
+   "active": true,
+   "linkOnly": false,
+   "placements": [
+    "events"
+   ],
+   "createdAt": "2026-09-30T12:46:31.104Z"
+  },
+  {
+   "id": "10177067",
+   "title": "ایونت هونِـر \"رقصِ دَستان در خَزان\"",
+   "duration": "ساعات بازدید: ۱6 - ۲2",
+   "partySizeLabel": null,
+   "capacityLabel": "۱ تا ۱۰۰۰ نفر",
+   "category": {
+    "slug": "event-and-workshop",
+    "label": "ایونت و ورکشاپ"
+   },
+   "coverImage": "https://cdn.jabama.events/experience/images/2026-10/NUPzc2NFBQpRXfGy.jpg",
+   "city": {
+    "slug": "tehran",
+    "label": "تهران"
+   },
+   "approximate": {
+    "centerLat": 35.7920699724254,
+    "centerLng": 51.49040370567111,
+    "radiusMeters": 500
+   },
+   "locationLabel": "عمارت عقاب",
+   "organizerId": "or-8954025",
+   "organizerName": "جاباما ایونت",
+   "organizerUsername": "tajrobe",
+   "placeId": "65165209",
+   "pricePerPerson": 0,
+   "rating": "۰.۰",
+   "reviewCount": 0,
+   "scheduleType": "multi",
+   "firstAvailableSessionStartIso": "2026-10-21T12:30:00.000Z",
+   "customDate": false,
+   "capacityType": "global",
+   "inventoryMode": "general_admission",
+   "pricingMode": "per_person",
+   "unitPrice": null,
+   "minPriceAfterDiscount": 0,
+   "priceVaries": false,
+   "maxDiscountPct": 0,
+   "active": true,
+   "linkOnly": false,
+   "placements": [
+    "events"
+   ],
+   "createdAt": "2026-10-03T14:57:29.077Z"
+  },
+  {
+   "id": "25460660",
+   "title": "نهمین نمایشگاه بین‌المللی سفر و صنایع وابسته",
+   "duration": "ساعات بازدید: ۱۱ - ۲۰",
+   "partySizeLabel": null,
+   "capacityLabel": "۱ تا ۱۰۰۰ نفر",
+   "category": {
+    "slug": "event-and-workshop",
+    "label": "ایونت و ورکشاپ"
+   },
+   "coverImage": "https://cdn.jabama.events/experience/images/2026-09/qxmG6bd5usiHHfhx.jpg",
+   "city": {
+    "slug": "tehran",
+    "label": "تهران"
+   },
+   "approximate": {
+    "centerLat": 35.5418383142916,
+    "centerLng": 51.35271461738296,
+    "radiusMeters": 500
+   },
+   "locationLabel": "مرکز نمایشگاهی شهر آفتاب",
+   "organizerId": "or-8954025",
+   "organizerName": "جاباما ایونت",
+   "organizerUsername": "tajrobe",
+   "placeId": "56546527",
+   "pricePerPerson": 0,
+   "rating": "۰.۰",
+   "reviewCount": 0,
+   "scheduleType": "multi",
+   "firstAvailableSessionStartIso": "2026-10-06T07:30:00.000Z",
+   "customDate": false,
+   "capacityType": "global",
+   "inventoryMode": "general_admission",
+   "pricingMode": "per_person",
+   "unitPrice": null,
+   "minPriceAfterDiscount": 0,
+   "priceVaries": false,
+   "maxDiscountPct": 0,
+   "active": true,
+   "linkOnly": false,
+   "placements": [
+    "events"
+   ],
+   "createdAt": "2026-09-30T12:38:28.890Z"
+  }
+ ],
+ "nextCursor": "eyJzIjoiMjk4NTIwNCIsInAiOjAsInQiOjEsImgiOiJmOGUxZGY5YzQ4MThiYjE3NzEwYzI3NGM5OTAyMjhjMCIsImkiOiIxNzIyNjE3MSJ9",
+ "total": 104
+}

@@ -1,0 +1,270 @@
+{
+ "result": {
+  "amenities": [
+   {
+    "title": {
+     "fa": "پایه",
+     "en": "basic-facilities"
+    },
+    "items": [
+     {
+      "title": {
+       "fa": "آب",
+       "en": "water"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/c700cae7-b819-41e0-b88d-61493bbfc360.svg"
+      },
+      "state": true,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "برق",
+       "en": "electric"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/ffc6babc-5f01-40db-8999-30ae7632d9f1.svg"
+      },
+      "state": true,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "گاز",
+       "en": "gas"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/494c126b-42c1-4985-94f3-bdfdb4797211.svg"
+      },
+      "state": true,
+      "items": []
+     }
+    ]
+   },
+   {
+    "title": {
+     "fa": "بهداشتی",
+     "en": "sanitary-amenities"
+    },
+    "items": [
+     {
+      "title": {
+       "fa": "سرویس بهداشتی ایرانی",
+       "en": "pwc"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/804f3d7b-993a-44aa-9d61-4ea16a28dcc0.svg"
+      },
+      "state": true,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "سرویس بهداشتی فرنگی",
+       "en": "wc"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/70af058b-97f1-4cc8-9fed-27041944ab31.svg"
+      },
+      "state": true,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "حمام",
+       "en": "bathroom"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/241e315c-578b-463b-bd1f-ef1aa9ac801a.svg"
+      },
+      "state": true,
+      "items": []
+     }
+    ]
+   },
+   {
+    "title": {
+     "fa": "آشپزخانه",
+     "en": "kitchen-amenities"
+    },
+    "items": [
+     {
+      "title": {
+       "fa": "یخچال",
+       "en": "refrigerator"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/e9851a1b-a2e2-4751-a5c1-025918074d16.svg"
+      },
+      "state": true,
+      "items": []
+     }
+    ]
+   },
+   {
+    "title": {
+     "fa": "رفاهی",
+     "en": "welfare-amenities"
+    },
+    "items": [
+     {
+      "title": {
+       "fa": "سیستم گرمایشی",
+       "en": "heating-system"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/5c45f09e-c5d8-49de-a17f-af987186e8d4.svg"
+      },
+      "state": true,
+      "items": [
+       "بخاری برقی"
+      ]
+     }
+    ]
+   },
+   {
+    "title": {
+     "fa": "محیطی",
+     "en": "building-amenities"
+    },
+    "items": [
+     {
+      "title": {
+       "fa": "بالکن",
+       "en": "balcony"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/b6487f6b-286c-4757-a4b7-8953721e1553.svg"
+      },
+      "state": true,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "فضای سبز",
+       "en": "greenery"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/5a34dd42-be19-443a-b32d-228ba3fdef71.svg"
+      },
+      "state": true,
+      "items": []
+     }
+    ]
+   },
+   {
+    "title": {
+     "fa": "امکاناتی که در اقامتگاه فراهم نیست",
+     "en": "amenities-that-are-not-available-in-the-accommodation"
+    },
+    "items": [
+     {
+      "title": {
+       "fa": "پارکینگ",
+       "en": "parking"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/d4e3b859-0a41-4e28-92d2-42ab42605af6.svg"
+      },
+      "state": false,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "سیستم سرمایشی",
+       "en": "air-conditioning-system"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/image/jabama-images/0/6120bc8c-38d9-4957-ada6-13798627d090.png"
+      },
+      "state": false,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "لوازم سرو غذا",
+       "en": "food-serving-equipment"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/f94cfe17-0169-4894-a06f-d993cf3ea244.svg"
+      },
+      "state": false,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "وسایل پخت و پز",
+       "en": "cooking-appliances"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/469faf28-a5b4-4ab9-8082-13dd60e1ad8d.svg"
+      },
+      "state": false,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "اجاق گاز",
+       "en": "gas-stove"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/58c2a5e9-eb55-403f-badc-195b04300a4e.svg"
+      },
+      "state": false,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "آشپزخانه",
+       "en": "kitchen"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/c1d14ade-a7ba-4f3e-9826-2e85676bf29d.svg"
+      },
+      "state": false,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "استخر",
+       "en": "swimming-pool"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/image/jabama-images/0/00f98674-75a4-47ca-9f3d-e33a32d42c39.png"
+      },
+      "state": false,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "مبلمان",
+       "en": "sofa"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/251b5d73-3e95-418c-8f2a-32ee3313d467.svg"
+      },
+      "state": false,
+      "items": []
+     },
+     {
+      "title": {
+       "fa": "تلویزیون",
+       "en": "tv"
+      },
+      "icon": {
+       "url": "https://cdn.jabama.com/original/jabama-images/0/21531228-94f0-40bf-be24-26464a9c7407.svg"
+      },
+      "state": false,
+      "items": []
+     }
+    ]
+   }
+  ]
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true
+}

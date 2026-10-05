@@ -1,0 +1,69 @@
+{
+ "data": [
+  {
+   "id": 50,
+   "name": "یزد",
+   "name_en": "yazd",
+   "slug": "yazd-2",
+   "type": "city",
+   "type_label": "شهر",
+   "has_tours": true,
+   "parent": {
+    "id": 49,
+    "name": "یزد"
+   }
+  },
+  {
+   "id": 49,
+   "name": "یزد",
+   "name_en": "yazd",
+   "slug": "yazd",
+   "type": "province",
+   "type_label": "استان",
+   "has_tours": true,
+   "parent": {
+    "id": 7978,
+    "name": "مرکز"
+   }
+  },
+  {
+   "id": 1302,
+   "name": "ایزدخواست",
+   "name_en": "izadkhast",
+   "slug": "izadkhast",
+   "type": "city",
+   "type_label": "شهر",
+   "has_tours": false,
+   "parent": {
+    "id": 15,
+    "name": "فارس"
+   }
+  },
+  {
+   "id": 766,
+   "name": "ایزدشهر",
+   "name_en": "izadshahr",
+   "slug": "izadshahr",
+   "type": "city",
+   "type_label": "شهر",
+   "has_tours": false,
+   "parent": {
+    "id": 33,
+    "name": "مازندران"
+   }
+  },
+  {
+   "id": 1607,
+   "name": "یزدان شهر",
+   "name_en": "yazdanshahr",
+   "slug": "yazdanshahr",
+   "type": "city",
+   "type_label": "شهر",
+   "has_tours": false,
+   "parent": {
+    "id": 55,
+    "name": "کرمان"
+   }
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+[
+ {
+  "slug": "offroad",
+  "label": "آفرود",
+  "eventCount": 0
+ },
+ {
+  "slug": "escape-room",
+  "label": "اتاق فرار",
+  "eventCount": 0
+ },
+ {
+  "slug": "event-and-workshop",
+  "label": "ایونت و ورکشاپ",
+  "eventCount": 37
+ },
+ {
+  "slug": "vr-gaming",
+  "label": "بازی واقعیت مجازی",
+  "eventCount": 0
+ },
+ {
+  "slug": "immersive",
+  "label": "تجربه تعاملی",
+  "eventCount": 0
+ },
+ {
+  "slug": "local-life",
+  "label": "تجربه زندگی بومی و محلی",
+  "eventCount": 0
+ },
+ {
+  "slug": "experiences-of-peace-and-relaxation",
+  "label": "تجربه های آرامش و ریلکسیشن",
+  "eventCount": 0
+ },
+ {
+  "slug": "telecabin",
+  "label": "تله کابین",
+  "eventCount": 0
+ },
+ {
+  "slug": "tour",
+  "label": "تور و گشت",
+  "eventCount": 0
+ },
+ {
+  "slug": "bike-tour",
+  "label": "دوچرخه و موتور سواری",
+  "eventCount": 0
+ },
+ {
+  "slug": "pottery",
+  "label": "سفالگری",
+  "eventCount": 3
+ },
+ {
+  "slug": "wellness",
+  "label": "سلامت و آرامش",
+  "eventCount": 0
+ },
+ {
+  "slug": "riding",
+  "label": "سوارکاری",
+  "eventCount": 0
+ },
+ {
+  "slug": "amusement-park",
+  "label": "شهربازی",
+  "eventCount": 0
+ },
+ {
+  "slug": "nature",
+  "label": "طبیعت‌گردی",
+  "eventCount": 0
+ },
+ {
+  "slug": "food",
+  "label": "غذا و آشپزی",
+  "eventCount": 0
+ },
+ {
+  "slug": "boats",
+  "label": "قایق",
+  "eventCount": 0
+ },
+ {
+  "slug": "karting",
+  "label": "کارتینگ",
+  "eventCount": 0
+ },
+ {
+  "slug": "workshop",
+  "label": "کارگاه",
+  "eventCount": 1
+ },
+ {
+  "slug": "cruise-ship-and-private-yacht",
+  "label": "کشتی تفریحی و یات خصوصی",
+  "eventCount": 0
+ },
+ {
+  "slug": "concert",
+  "label": "کنسرت",
+  "eventCount": 1
+ },
+ {
+  "slug": "gallery",
+  "label": "گالری",
+  "eventCount": 51
+ },
+ {
+  "slug": "cityexplor",
+  "label": "گشت های شهری",
+  "eventCount": 0
+ },
+ {
+  "slug": "adventure-and-excitement",
+  "label": "ماجرا جویی و هیجان",
+  "eventCount": 0
+ },
+ {
+  "slug": "museum",
+  "label": "موزه",
+  "eventCount": 1
+ },
+ {
+  "slug": "music",
+  "label": "موسیقی",
+  "eventCount": 0
+ },
+ {
+  "slug": "sport",
+  "label": "ورزش و ماجراجویی",
+  "eventCount": 1
+ },
+ {
+  "slug": "art-crafts",
+  "label": "هنر و صنایع‌دستی",
+  "eventCount": 9
+ }
+]

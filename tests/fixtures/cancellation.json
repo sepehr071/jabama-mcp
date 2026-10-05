@@ -1,0 +1,61 @@
+{
+ "result": {
+  "cancellationPolicy": [
+   {
+    "id": "637a0ce14ac791001be59bac",
+    "title": "متعادل ",
+    "beforeCheckIn": {
+     "title": "4 روز قبل از ورود مهمان",
+     "text": " 10٪ مبلغ شب اول + 10٪ مبلغ شب‌های باقیمانده",
+     "color": "#42c3ab",
+     "icon": "https://www.jabama.com/_assets/70f5462979bab1c8be051d368eb6e7e8.svg#i-jabama-persian-logo"
+    },
+    "untilCheckIn": {
+     "title": "تا روز ورود مهمان",
+     "text": " 50٪ مبلغ شب اول + 20٪ مبلغ شب‌های باقیمانده",
+     "color": "#ffa500",
+     "icon": ""
+    },
+    "afterCheckIn": {
+     "title": "از روز ورود تا خروج مهمان",
+     "text": " 100٪ مبلغ شب‌های سپری شده + 50٪ مبلغ شب‌های باقیمانده",
+     "color": "#ea5045",
+     "icon": "https://www.jabama.com/_assets/70f5462979bab1c8be051d368eb6e7e8.svg#i-jabama-persian-logo"
+    },
+    "isDefault": false,
+    "jabamaCommission": 15,
+    "description": "از لحظه رزرو تا 4 روز قبل از تاریخ ورود 10٪ مبلغ شب اول و 10٪ مبلغ شب‌های باقیمانده کسر می‌گردد. "
+   },
+   {
+    "id": "-1",
+    "title": "قوانین ویژه روزهای پیک",
+    "beforeCheckIn": {
+     "title": "بیش از 10 روز مانده به تاریخ ورود",
+     "text": "وجه به صورت کامل به میهمان عودت می‌شود.",
+     "color": "#42c3ab",
+     "icon": "https://www.jabama.com/_assets/70f5462979bab1c8be051d368eb6e7e8.svg#i-jabama-persian-logo"
+    },
+    "untilCheckIn": {
+     "title": "کمتر از 10 روز مانده به تاریخ ورود",
+     "text": "100 درصد مبلغ شب اول و 50 درصد مبلغ سایر شب‌ها کسر می شود.",
+     "color": "#ffa500",
+     "icon": ""
+    },
+    "afterCheckIn": {
+     "title": "روز ورود به بعد",
+     "text": "کل مبلغ رزرو کسر می‌شود.",
+     "color": "#ea5045",
+     "icon": "https://www.jabama.com/_assets/70f5462979bab1c8be051d368eb6e7e8.svg#i-jabama-persian-logo"
+    },
+    "isDefault": false,
+    "jabamaCommission": 20,
+    "description": "بیش از 10 روز مانده به تاریخ ورود (قبل از ساعت 00:00) وجه به صورت کامل به میهمان عودت می‌شود..کمتر از ۱۰ روز مانده به تاریخ ورود تا روز ورود (قبل از ساعت 00:00) 100 درصد مبلغ شب اول و 50 درصد مبلغ سایر شب‌ها کسر می شود.از روز ورود به بعد کل مبلغ رزرو کسر می شود"
+   }
+  ]
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true
+}

@@ -1,0 +1,241 @@
+{
+ "result": [
+  {
+   "code": 328354,
+   "name": "نسا - بارانک",
+   "type": "ecotourism",
+   "accommodationType": "ecotourism",
+   "reservationType": "preApprove",
+   "kind": "personalRoom",
+   "images": [
+    "https://cdn.jabama.com/image/jabama-images/543053/d41692a8-5cb5-43d3-8af1-c09f588ca753.jpeg"
+   ],
+   "placeType": "personalRoom",
+   "location": {
+    "province": "مازندران",
+    "city": "تنکابن"
+   },
+   "accommodationMetrics": {
+    "bedroomsCount": 0
+   },
+   "rawCapacity": {
+    "base": 4,
+    "extra": 4
+   },
+   "unitCount": 1,
+   "unitCapacity": 8,
+   "rate_review": {
+    "count": 11,
+    "score": 4.1
+   },
+   "tags": [
+    "webengage_hosts",
+    "noneguarant",
+    "notintimate",
+    "exclusiveacc",
+    "largegarden"
+   ],
+   "min_price": 30000000,
+   "price": {
+    "isGuarantee": false,
+    "isDefaultDate": true,
+    "perNight": 30000000,
+    "discountedPrice": 30000000,
+    "discountPercent": 0
+   }
+  },
+  {
+   "code": 363623,
+   "name": "عمارت فرشتگان - واحد یاس",
+   "type": "ecotourism",
+   "accommodationType": "ecotourism",
+   "reservationType": "preApprove",
+   "kind": "personalRoom",
+   "images": [
+    "https://cdn.jabama.com/image/jabama-images/1456713/0cc7cc3e-0c71-4f07-b2d6-b4ed2baf5775.jpeg"
+   ],
+   "placeType": "personalRoom",
+   "location": {
+    "province": "مازندران",
+    "city": "تنکابن"
+   },
+   "accommodationMetrics": {
+    "bedroomsCount": 0
+   },
+   "rawCapacity": {
+    "base": 5,
+    "extra": 5
+   },
+   "unitCount": 1,
+   "unitCapacity": 10,
+   "rate_review": {
+    "count": 8,
+    "score": 4.1
+   },
+   "tags": [
+    "webengage_hosts",
+    "earlybirdkhordad",
+    "lastsecondpromotion",
+    "noneguarant",
+    "exclusiveacc",
+    "pricing-affordable",
+    "competitive-pricing",
+    "jungleacc"
+   ],
+   "min_price": 16200000,
+   "price": {
+    "isGuarantee": false,
+    "isDefaultDate": true,
+    "perNight": 16200000,
+    "discountedPrice": 16200000,
+    "discountPercent": 10
+   }
+  },
+  {
+   "code": 364106,
+   "name": "عمارت فرشتگان - واحد گلابی",
+   "type": "ecotourism",
+   "accommodationType": "ecotourism",
+   "reservationType": "preApprove",
+   "kind": "personalRoom",
+   "images": [
+    "https://cdn.jabama.com/image/jabama-images/1456713/0cc7cc3e-0c71-4f07-b2d6-b4ed2baf5775.jpeg"
+   ],
+   "placeType": "personalRoom",
+   "location": {
+    "province": "مازندران",
+    "city": "تنکابن"
+   },
+   "accommodationMetrics": {
+    "bedroomsCount": 0
+   },
+   "rawCapacity": {
+    "base": 2,
+    "extra": 2
+   },
+   "unitCount": 1,
+   "unitCapacity": 4,
+   "rate_review": {
+    "count": 25,
+    "score": 4.2
+   },
+   "tags": [
+    "webengage_hosts",
+    "earlybirdkhordad",
+    "noneguarant",
+    "exclusiveacc",
+    "pricing-affordable",
+    "competitive-pricing",
+    "longstaysdiscount",
+    "jungleacc"
+   ],
+   "min_price": 6300000,
+   "price": {
+    "isGuarantee": false,
+    "isDefaultDate": true,
+    "perNight": 6300000,
+    "discountedPrice": 6300000,
+    "discountPercent": 20
+   }
+  },
+  {
+   "code": 364107,
+   "name": "عمارت فرشتگان - واحد ساناز",
+   "type": "ecotourism",
+   "accommodationType": "ecotourism",
+   "reservationType": "preApprove",
+   "kind": "personalRoom",
+   "images": [
+    "https://cdn.jabama.com/image/jabama-images/1456713/95cf1f2a-cb03-46d5-97bf-097aae834e9d.jpeg"
+   ],
+   "placeType": "personalRoom",
+   "location": {
+    "province": "مازندران",
+    "city": "تنکابن"
+   },
+   "accommodationMetrics": {
+    "bedroomsCount": 0
+   },
+   "rawCapacity": {
+    "base": 5,
+    "extra": 5
+   },
+   "unitCount": 1,
+   "unitCapacity": 10,
+   "rate_review": {
+    "count": 7,
+    "score": 2.9
+   },
+   "tags": [
+    "webengage_hosts",
+    "earlybirdkhordad",
+    "lastsecondpromotion",
+    "noneguarant",
+    "nowruz1403-2",
+    "exclusiveacc",
+    "jungleacc"
+   ],
+   "min_price": 18000000,
+   "price": {
+    "isGuarantee": false,
+    "isDefaultDate": true,
+    "perNight": 18000000,
+    "discountedPrice": 18000000,
+    "discountPercent": 10
+   }
+  },
+  {
+   "code": 83440,
+   "name": "چام و چاشت - واحد شوبین",
+   "type": "ecotourism",
+   "accommodationType": "ecotourism",
+   "reservationType": "preApprove",
+   "kind": "personalRoom",
+   "images": [
+    "https://cdn.jabama.com/image/jabama-images/1681067/05ff7020-d13e-4ff2-bddd-42d21eb72cd1.jpg"
+   ],
+   "placeType": "personalRoom",
+   "location": {
+    "province": "مازندران",
+    "city": "تنکابن"
+   },
+   "accommodationMetrics": {
+    "bedroomsCount": 0
+   },
+   "rawCapacity": {
+    "base": 2,
+    "extra": 2
+   },
+   "unitCount": 1,
+   "unitCapacity": 4,
+   "rate_review": {
+    "count": 60,
+    "score": 4.5
+   },
+   "tags": [
+    "webengage_hosts",
+    "earlybirdkhordad",
+    "early2",
+    "noneguarant",
+    "nowruz1403-2",
+    "instant",
+    "notintimate",
+    "exclusiveacc",
+    "couples",
+    "hospitalityacc",
+    "allcategory",
+    "breakfastcategory",
+    "largegarden"
+   ],
+   "min_price": 19100000,
+   "price": {
+    "isGuarantee": false,
+    "isDefaultDate": true,
+    "perNight": 19100000,
+    "discountedPrice": 19100000,
+    "discountPercent": 0
+   }
+  }
+ ],
+ "success": true
+}

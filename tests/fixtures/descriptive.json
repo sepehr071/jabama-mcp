@@ -1,0 +1,53 @@
+{
+ "result": {
+  "search_patch": {
+   "amenities": [
+    "swimming-pool"
+   ],
+   "date": {
+    "start": 20261020,
+    "end": 20261023
+   },
+   "capacity": 6,
+   "location-cities": [
+    "ramsar"
+   ],
+   "price": {
+    "end": 100000000
+   },
+   "types": [
+    "villa"
+   ]
+  },
+  "titles": [
+   {
+    "title": "ویلا",
+    "key": "types:villa"
+   },
+   {
+    "title": "استخر",
+    "key": "amenities:swimming-pool"
+   },
+   {
+    "title": "رامسر",
+    "key": "location-cities:ramsar"
+   },
+   {
+    "title": "از ۲۸ مهر تا ۱ آبان",
+    "key": "date"
+   },
+   {
+    "title": "۶ نفر",
+    "key": "capacity"
+   },
+   {
+    "title": "شبی تا ۱۰٬۰۰۰٬۰۰۰ تومان",
+    "key": "price:end"
+   }
+  ]
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false
+}

@@ -1,0 +1,461 @@
+{
+ "result": {
+  "total": 5,
+  "items": [
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "6008bad8c09e4f4d0ead5abf",
+    "image": "https://cdn.jabama.com/image/jabama-images/1681067/05ff7020-d13e-4ff2-bddd-42d21eb72cd1.jpg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/1681067/05ff7020-d13e-4ff2-bddd-42d21eb72cd1.jpg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 61500000,
+    "disinfected": null,
+    "name": "بومگردی چام و چاشت - واحد شوبین",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "6008bad8c09e4f4d0ead5abf",
+    "region": "rustic",
+    "reservation_type": "preApprove",
+    "code": 83440,
+    "room_id": "83440_1",
+    "location": {
+     "city": "تنکابن",
+     "geo": {
+      "lat": 36.6444828,
+      "long": 50.73300626703418
+     },
+     "province": "مازندران",
+     "cityEn": "tonekabon",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 4.5,
+     "count": 60,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "noneguarant",
+     "nowruz1403-2",
+     "webengage_hosts",
+     "earlybirdkhordad",
+     "early2",
+     "instant",
+     "exclusiveacc",
+     "notintimate",
+     "couples",
+     "hospitalityacc",
+     "allcategory",
+     "largegarden",
+     "breakfastcategory"
+    ],
+    "type": "ecotourism",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": false,
+    "other_rooms": [],
+    "capacity": {
+     "base": 4,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 2,
+     "extra": 2
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 61500000,
+     "perNight": 19100000,
+     "discountPercent": 0,
+     "discountedPrice": 61500000,
+     "capacity": {
+      "base": 4,
+      "extra": 2
+     },
+     "isGuarantee": false,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان",
+     "nights_count": 3,
+     "vatPrice": null,
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [],
+    "unitCount": 1,
+    "unitCapacity": 4,
+    "rankTag": "lead_time_controller_15",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 15375000
+    }
+   },
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "62318eb4910571001c73c086",
+    "image": "https://cdn.jabama.com/image/jabama-images/1456713/0cc7cc3e-0c71-4f07-b2d6-b4ed2baf5775.jpeg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/1456713/0cc7cc3e-0c71-4f07-b2d6-b4ed2baf5775.jpeg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 19600000,
+    "disinfected": null,
+    "name": "بومگردی عمارت فرشتگان - واحد گلابی",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "62318eb4910571001c73c086",
+    "region": "jungle",
+    "reservation_type": "preApprove",
+    "code": 364106,
+    "room_id": "364106_1",
+    "location": {
+     "city": "تنکابن",
+     "geo": {
+      "lat": 36.7979486,
+      "long": 50.77239874497096
+     },
+     "province": "مازندران",
+     "cityEn": "tonekabon",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 4.2,
+     "count": 25,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "noneguarant",
+     "webengage_hosts",
+     "earlybirdkhordad",
+     "exclusiveacc",
+     "pricing-affordable",
+     "competitive-pricing",
+     "longstaysdiscount",
+     "jungleacc"
+    ],
+    "type": "ecotourism",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": false,
+    "other_rooms": [],
+    "capacity": {
+     "base": 4,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 2,
+     "extra": 2
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 19600000,
+     "perNight": 6300000,
+     "discountPercent": 0,
+     "discountedPrice": 19600000,
+     "capacity": {
+      "base": 4,
+      "extra": 2
+     },
+     "isGuarantee": false,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان",
+     "nights_count": 3,
+     "vatPrice": null,
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [
+     {
+      "name": "قیمت منصفانه",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/99a2b9ce-b546-4212-922e-afe6d93cd627.png",
+      "description": "قيمت اين اقامتكاه، بر اساس ميزان بازديد وتقاضا، روز هفته و نظرات مهمانان، به صورت خودكار و هوشمند تعيين شده است."
+     }
+    ],
+    "unitCount": 1,
+    "unitCapacity": 4,
+    "rankTag": "lead_time_controller_15",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 4900000
+    }
+   },
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "622ee98b2d1063001c54f68e",
+    "image": "https://cdn.jabama.com/image/jabama-images/1456713/0cc7cc3e-0c71-4f07-b2d6-b4ed2baf5775.jpeg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/1456713/0cc7cc3e-0c71-4f07-b2d6-b4ed2baf5775.jpeg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 54000000,
+    "disinfected": null,
+    "name": "بومگردی عمارت فرشتگان - واحد یاس",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "622ee98b2d1063001c54f68e",
+    "region": "jungle",
+    "reservation_type": "preApprove",
+    "code": 363623,
+    "room_id": "363623_1",
+    "location": {
+     "city": "تنکابن",
+     "geo": {
+      "lat": 36.798002,
+      "long": 50.772466464671716
+     },
+     "province": "مازندران",
+     "cityEn": "tonekabon",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 4.1,
+     "count": 8,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "noneguarant",
+     "webengage_hosts",
+     "earlybirdkhordad",
+     "lastsecondpromotion",
+     "exclusiveacc",
+     "pricing-affordable",
+     "competitive-pricing",
+     "jungleacc"
+    ],
+    "type": "ecotourism",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": false,
+    "other_rooms": [],
+    "capacity": {
+     "base": 10,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 5,
+     "extra": 5
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 54000000,
+     "perNight": 18000000,
+     "discountPercent": 0,
+     "discountedPrice": 54000000,
+     "capacity": {
+      "base": 10,
+      "extra": 5
+     },
+     "isGuarantee": false,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان",
+     "nights_count": 3,
+     "vatPrice": null,
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [
+     {
+      "name": "قیمت منصفانه",
+      "icon": "https://cdn.jabama.com/image/jabama-images/0/99a2b9ce-b546-4212-922e-afe6d93cd627.png",
+      "description": "قيمت اين اقامتكاه، بر اساس ميزان بازديد وتقاضا، روز هفته و نظرات مهمانان، به صورت خودكار و هوشمند تعيين شده است."
+     }
+    ],
+    "unitCount": 1,
+    "unitCapacity": 10,
+    "rankTag": "lead_time_controller_15",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 13500000
+    }
+   },
+   {
+    "accommodationMetrics": {
+     "areaSize": 0,
+     "bathroomsCount": 0,
+     "bedroomsCount": 0,
+     "buildingSize": 0,
+     "iranianToiletsCount": 0,
+     "toiletsCount": 0
+    },
+    "amenities": [],
+    "description": null,
+    "id": "62318eb5910571001c73c087",
+    "image": "https://cdn.jabama.com/image/jabama-images/1456713/95cf1f2a-cb03-46d5-97bf-097aae834e9d.jpeg",
+    "withoutCheckInHint": null,
+    "images": [
+     "https://cdn.jabama.com/image/jabama-images/1456713/95cf1f2a-cb03-46d5-97bf-097aae834e9d.jpeg"
+    ],
+    "kind": "personalRoom",
+    "min_night": null,
+    "min_price": 60000000,
+    "disinfected": null,
+    "name": "بومگردی عمارت فرشتگان - واحد ساناز",
+    "nameEn": null,
+    "alibaba_title": null,
+    "payment_type": "full",
+    "place_id": "62318eb5910571001c73c087",
+    "region": "jungle",
+    "reservation_type": "preApprove",
+    "code": 364107,
+    "room_id": "364107_1",
+    "location": {
+     "city": "تنکابن",
+     "geo": {
+      "lat": 36.7982601,
+      "long": 50.77279377655871
+     },
+     "province": "مازندران",
+     "cityEn": "tonekabon",
+     "provinceEn": "mazandaran"
+    },
+    "rate_review": {
+     "score": 2.9,
+     "count": 7,
+     "badgeText": null
+    },
+    "suitable_for": [],
+    "tags": [
+     "noneguarant",
+     "nowruz1403-2",
+     "webengage_hosts",
+     "earlybirdkhordad",
+     "lastsecondpromotion",
+     "exclusiveacc",
+     "jungleacc"
+    ],
+    "type": "ecotourism",
+    "verified": true,
+    "version": null,
+    "status": "confirmed",
+    "complex": false,
+    "other_rooms": [],
+    "capacity": {
+     "base": 10,
+     "extra": 0
+    },
+    "rawCapacity": {
+     "base": 5,
+     "extra": 5
+    },
+    "star": null,
+    "price": {
+     "mainPrice": 60000000,
+     "perNight": 20000000,
+     "discountPercent": 0,
+     "discountedPrice": 60000000,
+     "capacity": {
+      "base": 10,
+      "extra": 5
+     },
+     "isGuarantee": false,
+     "isDefaultDate": false,
+     "text": "28 مهر تا 1 آبان",
+     "nights_count": 3,
+     "vatPrice": null,
+     "checkin": "2026-10-20",
+     "checkout": "2026-10-23",
+     "fa_checkin": "1405-07-28",
+     "fa_checkout": "1405-08-01"
+    },
+    "guarantee_period": null,
+    "isFavorite": false,
+    "placeType": "personalRoom",
+    "badges": [],
+    "unitCount": 1,
+    "unitCapacity": 10,
+    "rankTag": "lead_time_controller_15",
+    "mlExplorationWCIScore": null,
+    "mlExplorationWCITag": null,
+    "mlExplorationWOCIScore": null,
+    "mlExplorationWOCITag": null,
+    "other_rooms_data": null,
+    "ad": null,
+    "overlay": {
+     "title": "هر قسط ~ ",
+     "amount": 15000000
+    }
+   }
+  ],
+  "filters": []
+ },
+ "targetUrl": null,
+ "success": true,
+ "error": null,
+ "unauthorizedRequest": false,
+ "__wrapped": true
+}

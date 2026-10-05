@@ -1,0 +1,13 @@
+{
+ "schemaVersion": 1,
+ "sessionId": "90611730",
+ "revision": 51,
+ "serverTime": "2026-10-04T14:07:34.412Z",
+ "seatCount": 413,
+ "encoding": "base64-msb0",
+ "soldBitmap": "wHAADAAAAEwAAYAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAQAAAA",
+ "blockedBitmap": "",
+ "reservedBitmap": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+ "heldBitmap": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+ "ownHold": null
+}

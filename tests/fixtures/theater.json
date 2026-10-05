@@ -1,0 +1,214 @@
+{
+ "id": "65745",
+ "title": "هیچ",
+ "active": true,
+ "hidden": false,
+ "rating": null,
+ "address": "خیابان طالقانی، بین خیابان نادری و وصال شیرازی، پلاک ۴۱۷",
+ "cityKey": "tehran",
+ "imageUrl": "https://zbcdn.cloud/files/cache/80561_hich2_image.4ac18b.jpeg",
+ "location": {
+  "lat": 35.705562,
+  "lng": 51.399475
+ },
+ "maxCount": 30,
+ "syncedAt": "2026-10-04 13:48:59.331+00",
+ "fromPrice": {
+  "amount": 500000,
+  "currency": "IRT"
+ },
+ "sourceKey": "hich2",
+ "venueText": "مجموعه تئاتر لبخند - سالن دو",
+ "saleMethod": "assigned",
+ "categoryKey": "drama",
+ "description": "هیچ، درباره آدم‌هایی‌ست که روزهایشان را با حرف زدن، شوخی کردن، دعوا کردن و سکوت می‌گذرانند.<br />بازی‌ها، خاطرات و اتفاقات ساده‌ای که بینشان می‌گذرد، کم کم دنیای آن‌ها را شکل می‌دهد.",
+ "ratingCount": null,
+ "contributors": [
+  {
+   "key": "tiwall-63204d4a75a3972e",
+   "label": "نویسنده و کارگردان",
+   "people": [
+    {
+     "id": "tiwall:893f23c367eefdef",
+     "name": "ابوالفضل‌قادری",
+     "imageUrl": "https://zbcdn.cloud/files/cache/73208_abolfazl.gh_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/abolfazl.gh",
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "actor",
+   "label": "بازیگران",
+   "people": [
+    {
+     "id": "tiwall:ecb1b10d0d8d14ec",
+     "name": "حسین کوهی",
+     "imageUrl": "https://zbcdn.cloud/files/cache/53142_hosein.kohi_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/hosein.kohi",
+     "relationDescription": null
+    },
+    {
+     "id": "15475",
+     "name": "کامیار شریفیان",
+     "imageUrl": "https://zbcdn.cloud/files/cache/54904_k.sharifian_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/k.sharifian",
+     "relationDescription": null
+    },
+    {
+     "id": "15413",
+     "name": "الیاس چناقچی",
+     "imageUrl": "https://zbcdn.cloud/files/cache/73231_elyas.ch_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/elyas.ch",
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "tiwall-8996a4485e227279",
+   "label": "دستیار کارگردان و برنامه ریز",
+   "people": [
+    {
+     "id": "tiwall:20ef9a3b1a13438f",
+     "name": "پانته‌آ‌پورهاشم",
+     "imageUrl": "https://zbcdn.cloud/files/cache/58193_panipourhashem_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/panipourhashem",
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "chrt29",
+   "label": "مشاور کارگردان",
+   "people": [
+    {
+     "id": "15447",
+     "name": "متین یزدان مهر",
+     "imageUrl": "https://zbcdn.cloud/files/cache/22352_matinyazdanmehr_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/matinyazdanmehr",
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "poster-designer",
+   "label": "طراح پوستر",
+   "people": [
+    {
+     "id": "15424",
+     "name": "فرهاد توکلی",
+     "imageUrl": "https://zbcdn.cloud/files/cache/53781_farhad.tavakoli_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/farhad.tavakoli",
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "tiwall-b794fb9d1894f6f2",
+   "label": "عکاس",
+   "people": [
+    {
+     "id": "tiwall:d9263eac188500af",
+     "name": "مهرنوش لک",
+     "imageUrl": null,
+     "profileUrl": null,
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "tiwall-f73aa5c9abc397cc",
+   "label": "طراح صحنه و لباس",
+   "people": [
+    {
+     "id": "tiwall:ec33b66ffb43462b",
+     "name": "ابوالفضل‌قادری",
+     "imageUrl": "https://zbcdn.cloud/files/cache/73208_abolfazl.gh_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/abolfazl.gh",
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "chrt23",
+   "label": "طراح گریم",
+   "people": [
+    {
+     "id": "30389",
+     "name": "لعیا قربان نیا",
+     "imageUrl": "https://zbcdn.cloud/files/cache/44520_laeyaghorbanniya_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/laeyaghorbanniya",
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "chrt22",
+   "label": "طراح نور",
+   "people": [
+    {
+     "id": "29414",
+     "name": "میلاد الهی",
+     "imageUrl": "https://zbcdn.cloud/files/cache/17721_milad.elahi_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/milad.elahi",
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "tiwall-171d23bf85589425",
+   "label": "موسیقی",
+   "people": [
+    {
+     "id": "tiwall:445c19a732179b6e",
+     "name": "کمال (normalkamal",
+     "imageUrl": null,
+     "profileUrl": null,
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "tiwall-6a605d8a7eb17e8d",
+   "label": "تیزر ویدئویی",
+   "people": [
+    {
+     "id": "tiwall:7adfdee9317c6285",
+     "name": "مصباح مقصودی",
+     "imageUrl": null,
+     "profileUrl": null,
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "motion-graphic",
+   "label": "موشن گرافیک",
+   "people": [
+    {
+     "id": "15424",
+     "name": "فرهاد توکلی",
+     "imageUrl": "https://zbcdn.cloud/files/cache/53781_farhad.tavakoli_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/farhad.tavakoli",
+     "relationDescription": null
+    }
+   ]
+  },
+  {
+   "key": "chrt37",
+   "label": "ساخت دکور",
+   "people": [
+    {
+     "id": "15413",
+     "name": "الیاس چناقچی",
+     "imageUrl": "https://zbcdn.cloud/files/cache/73231_elyas.ch_image.17eba9.jpeg",
+     "profileUrl": "https://www.tiwall.com/elyas.ch",
+     "relationDescription": null
+    }
+   ]
+  }
+ ],
+ "promoDescription": "بر اساس نمایشنامه دست آخر بکت",
+ "reviews": [],
+ "salesEnabled": true
+}
