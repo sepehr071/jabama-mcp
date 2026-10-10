@@ -95,7 +95,8 @@ async def test_jb_search_stays(client, api):
         "discount_pct": 0,
         "cheapest_night": 520000,
         "nights": 3,
-        "url": "https://www.jabama.com/stay/ecotourism-328353",
+        "image": "https://cdn.jabama.com/image/jabama-images/543053/e0274865-8255-4232-82f9-3e37ded16d93.jpeg",
+        "url": "https://www.jabama.com/stay/ecotourism-328353?checkIn=1405-07-28&checkOut=1405-08-01&passengersCount=2",
     }
     assert data["stays"][2]["discount_pct"] == 10 and data["stays"][2]["total_price"] == 2223000
     assert data["amenity_options"]["swimming-pool"] == "استخر"

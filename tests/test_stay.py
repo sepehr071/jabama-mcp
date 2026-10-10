@@ -192,6 +192,10 @@ async def test_jb_similar_stays_with_dates(client, api):
         (364107, 6000000),
         (83440, 6150000),
     ]
+    assert data["similar"][0]["url"].endswith(
+        "/stay/ecotourism-364106?checkIn=1405-07-28&checkOut=1405-08-01&passengersCount=2"
+    )
+    assert data["similar"][0]["image"].startswith("https://cdn.jabama.com/image/")
     assert data["not_free_for_dates"] == [328354]
     assert data["same_property"]["keyword"] == "list-33183"
     assert data["same_property"]["units"][0] == {

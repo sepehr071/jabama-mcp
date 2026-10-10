@@ -348,7 +348,7 @@ async def jb_similar_stays(
         if guests:
             body["capacity"] = guests
         found = (await fetch(f"{PLP}/all", PLP_QS, method="POST", json=body) or {}).get("items") or []
-        cards = sorted((stay_card(i) for i in found), key=lambda c: c["total_price"] or 0)
+        cards = sorted((stay_card(i, guests) for i in found), key=lambda c: c["total_price"] or 0)
         out["similar"] = cards
         out["not_free_for_dates"] = [c for c in codes if c not in {x["code"] for x in cards}]
     else:

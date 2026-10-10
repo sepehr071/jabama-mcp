@@ -187,6 +187,7 @@ async def jb_search_stays(
 
     With dates, total_price is the whole stay in Toman for `guests` (extra-guest charges included) and
     cheapest_night is the cheapest single night; without dates, prices are for one default night.
+    image is the cover photo; with dates url opens the listing for those dates and guests.
     Get the keyword from jb_find_destination, themes from jb_categories, or free text via jb_parse_request.
     total 0 with dates can mean nothing is free; try other dates. For the exact payable amount call
     jb_price_quote with a code; for details jb_stay.
@@ -235,7 +236,7 @@ async def jb_search_stays(
             f"Search keyword '{kw}' is retired. Get a current one from jb_find_destination or jb_categories."
         )
     items = data.get("items") or []
-    stays = [stay_card(i) for i in items]
+    stays = [stay_card(i, guests) for i in items]
     out: dict[str, Any] = {"total": data.get("total"), "page": page}
     if instant_only:
         # just-guarantees follows the 'instant' tag; a few host-approval listings carry it too.
@@ -274,8 +275,8 @@ async def jb_categories() -> dict[str, Any]:
     return {"categories": out}
 
 
-def stay_card(it: dict[str, Any]) -> dict[str, Any]:
-    """Compact listing card from plp-search items."""
+def stay_card(it: dict[str, Any], guests: int | None = None) -> dict[str, Any]:
+    """Compact listing card from plp-search items; a dated card links to the listing page with its dates."""
     p = it.get("price") or {}
     rr = it.get("rate_review") or {}
     loc = it.get("location") or {}
@@ -297,7 +298,14 @@ def stay_card(it: dict[str, Any]) -> dict[str, Any]:
         "discount_pct": round(100 * (main - final) / main) if main and final < main else 0,
         "cheapest_night": toman(p.get("perNight")),
         "nights": 1 if p.get("isDefaultDate") else p.get("nights_count"),
-        "url": stay_url(it.get("type"), it.get("code")),
+        "image": it.get("image") or (it.get("images") or [None])[0],
+        "url": stay_url(
+            it.get("type"),
+            it.get("code"),
+            None if p.get("isDefaultDate") else p.get("fa_checkin"),
+            None if p.get("isDefaultDate") else p.get("fa_checkout"),
+            guests,
+        ),
     }
 
 
@@ -340,8 +348,20 @@ def rating(score: Any, count: Any) -> float | None:
     return round(float(score), 1) if score and count else None
 
 
-def stay_url(kind: str | None, code: Any) -> str | None:
-    return f"{WWW}/stay/{kind or 'stay'}-{code}" if code else None
+def stay_url(
+    kind: str | None,
+    code: Any,
+    fa_check_in: str | None = None,
+    fa_check_out: str | None = None,
+    guests: int | None = None,
+) -> str | None:
+    """Listing page; with Jalali dates (plp `fa_checkin`, '1405-07-28') and guests it opens priced like the site's cards."""
+    if not code:
+        return None
+    url = f"{WWW}/stay/{kind or 'stay'}-{code}"
+    if fa_check_in and fa_check_out:
+        url += f"?checkIn={fa_check_in}&checkOut={fa_check_out}" + (f"&passengersCount={guests}" if guests else "")
+    return url
 
 
 def _iso(n: Any) -> str | None:
