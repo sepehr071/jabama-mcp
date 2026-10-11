@@ -204,6 +204,7 @@ All 21 tools are annotated `readOnlyHint: true` and return compact structured JS
 
 - **Prices are in Toman** everywhere (1 Toman = 10 Rial). The stays API answers in Rial; the server divides by 10. Tours are Toman **per person**, events and theater Toman per ticket (or per unit, e.g. one boat, when `pricing` is `per_unit`).
 - **Stay prices are for the whole stay** for the searched dates and guests (`total_price`); `cheapest_night` is the cheapest single night, not the average. Without dates a search prices one default night.
+- **Stay cards** (`jb_search_stays`, `jb_similar_stays`) carry `image`, the cover photo, and `url`; with dates the `url` opens the listing on those dates and guests, priced like the quote.
 - **Count children as guests.** The quote has no child price, so `guests` is everyone who stays.
 - **Dates are Gregorian** `YYYY-MM-DD` (1405-07-28 = 2026-10-20); times are Tehran local. Stays can be quoted for about the next 76 days.
 - **`jb_price_quote` is the number to trust.** It is the same read-only quote the listing page shows; it creates no booking. Quotes show no tax line; Jabama's help center says 1.5% tax is added when booking.
