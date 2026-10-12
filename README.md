@@ -2,11 +2,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/sepehr071/jabama-mcp/main/.github/banner.png" alt="jabama-mcp: let your AI agent price stays, tours and events on Jabama" width="100%">
+<img src="https://raw.githubusercontent.com/sepehr071/jabama-mcp/main/.github/banner.png" alt="jabama-mcp: unofficial Jabama MCP server for Claude, Cursor and Copilot" width="100%">
 
-# 🏡 jabama-mcp
+# 🏡 jabama-mcp: Jabama MCP server for AI agents
 
-**Let your AI agent plan the trip on Jabama.**<br>
+**Unofficial, read-only MCP server for Jabama (جاباما): let your AI agent plan stays in Iran.**<br>
 Search villas, suites and eco-lodges with the exact price for your dates and guests, read rules and reviews,<br>
 and find group tours, events and theater seats, all from Claude, Cursor or Copilot.
 
@@ -25,7 +25,19 @@ and find group tours, events and theater seats, all from Claude, Cursor or Copil
 
 ---
 
-## Why
+## For AI agents
+
+- **What:** unofficial, read-only MCP server for Jabama (جاباما), the Iranian short-term rental site, plus its tour and event sites. Place names must be in Persian (the agent translates English ones); prices are in Toman.
+- **Install:** `claude mcp add jabama -- uvx jabama-mcp` (stdio transport; needs Python 3.10+ and [uv](https://docs.astral.sh/uv/getting-started/installation/)).
+- **Auth:** none, no API key. Optional `JABAMA_MCP_PROXY` (HTTP proxy) if Jabama blocks your network.
+- **Access:** read-only. No login, booking, seat holds or payment, so no confirmation is needed before calling tools.
+- **Tools:** 21, all prefixed `jb_*`. Start with `jb_find_destination` (or `jb_parse_request` for free text), then `jb_search_stays` → `jb_stay_calendar` → `jb_price_quote`. Tours: `jb_tour_places` → `jb_search_tours` → `jb_tour`. Events: `jb_search_events` → `jb_event` → `jb_event_seats`.
+- **Use when:** comparing stays, tours, events or theater seats in Iran, or computing the exact total for dates and guests.
+- **Do not use when:** you need to book, pay or hold a seat (the user does that on the site).
+- **Output:** compact JSON. Prices in Toman, dates Gregorian `YYYY-MM-DD`, ratings 0-5. Pass the numeric listing code (tours: 8-digit id) between tools.
+- **Machine-readable:** [`server.json`](https://github.com/sepehr071/jabama-mcp/blob/main/server.json); catalog of all Iranian MCP servers: [awesome-iran-mcp](https://github.com/sepehr071/awesome-iran-mcp) ([TOOLS.md](https://github.com/sepehr071/awesome-iran-mcp/blob/main/TOOLS.md), [servers.json](https://github.com/sepehr071/awesome-iran-mcp/blob/main/servers.json), [llms.txt](https://github.com/sepehr071/awesome-iran-mcp/blob/main/llms.txt)).
+
+## Why use Jabama MCP
 
 On Jabama (jabama.com) a search card shows one price, but the real cost of a stay depends on the nights you pick
 (weekends and holidays are priced differently), how many guests come (every guest above the base count adds a
@@ -215,6 +227,27 @@ All 21 tools are annotated `readOnlyHint: true` and return compact structured JS
 ## FAQ
 
 <details>
+<summary><b>Is there a Jabama API or MCP server for AI agents?</b></summary>
+
+`jabama-mcp` is an unofficial MCP server for Jabama: it exposes the public endpoints of the Jabama websites as 21
+read-only tools, so an agent can search stays, tours and events and get exact prices.
+</details>
+
+<details>
+<summary><b>How do I use Jabama with Claude, Cursor or Copilot?</b></summary>
+
+Install it with `uvx jabama-mcp` (see [Quick start](#quick-start)), then ask in Persian or English, for example
+"cheapest villa with a pool in Ramsar for 6 people next weekend, with the exact total".
+</details>
+
+<details>
+<summary><b>Is it official, safe and free?</b></summary>
+
+It is unofficial and MIT licensed, so free to use. It is read-only: no login, no API key, no booking or payment,
+and it runs on your machine.
+</details>
+
+<details>
 <summary><b>Can it book a villa or buy a ticket for me?</b></summary>
 
 No, and that's deliberate. It has no login and never calls booking, order, payment, seat-hold or wallet endpoints.
@@ -270,11 +303,13 @@ npx @modelcontextprotocol/inspector uvx jabama-mcp
 |---|---|---|
 | `JABAMA_MCP_PROXY` | unset | HTTP proxy for every request, e.g. `http://user:pass@host:port` |
 
-## فارسی
+<a id="فارسی"></a>
+
+## فارسی: سرور MCP جاباما
 
 <div dir="rtl">
 
-**jabama-mcp** به دستیار هوش مصنوعی شما (Claude، Cursor، Copilot و ...) اجازه می&zwnj;دهد در جاباما ویلا، سوئیت و
+**jabama-mcp** یک سرور MCP غیررسمی برای جاباما در ایران است که به دستیار هوش مصنوعی شما (Claude، Cursor، Copilot و ...) اجازه می&zwnj;دهد در جاباما ویلا، سوئیت و
 اقامتگاه بوم&zwnj;گردی پیدا کند، قیمت دقیق را برای تاریخ و تعداد نفرات شما بگیرد، قوانین و نظرات را بخواند و تورها،
 رویدادها و صندلی&zwnj;های خالی تئاتر را هم پیدا کند.
 
@@ -282,6 +317,7 @@ npx @modelcontextprotocol/inspector uvx jabama-mcp
 - قیمت هر شب، هزینه نفر اضافه، تخفیف اقامت طولانی و قوانین کنسلی را نشان می&zwnj;دهد.
 - همه قیمت&zwnj;ها به تومان است.
 - روی سیستم خود شما اجرا می&zwnj;شود و به هیچ سرور واسطی داده نمی&zwnj;فرستد.
+- برای پیدا کردن آن در گوگل یا رجیستری MCP، «سرور MCP جاباما» یا «jabama mcp» را جستجو کنید.
 
 **نصب در Claude Code:**
 
@@ -313,6 +349,15 @@ fixes for API changes.
 
 Releases: bump the version in `pyproject.toml` and `server.json`, then push a `v*` tag. GitHub Actions tests,
 publishes to PyPI and the [MCP Registry](https://registry.modelcontextprotocol.io), and creates the GitHub Release.
+
+## Related servers
+
+- [Otaghak MCP server](https://github.com/sepehr071/otaghak-mcp) for villa, cottage and apartment stays
+- [Flytoday MCP server](https://github.com/sepehr071/flytoday-mcp) for flights, hotels and villas
+- [MrBilit MCP server](https://github.com/sepehr071/mrbilit-mcp) for flights, trains, buses and hotels
+- All servers: [awesome-iran-mcp](https://github.com/sepehr071/awesome-iran-mcp), the catalog of Iranian MCP servers
+
+If this saves you clicks, a star helps others find it.
 
 ## Disclaimer
 
