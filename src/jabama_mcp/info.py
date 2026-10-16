@@ -11,7 +11,7 @@ from pydantic import Field
 
 from .http import WWW, ApiError, fetch
 from .registry import tool
-from .stay import clip
+from .stay import FullText, clip
 
 
 @tool("Help and rules")
@@ -25,6 +25,7 @@ async def jb_help(
         ),
     ],
     limit: Annotated[int, Field(ge=1, le=10, description="Max answers from each source.")] = 5,
+    full_text: FullText = False,
 ) -> dict[str, Any]:
     """Answer questions about Jabama's rules: cancellation and refunds, payment, tax, check-in, host and guest duties.
 
@@ -43,11 +44,18 @@ async def jb_help(
     scored.sort(key=lambda x: -x[0])
     return {
         "help_center": [
-            {"question": (f.get("post_title") or "").strip(), "answer": clip(html_text(f.get("post_content")), 1200)}
+            {
+                "question": (f.get("post_title") or "").strip(),
+                "answer": clip(html_text(f.get("post_content")), 1200, full_text),
+            }
             for f in search[:limit]
         ],
         "quick_answers": [
-            {"question": f.get("question"), "answer": clip(f.get("answer"), 800), "category": f.get("category")}
+            {
+                "question": f.get("question"),
+                "answer": clip(f.get("answer"), 800, full_text),
+                "category": f.get("category"),
+            }
             for _, f in scored[:limit]
         ],
     }

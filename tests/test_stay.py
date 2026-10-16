@@ -267,6 +267,15 @@ async def test_jb_reviews(client, api):
     assert dict(api.calls[0].url.params) == {"page": "1", "size": "3", "sortBy": "LowestRate"}
 
 
+async def test_jb_reviews_full_text(client, api):
+    long = "ن" * 1000
+    api["/api/v2/reviews/place/328353"] = {"reviews": [{"overalRating": 5, "comment": long}]}
+    clipped = (await client.call_tool("jb_reviews", {"code": 328353})).structured_content
+    assert len(clipped["reviews"][0]["text"]) == 400 and clipped["reviews"][0]["text"].endswith("…")
+    full = (await client.call_tool("jb_reviews", {"code": 328353, "full_text": True})).structured_content
+    assert full["reviews"][0]["text"] == long
+
+
 async def test_jb_host(client, api):
     api["/api/v2/reviews/host/1288856"] = fixture("host_reviews.json")
     api["/api/v1/guest/host/1288856/accommodation"] = fixture("host_listings.json")

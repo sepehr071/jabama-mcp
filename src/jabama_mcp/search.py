@@ -121,7 +121,7 @@ async def jb_search_stays(
         str,
         Field(
             pattern=r"^[A-Za-z0-9_-]+(/[A-Za-z0-9_-]+)?$",
-            description="Destination keyword from jb_find_destination or jb_categories, e.g. 'city-ramsar' (includes nearby towns), 'province-gilan', 'list-33183', 'landing-categories', or 'all' with cities/areas/poi/codes filters (cities=['ramsar'] is the city alone).",
+            description="Keyword from jb_find_destination or jb_categories, e.g. 'city-ramsar' (with nearby towns), 'province-gilan', 'list-33183', 'landing-categories', or 'all' with filters (cities=['ramsar'] is the city alone).",
         ),
     ] = "all",
     check_in: CheckIn = None,
@@ -131,7 +131,7 @@ async def jb_search_stays(
     amenities: Annotated[
         Slugs,
         Field(
-            description="Amenity slugs (all required), e.g. ['swimming-pool', 'jacuzzi']. Others: sauna, billiard, barbeque, internet-wifi, parking, kitchen, air-conditioning-system, elevator, ... (see amenity_options)."
+            description="Amenity slugs (all required), e.g. ['swimming-pool', 'jacuzzi']. Others: sauna, billiard, barbeque, internet-wifi, parking, kitchen, air-conditioning-system, elevator (see amenity_options)."
         ),
     ] = None,
     regions: Annotated[list[Region] | None, Field(max_length=6, description="Setting, e.g. ['jungle'].")] = None,
@@ -147,7 +147,7 @@ async def jb_search_stays(
     tags: Annotated[
         Slugs,
         Field(
-            description="Theme or campaign tags from jb_categories, e.g. ['AmazingPoolCategory'], ['pricing-affordable'], ['LongStaysDiscount']."
+            description="Tags from jb_categories, e.g. ['AmazingPoolCategory'], ['pricing-affordable'], ['LongStaysDiscount']."
         ),
     ] = None,
     codes: Annotated[
@@ -158,9 +158,7 @@ async def jb_search_stays(
         str | None, Field(max_length=100, description="Words in the listing title (full-text), not a place filter.")
     ] = None,
     rooms: Annotated[int | None, Field(ge=0, le=5, description="Bedrooms, 0 = studio, 5 = five or more.")] = None,
-    instant_only: Annotated[
-        bool, Field(description="Only listings bookable instantly, without waiting for the host to accept.")
-    ] = False,
+    instant_only: Annotated[bool, Field(description="Only instantly bookable listings.")] = False,
     min_score: Annotated[
         Literal[3, 3.5, 4, 4.5, 5] | None, Field(description="Minimum guest rating: 3, 3.5, 4, 4.5 or 5.")
     ] = None,
@@ -170,14 +168,12 @@ async def jb_search_stays(
     ] = None,
     price_per_night: Annotated[
         bool,
-        Field(
-            description="min_price / max_price are per night for all guests: the whole-stay price (extra-guest charges included) divided by the nights."
-        ),
+        Field(description="Treat min_price / max_price as per night (whole-stay price divided by nights)."),
     ] = False,
     sort: Annotated[
         Literal["default", "cheapest", "most_expensive", "rating"],
         Field(
-            description="default = Jabama's ranking; cheapest / most_expensive on the whole-stay price; rating = weighted by score and review count."
+            description="default = Jabama's ranking; cheapest / most_expensive by whole-stay price; rating = weighted by review count."
         ),
     ] = "default",
     page: Annotated[int, Field(ge=1, le=200, description="1-based page number.")] = 1,

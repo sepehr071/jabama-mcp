@@ -55,7 +55,7 @@ def _get_client() -> tuple[httpx.AsyncClient, asyncio.Semaphore]:
         _client = httpx.AsyncClient(
             transport=_transport,
             headers=HEADERS,
-            timeout=30,
+            timeout=httpx.Timeout(30, connect=10),
             follow_redirects=True,
             trust_env=False,
             proxy=os.environ.get("JABAMA_MCP_PROXY") or None,
@@ -77,6 +77,9 @@ async def fetch(
         try:
             async with limit:
                 r = await client.request(method, url, params=params, json=json)
+            if attempt == 0 and method == "GET" and r.status_code in (502, 504):  # idempotent: one fixed-delay retry
+                await asyncio.sleep(1)
+                continue
             break
         except httpx.TimeoutException as e:
             raise ApiError(f"{host} did not answer in time. Try again in a moment.") from e

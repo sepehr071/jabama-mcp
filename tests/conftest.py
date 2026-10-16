@@ -81,4 +81,13 @@ def api(monkeypatch):
 @pytest.fixture
 async def client():
     async with Client(mcp, raise_exceptions=True) as c:
+        call_tool = c.call_tool
+
+        async def compact_as_structured(*args, **kwargs):
+            result = await call_tool(*args, **kwargs)
+            if not result.is_error:
+                result.structured_content = json.loads(result.content[0].text)
+            return result
+
+        c.call_tool = compact_as_structured
         yield c

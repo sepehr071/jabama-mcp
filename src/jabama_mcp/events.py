@@ -15,7 +15,7 @@ from .http import EVENTS, EVENTS_WEB, ApiError, fetch
 from .info import html_text
 from .registry import tool
 from .search import TEHRAN, gregorian
-from .stay import clip, fa_float
+from .stay import FullText, clip, fa_float
 
 Slug = Annotated[str | None, Field(pattern=r"^[A-Za-z0-9_-]+$", max_length=60)]
 EventId = Annotated[
@@ -88,6 +88,7 @@ async def jb_search_events(
 async def jb_event(
     event_id: EventId,
     max_sessions: Annotated[int, Field(ge=1, le=100, description="Max sessions (showtimes or days) to list.")] = 20,
+    full_text: FullText = False,
 ) -> dict[str, Any]:
     """One event or experience: what it is, exact address, rules, what to bring, price, refundability, sessions with seats left, reviews and the organizer.
 
@@ -143,9 +144,9 @@ async def jb_event(
         "vat_pct": (e.get("ticketVatRateBps") or 0) / 100 if e.get("ticketVatEnabled") else 0,
         "rating": _rating(e.get("rating"), e.get("reviewCount")),
         "review_count": e.get("reviewCount"),
-        "description": clip(html_text(e.get("description")), 1500),
-        "program": clip(html_text(e.get("itinerary")), 1000),
-        "terms": clip(html_text(e.get("termsAndConditions")), 800),
+        "description": clip(html_text(e.get("description")), 1500, full_text),
+        "program": clip(html_text(e.get("itinerary")), 1000, full_text),
+        "terms": clip(html_text(e.get("termsAndConditions")), 800, full_text),
         "what_to_bring": [x.get("label") for x in e.get("whatToBring") or []],
         "included": [x.get("label") for x in e.get("includedItems") or []],
         "artists": [a.get("name") for a in e.get("artists") or []],
@@ -154,7 +155,7 @@ async def jb_event(
         "reviews": [
             {
                 "rating": r.get("rating"),
-                "text": clip(r.get("text"), 500),
+                "text": clip(r.get("text"), 400, full_text),
                 "author": r.get("userName"),
                 "date": (r.get("createdAt") or "")[:10] or None,
                 "organizer_reply": r.get("organizerReply"),
@@ -256,6 +257,7 @@ async def jb_theater(
             description="A showtime id from this tool's showtimes, e.g. '65745:642277', to list its free seats.",
         ),
     ] = None,
+    full_text: FullText = False,
 ) -> dict[str, Any]:
     """One theater play: venue, cast and crew, reviews, showtimes with live seats left; with showtime_id also the free seats by row and their prices.
 
@@ -308,7 +310,7 @@ async def jb_theater(
             }
         )
     out = {**_play(play or {}, cast=12), "on_sale": (play or {}).get("salesEnabled"), "showtimes": showtimes}
-    out["reviews"] = [clip(r.get("text"), 400) for r in ((play or {}).get("reviews") or [])[:5]]
+    out["reviews"] = [clip(r.get("text"), 400, full_text) for r in ((play or {}).get("reviews") or [])[:5]]
     if showtime_id and showtime_id not in {s["showtime_id"] for s in showtimes}:
         out["seats"] = {
             "error": f"Unknown showtime {showtime_id} for play {play_id}; pick a showtime_id from showtimes."

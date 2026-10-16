@@ -28,13 +28,14 @@ from .search import (
 )
 
 Code = Annotated[int, Field(ge=1, le=999_999_999, description="Listing code from a search or URL, e.g. 328353.")]
+FullText = Annotated[bool, Field(description="Return long text (reviews, descriptions) unclipped, not cut at …")]
 Page = Annotated[int, Field(ge=1, le=100, description="1-based page number.")]
 REVIEW_SORT = {"newest": "Newest", "highest_rated": "HighestRate", "lowest_rated": "LowestRate"}
 DIGITS = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩٫", "01234567890123456789.")
 
 
 @tool("Stay details")
-async def jb_stay(code: Code) -> dict[str, Any]:
+async def jb_stay(code: Code, full_text: FullText = False) -> dict[str, Any]:
     """Get one listing: capacity, beds, rooms, check-in/out times, house rules, amenities (and what is missing), cancellation policy, host, review scores.
 
     Use after jb_search_stays to answer "is it right for us". from_per_night is the cheapest night in
@@ -106,7 +107,9 @@ async def jb_stay(code: Code) -> dict[str, Any]:
             if discounts.get(key)
         },
         "meals_offered": [m for m, on in (item.get("meal") or {}).items() if on],
-        "description": clip("\n\n".join(d.get("text") or "" for d in item.get("extraDescription") or []), 2000),
+        "description": clip(
+            "\n\n".join(d.get("text") or "" for d in item.get("extraDescription") or []), 2000, full_text
+        ),
         "house_rules": [
             clean("".join(t.get("text") or "" for t in r.get("texts") or [])) for r in item.get("rules") or []
         ],
@@ -378,6 +381,7 @@ async def jb_reviews(
     sort: Annotated[Literal["newest", "highest_rated", "lowest_rated"], Field(description="Order.")] = "newest",
     page: Page = 1,
     limit: Annotated[int, Field(ge=1, le=50, description="Reviews per page.")] = 10,
+    full_text: FullText = False,
 ) -> dict[str, Any]:
     """Read guest reviews of a listing: stars 1-5, text, when they stayed, nights, and the host's reply.
 
@@ -394,7 +398,7 @@ async def jb_reviews(
         "reviews": [
             {
                 "rating": r.get("overalRating"),
-                "text": clip(r.get("comment"), 1000),
+                "text": clip(r.get("comment"), 400, full_text),
                 "author": r.get("name"),
                 "stayed": (r.get("subTitles") or [None])[0],
                 "stay_length": ((r.get("reviewInfo") or [{}])[0]).get("text"),
@@ -410,6 +414,7 @@ async def jb_host(
     host_id: Annotated[int, Field(ge=1, description="Host id (host.host_id from jb_stay), e.g. 1288856.")],
     page: Page = 1,
     limit: Annotated[int, Field(ge=1, le=50, description="Reviews per page.")] = 10,
+    full_text: FullText = False,
 ) -> dict[str, Any]:
     """A host's listings (with ratings and a from-price per night) and guest reviews across all of them, newest first.
 
@@ -451,7 +456,7 @@ async def jb_host(
             {
                 "rating": r.get("overalRating"),
                 "listing": r.get("placeName"),
-                "text": clip(r.get("comment"), 800),
+                "text": clip(r.get("comment"), 400, full_text),
                 "author": r.get("name"),
                 "stayed": (r.get("subTitles") or [None])[0],
                 "host_reply": (r.get("response") or {}).get("comment") or None,
@@ -507,9 +512,9 @@ def clean(s: Any) -> str | None:
     )
 
 
-def clip(s: Any, n: int) -> str | None:
+def clip(s: Any, n: int, full: bool = False) -> str | None:
     s = (s or "").strip()
-    return (s[: n - 1] + "…" if len(s) > n else s) or None
+    return (s[: n - 1] + "…" if len(s) > n and not full else s) or None
 
 
 def _similar_card(s: dict[str, Any]) -> dict[str, Any]:

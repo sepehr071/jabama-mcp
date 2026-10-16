@@ -11,7 +11,7 @@ from pydantic import Field
 from .http import TOURS, ApiError, fetch
 from .registry import tool
 from .search import gregorian, rating
-from .stay import clip
+from .stay import FullText, clip
 
 TourId = Annotated[
     str, Field(pattern=r"^\d{8}$", description="Tour id (8 digits) from jb_search_tours, e.g. '26314786'.")
@@ -128,6 +128,7 @@ async def jb_search_tours(
 async def jb_tour(
     tour_id: TourId,
     include_past: Annotated[bool, Field(description="Also list past (completed) departures.")] = False,
+    full_text: FullText = False,
 ) -> dict[str, Any]:
     """One group tour: packages, every departure with free seats and the per-person price of each package, day plan, meals, what is included, cancellation rules, guide, operator and reviews.
 
@@ -182,7 +183,7 @@ async def jb_tour(
         "tags": [x.get("name") for x in t.get("tags") or []],
         "origin": _place((t.get("location") or {}).get("origin")),
         "destinations": [_place(x) for x in (t.get("location") or {}).get("destinations") or []],
-        "summary": clip(t.get("short_description"), 600),
+        "summary": clip(t.get("short_description"), 600, full_text),
         # A package's own price is only a default; the real one is per departure (package_prices).
         "packages": [{"name": v.get("name"), "description": v.get("description")} for v in t.get("variants") or []],
         "departures": departures,
@@ -190,7 +191,7 @@ async def jb_tour(
             {
                 "day": i.get("day_number"),
                 "title": i.get("title"),
-                "plan": clip(i.get("description"), 500),
+                "plan": clip(i.get("description"), 500, full_text),
                 "meals": [
                     m
                     for m in ("breakfast", "lunch", "dinner")
@@ -202,7 +203,9 @@ async def jb_tour(
         ],
         "included": [x.get("title") for x in (t.get("inclusions") or {}).get("included") or []],
         "not_included": [x.get("title") for x in (t.get("inclusions") or {}).get("excluded") or []],
-        "faqs": [{"q": f.get("question"), "a": clip(f.get("answer"), 400)} for f in (t.get("faqs") or [])[:8]],
+        "faqs": [
+            {"q": f.get("question"), "a": clip(f.get("answer"), 400, full_text)} for f in (t.get("faqs") or [])[:8]
+        ],
         "cancellation": [
             {"when": r.get("title"), "penalty_pct": r.get("penalty_percent"), "refundable": r.get("refundable")}
             for r in (t.get("cancellation_policy") or {}).get("rules") or []
@@ -215,7 +218,7 @@ async def jb_tour(
         "reviews": [
             {
                 "rating": r.get("rating"),
-                "text": clip(r.get("comment"), 600),
+                "text": clip(r.get("comment"), 400, full_text),
                 "author": r.get("author_name"),
                 "travelled": r.get("departure_date"),
                 "verified": r.get("is_verified"),
