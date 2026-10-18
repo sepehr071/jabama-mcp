@@ -8,13 +8,13 @@
     "source": "github"
   },
   "websiteUrl": "https://github.com/sepehr071/jabama-mcp",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "packages": [
     {
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "jabama-mcp",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"
@@ -22,7 +22,7 @@
       "environmentVariables": [
         {
           "name": "JABAMA_MCP_PROXY",
-          "description": "Optional HTTP proxy URL for every request. System proxy settings are ignored.",
+          "description": "Optional HTTP proxy URL for every request, or a comma-separated list: one is used until it gets blocked or fails to connect, then the next. System proxy settings are ignored.",
           "isRequired": false,
           "isSecret": false
         }
