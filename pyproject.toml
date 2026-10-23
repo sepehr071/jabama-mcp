@@ -1,6 +1,6 @@
 [project]
 name = "jabama-mcp"
-version = "0.4.1"
+version = "0.4.2"
 description = "Unofficial read-only MCP server for Jabama: search villas and stays with exact prices, group tours, events and theater tickets."
 readme = "README.md"
 license = "MIT"
