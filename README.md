@@ -15,6 +15,7 @@ and find group tours on [Jabama Tours](https://jabama.tours), events and theater
 [![CI](https://github.com/sepehr071/jabama-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/sepehr071/jabama-mcp/actions/workflows/ci.yml)
 [![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.sepehr071%2Fjabama--mcp-7c3aed)](https://registry.modelcontextprotocol.io/?q=jabama-mcp)
 [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](https://github.com/sepehr071/jabama-mcp/blob/main/LICENSE)
+[![mcpfarsi](https://mcpfarsi.ir/badge/jabama.svg)](https://mcpfarsi.ir/servers/jabama/)
 
 [![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=jabama&config=eyJjb21tYW5kIjoidXZ4IiwiYXJncyI6WyJqYWJhbWEtbWNwIl19)
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_jabama--mcp-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=jabama&config=%7B%22command%22%3A%22uvx%22%2C%22args%22%3A%5B%22jabama-mcp%22%5D%7D)
@@ -440,6 +441,7 @@ publishes to PyPI and the [MCP Registry](https://registry.modelcontextprotocol.i
 - [Otaghak MCP server](https://github.com/sepehr071/otaghak-mcp) for villa, cottage and apartment stays
 - [Flytoday MCP server](https://github.com/sepehr071/flytoday-mcp) for flights, hotels and villas
 - [MrBilit MCP server](https://github.com/sepehr071/mrbilit-mcp) for flights, trains, buses and hotels
+- Listed on [mcpfarsi.ir](https://mcpfarsi.ir/servers/jabama/), the Persian MCP marketplace
 
 If this saves you clicks, a star helps others find it.
 

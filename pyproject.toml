@@ -35,6 +35,7 @@ Homepage = "https://github.com/sepehr071/jabama-mcp"
 Source = "https://github.com/sepehr071/jabama-mcp"
 Changelog = "https://github.com/sepehr071/jabama-mcp/releases"
 Issues = "https://github.com/sepehr071/jabama-mcp/issues"
+Website = "https://mcpfarsi.ir/servers/jabama/"
 
 [project.scripts]
 jabama-mcp = "jabama_mcp.server:main"
