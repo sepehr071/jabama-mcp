@@ -27,8 +27,8 @@ from .search import (
     ymd,
 )
 
-Code = Annotated[int, Field(ge=1, le=999_999_999, description="Listing code from a search or URL, e.g. 328353.")]
-FullText = Annotated[bool, Field(description="Return long text (reviews, descriptions) unclipped, not cut at …")]
+Code = Annotated[int, Field(ge=1, le=999_999_999, description="Listing code, e.g. 328353.")]
+FullText = Annotated[bool, Field(description="Return long text unclipped.")]
 Page = Annotated[int, Field(ge=1, le=100, description="1-based page number.")]
 REVIEW_SORT = {"newest": "Newest", "highest_rated": "HighestRate", "lowest_rated": "LowestRate"}
 DIGITS = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩٫", "01234567890123456789.")
@@ -36,11 +36,10 @@ DIGITS = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩٫", "0123456789
 
 @tool("Stay details")
 async def jb_stay(code: Code, full_text: FullText = False) -> dict[str, Any]:
-    """Get one listing: capacity, beds, rooms, check-in/out times, house rules, amenities (and what is missing), cancellation policy, host, review scores.
+    """Get one listing: capacity, rooms, times, house rules, amenities, cancellation policy, host, review scores.
 
-    Use after jb_search_stays to answer "is it right for us". from_per_night is the cheapest night in
-    the next ~76 days (Toman, base guests). For nightly prices and free dates call jb_stay_calendar;
-    for the exact price of a stay, jb_price_quote; for reviews, jb_reviews; for the host, jb_host.
+    from_per_night is the cheapest night in the next ~76 days (Toman, base guests). Free dates:
+    jb_stay_calendar; exact price: jb_price_quote; reviews: jb_reviews; host: jb_host.
     """
     data = await stay_detail(code)  # first, so an unknown code gets its own message, not the amenities 404
     item, meta = data["item"], data.get("meta") or {}
@@ -139,17 +138,14 @@ async def jb_stay(code: Code, full_text: FullText = False) -> dict[str, Any]:
 @tool("Stay calendar")
 async def jb_stay_calendar(
     code: Code,
-    start: Annotated[
-        CheckIn, Field(description="First night to show, Gregorian YYYY-MM-DD; default today, e.g. '2026-10-20'.")
-    ] = None,
+    start: Annotated[CheckIn, Field(description="First night, Gregorian YYYY-MM-DD; default today.")] = None,
     nights: Annotated[int, Field(ge=1, le=80, description="How many nights to show.")] = 30,
 ) -> dict[str, Any]:
-    """Nightly availability and price of one listing for the next ~76 days, with weekend and holiday flags.
+    """Nightly availability and price of one listing for the next ~76 days, with day types.
 
-    price is Toman for one night for base_guests; each guest above that adds extra_guest. Weekend
-    (Wednesday and Thursday nights) and holiday nights can cost more or less. Use it to find free
-    dates or the cheapest nights; then confirm a stay with jb_price_quote (it adds long-stay discounts).
-    Dates past the calendar cannot be booked yet. Blocked nights show only date and available=false.
+    price is Toman for one night for base_guests; each guest above that adds extra_guest. Blocked
+    nights show only date and available=false. Dates past the calendar cannot be booked yet. Confirm
+    a stay with jb_price_quote (it adds long-stay discounts).
     """
     gregorian(start)
     data, day_types = await asyncio.gather(stay_detail(code), fetch(f"{GW}/api/taraaz/v1/pricing/calendar/day-type"))
@@ -202,19 +198,15 @@ async def jb_price_quote(
     check_out: Annotated[date, Field(description="Check-out date, Gregorian YYYY-MM-DD, e.g. '2026-10-23'.")],
     guests: Annotated[
         int,
-        Field(
-            ge=1, le=100, description="Everyone who stays, children included (the quote has no child price), e.g. 4."
-        ),
+        Field(ge=1, le=100, description="Everyone who stays, children included, e.g. 4."),
     ] = 2,
 ) -> dict[str, Any]:
-    """Get the exact amount to pay for one listing, dates and guest count (Toman), with per-night lines and the cancellation windows.
+    """Get the exact amount to pay (Toman) for one listing, dates and guests, with per-night lines and cancellation windows.
 
-    The same quote the listing page shows; it creates no booking. payable is after long-stay and host
-    discounts, extra-guest charges included. For a multi-unit complex, unit_options shows how the group
-    can split across units. An error means the dates cannot be booked (blocked nights, past or beyond
-    the calendar, too many guests): check jb_stay_calendar. per_night day_type 'custom' means a
-    host-set price (jb_stay_calendar shows weekday/weekend). Each cancellation phase runs until its
-    Gregorian `until` date. Booking itself happens on the site.
+    Creates no booking. payable is after discounts, extra-guest charges included. For a multi-unit
+    complex, unit_options shows how the group can split across units. An error means the dates cannot
+    be booked (blocked, past or beyond the calendar, too many guests): check jb_stay_calendar. Each
+    cancellation phase runs until its Gregorian `until` date.
     """
     nights = check_dates(check_in, check_out)
     item = (await stay_detail(code))["item"]
@@ -321,10 +313,9 @@ async def jb_similar_stays(
 ) -> dict[str, Any]:
     """Find alternatives to a listing: similar stays nearby, and other units of the same property.
 
-    Use when a listing is full, too small or too expensive. With dates, prices are the whole stay in
-    Toman for those dates and guests (stays not free then are listed in not_free_for_dates); without
-    dates, one default night (stays too small for `guests` are left out). same_property.keyword lists
-    every unit of the complex in jb_search_stays. Inactive listings have no alternatives: search the area.
+    With dates, prices are the whole stay in Toman (stays not free then are in not_free_for_dates);
+    without, one default night. same_property.keyword lists every unit of the complex in
+    jb_search_stays. Inactive listings have none: search the area.
     """
     nights = check_dates(check_in, check_out)
     item = (await stay_detail(code))["item"]
@@ -385,8 +376,7 @@ async def jb_reviews(
 ) -> dict[str, Any]:
     """Read guest reviews of a listing: stars 1-5, text, when they stayed, nights, and the host's reply.
 
-    sort=lowest_rated surfaces complaints. The overall score and per-category scores are in jb_stay.
-    Reviews carry no exact date, only the Jalali month or "N days ago".
+    sort=lowest_rated surfaces complaints. Overall and per-category scores are in jb_stay.
     """
     data = await fetch(f"{GW}/api/v2/reviews/place/{code}", {"page": page, "size": limit, "sortBy": REVIEW_SORT[sort]})
     reviews = (data or {}).get("reviews") or []
@@ -411,15 +401,14 @@ async def jb_reviews(
 
 @tool("Host profile")
 async def jb_host(
-    host_id: Annotated[int, Field(ge=1, description="Host id (host.host_id from jb_stay), e.g. 1288856.")],
+    host_id: Annotated[int, Field(ge=1, description="host.host_id from jb_stay, e.g. 1288856.")],
     page: Page = 1,
     limit: Annotated[int, Field(ge=1, le=50, description="Reviews per page.")] = 10,
     full_text: FullText = False,
 ) -> dict[str, Any]:
-    """A host's listings (with ratings and a from-price per night) and guest reviews across all of them, newest first.
+    """A host's listings (rating, from-price per night) and guest reviews, newest first.
 
-    Use to judge a host before booking. The host's average score and successful-booking count are in
-    jb_stay's host block. listings_count can exceed the listings returned (inactive ones).
+    The host's average score and booking count are in jb_stay's host block.
     """
     reviews, listings = await asyncio.gather(
         fetch(f"{GW}/api/v2/reviews/host/{host_id}", {"page": page, "size": limit}),

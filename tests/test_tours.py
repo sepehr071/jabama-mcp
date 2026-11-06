@@ -38,7 +38,6 @@ async def test_jb_search_tours(client, api):
         "destinations": ["کرج"],
         "next_departures": ["2026-10-08 07:00"],
         "bookable": True,
-        "rating": None,  # '0.0' with no reviews
         "rating_count": 0,
         "operator": "باشگاه کوهنوردی ایلتای",
         "url": "https://jabama.tours/tour/17363692",
@@ -89,7 +88,7 @@ async def test_jb_tour(client, api):
     assert data["title"] == "تور سفر به یزد | شهر خشت، بادگیر و تاریخ" and data["bookable"] is True
     assert (data["price_per_person"], data["days"], data["nights"]) == (13300000, 4, 3)
     assert data["destinations"] == ["یزد", "میبد"] and data["origin"] == "تهران"
-    assert data["packages"] == [{"name": "اتاق دبل", "description": None}, {"name": "اتاق سینگل", "description": None}]
+    assert data["packages"] == [{"name": "اتاق دبل"}, {"name": "اتاق سینگل"}]
     assert len(data["departures"]) == 4
     assert data["departures"][0] == {
         "date": "2026-10-06",
@@ -105,7 +104,7 @@ async def test_jb_tour(client, api):
     assert data["itinerary"][1]["meals"] == ["breakfast"] and data["itinerary"][1]["sleep"] == "هتل"
     assert data["cancellation"][0] == {"when": "بیشتر از ۱۴ روز مانده به اجرا", "penalty_pct": 10, "refundable": True}
     assert data["guide"]["name"] == "فرزانه پورچیت ساز" and data["guide"]["experience_years"] == 10
-    assert data["rating"] is None and data["rating_by_aspect"] == {}
+    assert "rating" not in data and data["rating_by_aspect"] == {}
     assert data["reviews"][0] == {
         "rating": 5,
         "text": data["reviews"][0]["text"],

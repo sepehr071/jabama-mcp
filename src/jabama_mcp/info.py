@@ -21,7 +21,7 @@ async def jb_help(
         Field(
             min_length=2,
             max_length=100,
-            description="Topic in Persian, e.g. 'کنسلی' (cancellation), 'استرداد' (refund), 'مالیات' (tax), 'پرداخت' (payment).",
+            description="Persian topic, e.g. 'کنسلی' (cancellation), 'استرداد' (refund), 'مالیات' (tax).",
         ),
     ],
     limit: Annotated[int, Field(ge=1, le=10, description="Max answers from each source.")] = 5,
@@ -29,7 +29,6 @@ async def jb_help(
 ) -> dict[str, Any]:
     """Answer questions about Jabama's rules: cancellation and refunds, payment, tax, check-in, host and guest duties.
 
-    Searches the official help center (long answers) and the support app's short tagged answers.
     For one listing's own cancellation windows use jb_stay or jb_price_quote.
     """
     q = query.strip().replace("ي", "ی").replace("ك", "ک")
@@ -68,18 +67,17 @@ async def jb_travel_guide(
         Field(
             min_length=2,
             max_length=100,
-            description="Destination or topic in Persian, e.g. 'رامسر' or 'جاهای دیدنی کیش'.",
+            description="Persian destination or topic, e.g. 'رامسر'.",
         ),
     ],
     limit: Annotated[int, Field(ge=1, le=10, description="Max articles.")] = 5,
     text_chars: Annotated[
-        int, Field(ge=0, le=8000, description="Characters of article text to include per article; 0 = summary only.")
+        int, Field(ge=0, le=8000, description="Article text characters per article; 0 = summary only.")
     ] = 0,
 ) -> dict[str, Any]:
     """Search Jabama's travel magazine (/mag): guides on attractions, best time to visit, how to get there, food.
 
-    Returns the top matches (the site gives at most 10) with a summary and link; set text_chars to
-    read the articles themselves. Use for trip planning next to jb_search_stays.
+    Returns summaries and links; set text_chars to read the articles themselves.
     """
     data = await fetch(f"{WWW}/mag/api/site-search", {"q": query.strip(), "type": "post"})
     res = (data or {}).get("results")

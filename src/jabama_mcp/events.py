@@ -20,9 +20,7 @@ from .stay import FullText, clip, fa_float
 Slug = Annotated[str | None, Field(pattern=r"^[A-Za-z0-9_-]+$", max_length=60)]
 EventId = Annotated[
     str,
-    Field(
-        pattern=r"^[A-Za-z0-9_-]{1,40}$", description="Event id from jb_search_events, e.g. '69063962' or 'legacy-622'."
-    ),
+    Field(pattern=r"^[A-Za-z0-9_-]{1,40}$", description="From jb_search_events, e.g. '69063962' or 'legacy-622'."),
 ]
 PlayId = Annotated[str, Field(pattern=r"^\d{1,9}$", description="Play id from jb_theaters, e.g. '65745'.")]
 SORTS = {"newest": "new", "cheapest": "price"}
@@ -32,18 +30,14 @@ BOOK_ROUTES = {"_routes": "routes/theaters,routes/theaters.$eventId_.book"}
 @tool("Search events")
 async def jb_search_events(
     query: Annotated[str | None, Field(max_length=100, description="Words, e.g. 'آفرود' or 'کنسرت'.")] = None,
-    city: Annotated[
-        Slug, Field(description="City slug from jb_event_filters, e.g. 'tehran', 'ramsar', 'bandar_anzali'.")
-    ] = None,
-    category: Annotated[
-        Slug, Field(description="Category slug from jb_event_filters, e.g. 'offroad', 'pottery', 'event-and-workshop'.")
-    ] = None,
+    city: Annotated[Slug, Field(description="City slug from jb_event_filters, e.g. 'tehran'.")] = None,
+    category: Annotated[Slug, Field(description="Category slug from jb_event_filters, e.g. 'offroad'.")] = None,
     kind: Annotated[
         Literal["all", "events", "experiences"],
-        Field(description="events = shows, workshops, exhibitions; experiences = tours, boats, riding, food, ..."),
+        Field(description="events = shows, workshops; experiences = tours, boats, riding, food."),
     ] = "all",
     on_date: Annotated[
-        date | None, Field(description="Only events with a session that day, Gregorian YYYY-MM-DD, e.g. '2026-10-10'.")
+        date | None, Field(description="Session that day, Gregorian YYYY-MM-DD, e.g. '2026-10-10'.")
     ] = None,
     price: Annotated[Literal["all", "free", "paid"], Field(description="Free or paid events.")] = "all",
     rated_4_plus: Annotated[bool, Field(description="Only events rated 4 or more.")] = False,
@@ -51,15 +45,12 @@ async def jb_search_events(
         Literal["recommended", "newest", "cheapest"], Field(description="cheapest puts free events first.")
     ] = "recommended",
     limit: Annotated[int, Field(ge=1, le=100, description="Events per page.")] = 20,
-    cursor: Annotated[
-        str | None, Field(max_length=500, description="next_cursor of the previous page, to get the next one.")
-    ] = None,
+    cursor: Annotated[str | None, Field(max_length=500, description="next_cursor of the previous page.")] = None,
 ) -> dict[str, Any]:
-    """Search Jabama Events: concerts, shows, workshops, exhibitions and experiences (offroad, boats, riding, food tours) with prices in Toman.
+    """Search Jabama Events: concerts, shows, workshops, exhibitions and experiences, with prices in Toman.
 
-    Only events with an upcoming session are returned. Theater plays are separate: jb_theaters.
-    For seated=true, price is the "from" base; seat sections cost more (jb_event_seats). on_date is one
-    day; for a weekend call once per day. Next: jb_event for sessions, seats left, details and reviews.
+    Only events with an upcoming session. Theater plays are separate: jb_theaters. For seated=true,
+    price is the "from" base. on_date is one day. Next: jb_event.
     """
     gregorian(on_date)
     params: dict[str, Any] = {"hasActiveSession": "true", "limit": limit}
@@ -90,11 +81,10 @@ async def jb_event(
     max_sessions: Annotated[int, Field(ge=1, le=100, description="Max sessions (showtimes or days) to list.")] = 20,
     full_text: FullText = False,
 ) -> dict[str, Any]:
-    """One event or experience: what it is, exact address, rules, what to bring, price, refundability, sessions with seats left, reviews and the organizer.
+    """One event or experience: details, address, rules, price, sessions with seats left, reviews, organizer.
 
-    Times are Tehran local; a start with no time is a day session (hours are in `when`). A session
-    with seated=true has a seat map, and its price is only a "from" base: call jb_event_seats with its
-    session_id for the free seats and real section prices. Buying a ticket needs login on jabama.events.
+    A start with no time is a day session (hours are in `when`). For a session with seated=true the
+    price is only a "from" base: call jb_event_seats with its session_id.
     """
     try:
         e, sessions = await asyncio.gather(
@@ -168,15 +158,12 @@ async def jb_event(
 
 @tool("Event seats")
 async def jb_event_seats(
-    session_id: Annotated[
-        str, Field(pattern=r"^\d{1,20}$", description="session_id of a seated session from jb_event, e.g. '47540640'.")
-    ],
+    session_id: Annotated[str, Field(pattern=r"^\d{1,20}$", description="session_id from jb_event, e.g. '47540640'.")],
 ) -> dict[str, Any]:
-    """Live seat availability of one seated event session: free seats per section and row, with the section prices in Toman.
+    """Live seat availability of one seated event session: free seats per section and row, with section prices in Toman.
 
-    Only for sessions with seated=true in jb_event; others are general admission (just seats_left).
-    Section prices override the session `price`; cheapest_free_seat_price is what the cheapest free
-    seat really costs. Holding or buying seats needs login on jabama.events.
+    Only for sessions with seated=true in jb_event. Section prices override the session `price`;
+    cheapest_free_seat_price is the real cheapest.
     """
     try:
         layout, status = await asyncio.gather(
@@ -236,9 +223,9 @@ async def jb_theaters(
     limit: Annotated[int, Field(ge=1, le=20, description="Plays per page.")] = 10,
     cursor: Annotated[str | None, Field(pattern=r"^\d{1,9}$", description="next_cursor of the previous page.")] = None,
 ) -> dict[str, Any]:
-    """List theater plays on sale on Jabama Events (Tehran, via the partner Zirbana): venue, address, from-price in Toman, rating, writer, director and cast.
+    """List theater plays on sale on Jabama Events (Tehran): venue, address, from-price in Toman, rating, crew.
 
-    Next: jb_theater for showtimes, seats left and the free seats of a showtime.
+    Next: jb_theater for showtimes and seats.
     """
     params: dict[str, Any] = {"limit": limit}
     if cursor:
@@ -254,15 +241,14 @@ async def jb_theater(
         str | None,
         Field(
             pattern=r"^\d{1,9}:\d{1,12}$",
-            description="A showtime id from this tool's showtimes, e.g. '65745:642277', to list its free seats.",
+            description="Showtime id from showtimes, e.g. '65745:642277', to list its free seats.",
         ),
     ] = None,
     full_text: FullText = False,
 ) -> dict[str, Any]:
-    """One theater play: venue, cast and crew, reviews, showtimes with live seats left; with showtime_id also the free seats by row and their prices.
+    """One theater play: venue, crew, reviews, showtimes with seats left; with showtime_id also free seats by row and prices.
 
-    Prices are Toman per seat. The seat map is fetched live from the partner and is sometimes
-    unavailable for a while (seats then holds the error); seats_left still works. Buying needs login.
+    Prices are Toman per seat. The seat map is sometimes unavailable (seats then holds the error).
     """
     try:
         play, book = await asyncio.gather(
@@ -322,9 +308,7 @@ async def jb_theater(
 
 @tool("Event cities and categories")
 async def jb_event_filters(
-    city: Annotated[
-        Slug, Field(description="City slug to count categories in, e.g. 'tehran'; default all cities.")
-    ] = None,
+    city: Annotated[Slug, Field(description="Count categories in this city, e.g. 'tehran'.")] = None,
 ) -> dict[str, Any]:
     """Cities and categories of Jabama Events with event counts, for the city and category filters of jb_search_events."""
     cities, categories = await asyncio.gather(

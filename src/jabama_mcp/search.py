@@ -20,12 +20,9 @@ PLP_QS = {"platform": "desktop", "allowEmptyCity": "true", "hasUnitRoom": "true"
 StayType = Literal["villa", "suite", "apartment", "cottage", "ecotourism", "traditional", "inn", "complex", "hostel"]
 Region = Literal["mountainous", "coastal", "desert", "jungle", "rustic", "city"]
 Slugs = Annotated[list[Annotated[str, Field(pattern=r"^[A-Za-z0-9_-]+$")]] | None, Field(max_length=20)]
-CheckIn = Annotated[date | None, Field(description="Check-in date, Gregorian YYYY-MM-DD, e.g. '2026-10-20'.")]
-CheckOut = Annotated[date | None, Field(description="Check-out date, Gregorian YYYY-MM-DD, e.g. '2026-10-23'.")]
-Guests = Annotated[
-    int | None,
-    Field(ge=1, le=100, description="Number of guests; count children too (the site prices every guest), e.g. 4."),
-]
+CheckIn = Annotated[date | None, Field(description="Check-in, Gregorian YYYY-MM-DD, e.g. '2026-10-20'.")]
+CheckOut = Annotated[date | None, Field(description="Check-out, Gregorian YYYY-MM-DD, e.g. '2026-10-23'.")]
+Guests = Annotated[int | None, Field(ge=1, le=100, description="Guests, children included, e.g. 4.")]
 
 # Body fields of plp-search (and keys in place URLs / AI patches) -> jb_search_stays argument names.
 ARG_NAMES = {
@@ -50,18 +47,16 @@ async def jb_find_destination(
         Field(
             min_length=2,
             max_length=100,
-            description="Place name in Persian: city, province, area, landmark or complex, e.g. 'رامسر' or 'کیش مال'. English names do not match.",
+            description="Persian place name (city, province, area, landmark, complex), e.g. 'رامسر'.",
         ),
     ],
 ) -> dict[str, Any]:
     """Turn a place name into ready jb_search_stays arguments (keyword and filters).
 
-    Returns up to 20 matches (cities, provinces, areas, points of interest such as a beach or mall,
-    host complexes, single listings), each with `search` = the arguments to pass to jb_search_stays.
-    `listings` is an approximate listing count, for ranking only. A `listing` match carries its code
-    for jb_stay. Persian only; for English place names try the Persian spelling. A city keyword
-    (city-ramsar) also covers nearby towns (Tonekabon); for the city alone use keyword 'all' with
-    cities=['ramsar'].
+    Returns up to 20 matches (cities, provinces, areas, points of interest, complexes, single
+    listings), each with `search` = the arguments for jb_search_stays; a `listing` match carries its
+    code for jb_stay. `listings` is an approximate count. A city keyword also covers nearby towns;
+    for the city alone use keyword 'all' with cities=['ramsar'].
     """
     query = query.strip()
     if len(query) < 2:
@@ -77,16 +72,14 @@ async def jb_parse_request(
         Field(
             min_length=2,
             max_length=500,
-            description="What the user wants, in Persian (English works partly), e.g. 'ویلای استخردار در رامسر برای ۶ نفر زیر ۱۰ میلیون تومان هر شب'.",
+            description="Persian request, e.g. 'ویلای استخردار در رامسر برای ۶ نفر زیر ۱۰ میلیون تومان هر شب'.",
         ),
     ],
 ) -> dict[str, Any]:
     """Turn a free-text stay request into jb_search_stays arguments with Jabama's own AI parser.
 
-    Understands type, amenities, region, city, guests, dates (Jalali in the text becomes Gregorian) and
-    price. Pass `search` straight to jb_search_stays (add dates if the user gave none). `understood`
-    lists what it picked up; anything else in the request must be filtered by you. Parsing only: it
-    does not search.
+    Understands type, amenities, region, city, guests, dates and price. Pass `search` straight to
+    jb_search_stays; `understood` lists what it picked up, filter the rest yourself. It does not search.
     """
     data = await fetch(f"{GW}/api/taraaz/v1/search/descriptive/legacy", method="POST", json={"requirement": text})
     patch, chips = (data or {}).get("search_patch") or {}, (data or {}).get("titles") or []
@@ -121,7 +114,7 @@ async def jb_search_stays(
         str,
         Field(
             pattern=r"^[A-Za-z0-9_-]+(/[A-Za-z0-9_-]+)?$",
-            description="Keyword from jb_find_destination or jb_categories, e.g. 'city-ramsar' (with nearby towns), 'province-gilan', 'list-33183', 'landing-categories', or 'all' with filters (cities=['ramsar'] is the city alone).",
+            description="From jb_find_destination or jb_categories, e.g. 'city-ramsar', 'province-gilan', 'list-33183', or 'all' with filters.",
         ),
     ] = "all",
     check_in: CheckIn = None,
@@ -130,63 +123,44 @@ async def jb_search_stays(
     types: Annotated[list[StayType] | None, Field(max_length=9, description="Listing types, e.g. ['villa'].")] = None,
     amenities: Annotated[
         Slugs,
-        Field(
-            description="Amenity slugs (all required), e.g. ['swimming-pool', 'jacuzzi']. Others: sauna, billiard, barbeque, internet-wifi, parking, kitchen, air-conditioning-system, elevator (see amenity_options)."
-        ),
+        Field(description="Amenity slugs (all required), e.g. ['swimming-pool']; see amenity_options."),
     ] = None,
     regions: Annotated[list[Region] | None, Field(max_length=6, description="Setting, e.g. ['jungle'].")] = None,
-    cities: Annotated[Slugs, Field(description="English city slugs, with keyword 'all', e.g. ['ramsar'].")] = None,
-    provinces: Annotated[
-        Slugs, Field(description="English province slugs, with keyword 'all', e.g. ['gilan'].")
-    ] = None,
-    zones: Annotated[Slugs, Field(description="Zone slugs, with keyword 'all', e.g. ['north'].")] = None,
-    areas: Annotated[Slugs, Field(description="Area slugs from jb_find_destination, e.g. ['sadaf-kish'].")] = None,
-    poi: Annotated[
-        str | None, Field(max_length=200, description="Point-of-interest token from jb_find_destination, unchanged.")
-    ] = None,
+    cities: Annotated[Slugs, Field(description="City slugs (keyword 'all'), e.g. ['ramsar'].")] = None,
+    provinces: Annotated[Slugs, Field(description="Province slugs (keyword 'all'), e.g. ['gilan'].")] = None,
+    zones: Annotated[Slugs, Field(description="Zone slugs (keyword 'all'), e.g. ['north'].")] = None,
+    areas: Annotated[Slugs, Field(description="From jb_find_destination, e.g. ['sadaf-kish'].")] = None,
+    poi: Annotated[str | None, Field(max_length=200, description="From jb_find_destination, unchanged.")] = None,
     tags: Annotated[
         Slugs,
-        Field(
-            description="Tags from jb_categories, e.g. ['AmazingPoolCategory'], ['pricing-affordable'], ['LongStaysDiscount']."
-        ),
+        Field(description="Tags from jb_categories, e.g. ['AmazingPoolCategory']."),
     ] = None,
     codes: Annotated[
         list[Annotated[int, Field(ge=1)]] | None,
-        Field(max_length=50, description="Only these listing codes (keyword 'all'), e.g. [403515, 328353]."),
+        Field(max_length=50, description="Only these listing codes (keyword 'all')."),
     ] = None,
-    name_contains: Annotated[
-        str | None, Field(max_length=100, description="Words in the listing title (full-text), not a place filter.")
-    ] = None,
+    name_contains: Annotated[str | None, Field(max_length=100, description="Words in the listing title.")] = None,
     rooms: Annotated[int | None, Field(ge=0, le=5, description="Bedrooms, 0 = studio, 5 = five or more.")] = None,
-    instant_only: Annotated[bool, Field(description="Only instantly bookable listings.")] = False,
-    min_score: Annotated[
-        Literal[3, 3.5, 4, 4.5, 5] | None, Field(description="Minimum guest rating: 3, 3.5, 4, 4.5 or 5.")
-    ] = None,
+    instant_only: Annotated[bool, Field(description="Only instant-booking listings.")] = False,
+    min_score: Annotated[Literal[3, 3.5, 4, 4.5, 5] | None, Field(description="Minimum guest rating.")] = None,
     min_price: Annotated[int | None, Field(ge=0, description="Lowest price in Toman for the whole stay.")] = None,
-    max_price: Annotated[
-        int | None, Field(ge=0, description="Highest price in Toman for the whole stay, e.g. 30000000.")
-    ] = None,
+    max_price: Annotated[int | None, Field(ge=0, description="Highest price in Toman for the whole stay.")] = None,
     price_per_night: Annotated[
         bool,
-        Field(description="Treat min_price / max_price as per night (whole-stay price divided by nights)."),
+        Field(description="min_price / max_price are per night."),
     ] = False,
     sort: Annotated[
         Literal["default", "cheapest", "most_expensive", "rating"],
-        Field(
-            description="default = Jabama's ranking; cheapest / most_expensive by whole-stay price; rating = weighted by review count."
-        ),
+        Field(description="cheapest / most_expensive by whole-stay price; rating weighted by review count."),
     ] = "default",
     page: Annotated[int, Field(ge=1, le=200, description="1-based page number.")] = 1,
     limit: Annotated[int, Field(ge=1, le=50, description="Stays per page.")] = 20,
 ) -> dict[str, Any]:
     """Search Jabama stays (villas, suites, apartments, cottages, eco-lodges) with prices for your dates and guests.
 
-    With dates, total_price is the whole stay in Toman for `guests` (extra-guest charges included) and
-    cheapest_night is the cheapest single night; without dates, prices are for one default night.
-    image is the cover photo; with dates url opens the listing for those dates and guests.
-    Get the keyword from jb_find_destination, themes from jb_categories, or free text via jb_parse_request.
-    total 0 with dates can mean nothing is free; try other dates. For the exact payable amount call
-    jb_price_quote with a code; for details jb_stay.
+    With dates, total_price is the whole stay in Toman for `guests` and cheapest_night the cheapest single
+    night; without dates, one default night. total 0 with dates can mean nothing is free. Exact amount:
+    jb_price_quote; details: jb_stay.
     """
     nights = check_dates(check_in, check_out)
     body: dict[str, Any] = {"page-size": limit, "page-number": page}
@@ -252,10 +226,9 @@ async def jb_search_stays(
 
 @tool("Stay categories")
 async def jb_categories() -> dict[str, Any]:
-    """List Jabama's themed stay categories (special pool, A-frame, luxury, cheap, jungle, sea view, pet friendly, last-minute deals, instant booking, ...).
+    """List Jabama's themed stay categories (special pool, A-frame, luxury, cheap, sea view, pet friendly, ...).
 
-    Each has `search` = the jb_search_stays arguments that open it; add dates, guests and a city
-    filter (cities=[...]) as needed.
+    Each has `search` = the jb_search_stays arguments that open it; add dates, guests, cities=[...].
     """
     data = await fetch(f"{GW}/api/taraaz/v1/search/merchandising/categorize/all-simple")
     out = []
@@ -290,8 +263,8 @@ def stay_card(it: dict[str, Any], guests: int | None = None) -> dict[str, Any]:
         "base_guests": (it.get("rawCapacity") or {}).get("base"),
         "instant_booking": it.get("reservation_type") == "instant",
         "total_price": toman(final),
-        "price_before_discount": toman(main),
-        "discount_pct": round(100 * (main - final) / main) if main and final < main else 0,
+        "price_before_discount": toman(main) if main and final < main else None,
+        "discount_pct": round(100 * (main - final) / main) if main and final < main else None,
         "cheapest_night": toman(p.get("perNight")),
         "nights": 1 if p.get("isDefaultDate") else p.get("nights_count"),
         "image": it.get("image") or (it.get("images") or [None])[0],

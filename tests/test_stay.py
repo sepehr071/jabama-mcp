@@ -260,7 +260,7 @@ async def test_jb_reviews(client, api):
         await client.call_tool("jb_reviews", {"code": 328353, "sort": "lowest_rated", "limit": 3})
     ).structured_content
     first, second, _ = data["reviews"]
-    assert first["rating"] == 2 and first["author"] == "طاهره" and first["host_reply"] is None
+    assert first["rating"] == 2 and first["author"] == "طاهره" and "host_reply" not in first
     assert first["stayed"] == "فروردین 1403" and first["stay_length"] == "1 شب اقامت در اقامتگاه"
     assert second["host_reply"].startswith("سپاس از نظریات")
     assert data["has_more"] is True

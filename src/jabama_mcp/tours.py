@@ -13,9 +13,7 @@ from .registry import tool
 from .search import gregorian, rating
 from .stay import FullText, clip
 
-TourId = Annotated[
-    str, Field(pattern=r"^\d{8}$", description="Tour id (8 digits) from jb_search_tours, e.g. '26314786'.")
-]
+TourId = Annotated[str, Field(pattern=r"^\d{8}$", description="From jb_search_tours, e.g. '26314786'.")]
 SORTS = {
     "recommended": ("recommended", "desc"),
     "cheapest": ("price", "asc"),
@@ -33,21 +31,17 @@ async def jb_search_tours(
         str | None,
         Field(
             max_length=100,
-            description="Loose text match over all tour text, e.g. 'کویر'; it also returns tours to other places, so for a place use destination_id.",
+            description="Loose text match, e.g. 'کویر'; for a place use destination_id.",
         ),
     ] = None,
     destination_id: Annotated[
-        int | None, Field(ge=1, description="Destination place id from jb_tour_places, e.g. 50 (Yazd city).")
+        int | None, Field(ge=1, description="Place id from jb_tour_places, e.g. 50 (Yazd).")
     ] = None,
     origin_id: Annotated[
         int | None, Field(ge=1, description="Start place id from jb_tour_places, e.g. 4 (Tehran).")
     ] = None,
-    start_date: Annotated[
-        date | None, Field(description="Departure on or after this Gregorian date, e.g. '2026-10-20'.")
-    ] = None,
-    end_date: Annotated[
-        date | None, Field(description="Departure on or before this Gregorian date, e.g. '2026-10-31'.")
-    ] = None,
+    start_date: Annotated[date | None, Field(description="Departure on/after, Gregorian YYYY-MM-DD.")] = None,
+    end_date: Annotated[date | None, Field(description="Departure on/before, Gregorian YYYY-MM-DD.")] = None,
     category: Annotated[
         Literal["nature", "adventure", "culinary", "historical-cultural", "sport"] | None,
         Field(description="Tour category."),
@@ -69,24 +63,21 @@ async def jb_search_tours(
     difficulty: Annotated[
         list[Literal["easy", "moderate", "hard"]] | None, Field(max_length=3, description="Difficulty levels (any of).")
     ] = None,
-    min_rating: Annotated[float | None, Field(ge=1, le=5, description="Minimum traveller rating 1-5, e.g. 4.")] = None,
-    min_free_seats: Annotated[int | None, Field(ge=1, le=100, description="Group size that must fit, e.g. 4.")] = None,
-    available_only: Annotated[
-        bool, Field(description="Only tours with an upcoming departure that can be booked.")
-    ] = True,
+    min_rating: Annotated[float | None, Field(ge=1, le=5, description="Minimum rating 1-5.")] = None,
+    min_free_seats: Annotated[int | None, Field(ge=1, le=100, description="Group size that must fit.")] = None,
+    available_only: Annotated[bool, Field(description="Only bookable upcoming departures.")] = True,
     sort: Annotated[
         Literal["recommended", "cheapest", "most_expensive", "soonest", "best_selling", "newest", "top_rated"],
-        Field(description="Order; bookable tours always come first."),
+        Field(description="Bookable tours always come first."),
     ] = "recommended",
     page: Annotated[int, Field(ge=1, le=100, description="1-based page number.")] = 1,
     limit: Annotated[int, Field(ge=1, le=50, description="Tours per page.")] = 12,
 ) -> dict[str, Any]:
     """Search Jabama group tours (nature, desert, hiking, history, food tours across Iran) with price per person in Toman.
 
-    For tours to a place, get its id from jb_tour_places (has_tours false = no tours there) and pass
-    destination_id; `query` is fuzzy and matches unrelated tours. Cards show the next departure dates;
-    free seats and the price of each package per departure only come from jb_tour. A few tours carry
-    obviously wrong prices (a 1,850 Toman tour): set min_price when sorting by cheapest.
+    For a place, get its id from jb_tour_places and pass destination_id; `query` is fuzzy. Free seats
+    and per-departure package prices come only from jb_tour. A few tours carry wrong prices: set
+    min_price when sorting by cheapest.
     """
     gregorian(start_date)
     gregorian(end_date)
@@ -130,10 +121,9 @@ async def jb_tour(
     include_past: Annotated[bool, Field(description="Also list past (completed) departures.")] = False,
     full_text: FullText = False,
 ) -> dict[str, Any]:
-    """One group tour: packages, every departure with free seats and the per-person price of each package, day plan, meals, what is included, cancellation rules, guide, operator and reviews.
+    """One group tour: packages, departures with free seats and per-person package prices, day plan, inclusions, cancellation, guide, reviews.
 
-    Prices are Toman per person; a group pays the package price times the number of people. Pick a
-    departure with free_seats >= group size. Booking needs login on jabama.tours.
+    Prices are Toman per person. Pick a departure with free_seats >= group size.
     """
     try:
         detail, reviews = await asyncio.gather(
@@ -230,18 +220,15 @@ async def jb_tour(
 
 @tool("Tour places")
 async def jb_tour_places(
-    query: Annotated[
-        str, Field(min_length=1, max_length=60, description="Place name, e.g. 'یزد', 'تهران' or 'masal'.")
-    ],
+    query: Annotated[str, Field(min_length=1, max_length=60, description="Place name, e.g. 'یزد'.")],
     direction: Annotated[
-        Literal["destination", "origin"], Field(description="destination = where tours go; origin = where they start.")
+        Literal["destination", "origin"], Field(description="Where tours go or start.")
     ] = "destination",
     limit: Annotated[int, Field(ge=1, le=30, description="Max places.")] = 10,
 ) -> dict[str, Any]:
     """Turn a place name into a Jabama Tours place id for jb_search_tours (destination_id / origin_id).
 
-    Cities and provinces come first, then areas and attractions. has_tours is false for places no
-    tour visits yet.
+    has_tours false = no tours there.
     """
     data = await fetch(f"{TOURS}/locations/search", {"q": query.strip(), "direction": direction, "limit": limit})
     return {

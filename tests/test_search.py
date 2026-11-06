@@ -91,8 +91,6 @@ async def test_jb_search_stays(client, api):
         "base_guests": 2,
         "instant_booking": False,
         "total_price": 1640000,  # 16,400,000 Rial
-        "price_before_discount": 1640000,
-        "discount_pct": 0,
         "cheapest_night": 520000,
         "nights": 3,
         "image": "https://cdn.jabama.com/image/jabama-images/543053/e0274865-8255-4232-82f9-3e37ded16d93.jpeg",
@@ -131,7 +129,7 @@ async def test_jb_search_stays_instant_only_and_geo_filters(client, api):
     }
     data = (await client.call_tool("jb_search_stays", args)).structured_content
     assert [s["code"] for s in data["stays"]] == [403515, 596453]
-    assert data["dropped_not_instant"] == 1 and data["dates"] is None and "amenity_options" not in data
+    assert data["dropped_not_instant"] == 1 and "dates" not in data and "amenity_options" not in data
     sent = body(api.calls[0])
     assert sent["just-guarantees"] == "true" and sent["location-cities"] == ["ramsar"]
     assert sent["areas"] == ["sadaf-kish"] and sent["poi"] == "abc" and sent["codes"] == [403515]

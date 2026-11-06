@@ -41,7 +41,6 @@ async def test_jb_search_events(client, api):
         "pricing": "per_person",
         "price": 0,
         "price_after_discount": 0,
-        "rating": None,  # '۰.۰'
         "review_count": 0,
         "seated": False,
         "organizer": "جاباما ایونت",
@@ -120,7 +119,7 @@ async def test_jb_event_timeslots_and_unknown(client, api):
     api["/events/legacy-622"] = event
     api["/events/legacy-622/sessions"] = fixture("sessions_timeslots.json")
     data = (await client.call_tool("jb_event", {"event_id": "legacy-622", "max_sessions": 1})).structured_content
-    assert data["more_sessions"] == 1 and data["organizer"] is None
+    assert data["more_sessions"] == 1 and "organizer" not in data
     assert data["sessions"][0]["timeslots"] == [
         {"starts": "2026-10-04 08:00", "ends": "2026-10-04 19:00", "seats_left": 50, "bookable": True}
     ]
@@ -176,7 +175,7 @@ async def test_jb_theater_with_seats(client, api):
     api[f"/zirbana/events/{PLAY}/instances/{SHOWTIME}/seatmap"] = fixture("seatmap.json")
     api[f"/zirbana/events/{PLAY}/instances/{SHOWTIME}/availability"] = fixture("availability.json")
     data = (await client.call_tool("jb_theater", {"play_id": PLAY, "showtime_id": SHOWTIME})).structured_content
-    assert data["on_sale"] is True and data["from_price"] == 500000 and data["rating"] is None
+    assert data["on_sale"] is True and data["from_price"] == 500000 and "rating" not in data
     assert [s["showtime_id"] for s in data["showtimes"]] == ["65745:642277", "65745:642278", "65745:642279"]
     assert data["showtimes"][0] == {
         "showtime_id": SHOWTIME,
