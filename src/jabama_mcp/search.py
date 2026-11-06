@@ -114,7 +114,7 @@ async def jb_search_stays(
         str,
         Field(
             pattern=r"^[A-Za-z0-9_-]+(/[A-Za-z0-9_-]+)?$",
-            description="From jb_find_destination or jb_categories, e.g. 'city-ramsar', 'province-gilan', 'list-33183', or 'all' with filters.",
+            description="From jb_find_destination or jb_categories, e.g. 'city-ramsar', 'province-gilan', 'list-33183'. A city or province keyword also covers nearby towns; 'all' with cities=[...] / provinces=[...] gives that place alone.",
         ),
     ] = "all",
     check_in: CheckIn = None,
@@ -126,8 +126,10 @@ async def jb_search_stays(
         Field(description="Amenity slugs (all required), e.g. ['swimming-pool']; see amenity_options."),
     ] = None,
     regions: Annotated[list[Region] | None, Field(max_length=6, description="Setting, e.g. ['jungle'].")] = None,
-    cities: Annotated[Slugs, Field(description="City slugs (keyword 'all'), e.g. ['ramsar'].")] = None,
-    provinces: Annotated[Slugs, Field(description="Province slugs (keyword 'all'), e.g. ['gilan'].")] = None,
+    cities: Annotated[Slugs, Field(description="English city slugs, with keyword 'all', e.g. ['ramsar'].")] = None,
+    provinces: Annotated[
+        Slugs, Field(description="English province slugs, with keyword 'all', e.g. ['gilan'].")
+    ] = None,
     zones: Annotated[Slugs, Field(description="Zone slugs (keyword 'all'), e.g. ['north'].")] = None,
     areas: Annotated[Slugs, Field(description="From jb_find_destination, e.g. ['sadaf-kish'].")] = None,
     poi: Annotated[str | None, Field(max_length=200, description="From jb_find_destination, unchanged.")] = None,
@@ -263,8 +265,8 @@ def stay_card(it: dict[str, Any], guests: int | None = None) -> dict[str, Any]:
         "base_guests": (it.get("rawCapacity") or {}).get("base"),
         "instant_booking": it.get("reservation_type") == "instant",
         "total_price": toman(final),
-        "price_before_discount": toman(main) if main and final < main else None,
-        "discount_pct": round(100 * (main - final) / main) if main and final < main else None,
+        "price_before_discount": toman(main),
+        "discount_pct": round(100 * (main - final) / main) if main and final < main else 0,
         "cheapest_night": toman(p.get("perNight")),
         "nights": 1 if p.get("isDefaultDate") else p.get("nights_count"),
         "image": it.get("image") or (it.get("images") or [None])[0],

@@ -91,6 +91,8 @@ async def test_jb_search_stays(client, api):
         "base_guests": 2,
         "instant_booking": False,
         "total_price": 1640000,  # 16,400,000 Rial
+        "price_before_discount": 1640000,
+        "discount_pct": 0,
         "cheapest_night": 520000,
         "nights": 3,
         "image": "https://cdn.jabama.com/image/jabama-images/543053/e0274865-8255-4232-82f9-3e37ded16d93.jpeg",
