@@ -312,8 +312,7 @@ were not tested; if Jabama blocks one, set `JABAMA_MCP_PROXY`.
 <details>
 <summary><b>I get "blocked the request (HTTP 403)"</b></summary>
 
-Jabama's web firewall rejects requests that don't look like a browser; the server already presents itself as Chrome
-(TLS and headers). If the firewall serves a bot-check page, install the browser extra (`pip install jabama-mcp[browser]`,
+Jabama's web firewall sometimes blocks requests. If it serves a bot-check page, install the browser extra (`pip install jabama-mcp[browser]`,
 then `patchright install chromium`). If it still happens, wait a minute, turn off a VPN, or set `JABAMA_MCP_PROXY`. Normal system proxy
 variables are ignored on purpose, because direct calls are the fastest.
 </details>
